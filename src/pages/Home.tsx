@@ -1,7 +1,8 @@
 // import logo from "../../public/asset/image/logo.png";
 import Banner from "../components/home/Banner";
 import Header from "../components/home/Header";
-import Values from "../components/home/Values";
+import Projects from "../components/home/Projects";
+import HomeValues from "../components/home/HomeValues";
 import WeAre from "../components/home/WeAre";
 
 const Home = () => {
@@ -10,7 +11,8 @@ const Home = () => {
       <Header />
       <Banner />
       <WeAre />
-      <Values />
+      <HomeValues />
+      <Projects />
     </>
   );
 };
