@@ -1,12 +1,12 @@
-import logo from "../../public/asset/image/logo.png";
+// import logo from "../../public/asset/image/logo.png";
+import Banner from "../components/home/Banner";
 import Header from "../components/home/Header";
 
 const Home = () => {
   return (
     <>
       <Header />
-      <img src={logo} className="logo" alt="Dallasville" />
-      Home
+      <Banner />
     </>
   );
 };

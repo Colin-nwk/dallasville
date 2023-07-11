@@ -12,6 +12,7 @@ const Header = () => {
       // id="header-image"
     >
       <img
+        loading="eager"
         src={header}
         alt="luxuzy house with pool"
         className="w-full h-full object-cover absolute mix-blend-overlay -z-10"
