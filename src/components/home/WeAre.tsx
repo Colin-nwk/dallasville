@@ -4,7 +4,7 @@ import Button from "../general/Button";
 const WeAre = () => {
   return (
     <section className="container  mx-auto p-4 md:p-10 w-full h-fit">
-      <h3 className="font-mont font-bold text-xl md:text-3xl py-10">
+      <h3 className="font-mont font-bold text-xl md:text-3xl py-10 text-main">
         Who We Are
       </h3>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
@@ -22,11 +22,15 @@ const WeAre = () => {
           <Button text="Learn More" />
         </div>
         <div className="relative">
-          <img src={stairs} alt="room with stairs" className="w-full h-full" />
-          <div className=" backdrop-blur-lg w-full h-24 absolute bottom-0 right-0 left-0 p-4">
-            <div className="flex justify-around items-center gap-4">
-              <div className="flex flex-col items-center gap-2">
-                <span className="bg-white w-10 h-10 rounded-full font-bold flex justify-center items-center">
+          <img
+            src={stairs}
+            alt="room with stairs"
+            className="w-full h-72 md:h-full"
+          />
+          <div className=" backdrop-blur-lg w-full h-20 md:h-24 absolute bottom-0 right-0 left-0 p-4">
+            <div className="flex justify-around items-start md:items-center gap-2 md:gap-4">
+              <div className="flex flex-col items-center gap-1 md:gap-2">
+                <span className="bg-white w-6 h-6 md:w-10 md:h-10 rounded-full font-bold flex justify-center items-center text-main md:text-base text-sm">
                   24
                 </span>
                 <span className="text-xs md:text-base text-white">
@@ -34,7 +38,7 @@ const WeAre = () => {
                 </span>
               </div>
               <div className="flex flex-col items-center gap-2">
-                <span className="bg-white w-10 h-10 rounded-full font-bold flex justify-center items-center">
+                <span className="bg-white w-6 h-6 md:w-10 md:h-10 rounded-full font-bold flex justify-center items-center text-main md:text-base text-sm">
                   10
                 </span>
                 <span className="text-xs md:text-base  text-white">
@@ -42,7 +46,7 @@ const WeAre = () => {
                 </span>
               </div>
               <div className="flex flex-col items-center gap-2">
-                <span className="bg-white w-10 h-10 rounded-full font-bold flex justify-center items-center">
+                <span className="bg-white w-6 h-6 md:w-10 md:h-10 rounded-full font-bold flex justify-center items-center text-main md:text-base text-sm">
                   6
                 </span>
                 <span className="text-xs md:text-base  text-white font-semibold">
