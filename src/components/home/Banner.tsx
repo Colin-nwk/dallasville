@@ -1,18 +1,20 @@
-import React from "react";
-
+import right from "../../../public/asset/image/quote-right.png";
+import left from "../../../public/asset/image/quote-left.png";
 const Banner = () => {
   return (
     <section className="container  mx-auto px-4 md:px-10 w-full py-4 md:py-10">
-      <div className=" text-center">
-        <span className="text-9xl text-gray-600">"</span>
-        <p className="text-5xl ">
+      <div className="flex justify-center items-center gap-3">
+        <img src={left} alt="qoute" className="-mt-20 md:inline-block hidden" />
+        <p className="text-2xl leading-relaxed text-center font-mont">
           Step into the future of real estate, where cutting-edge technology
           merges seamlessly with architectural elegance. Discover a new standard
           of sustainability, smartness, affordable-luxury and convenience
         </p>{" "}
-        <span className="text-9xl text-gray-600">"</span>
+        <img src={right} alt="qoute" className="mt-20 md:inline-block hidden" />
       </div>
-      <p className="">-- Samuel McDallas Ojukwu</p>
+      <p className="text-xl text-center font-semibold mt-5">
+        -- Samuel McDallas Ojukwu
+      </p>
     </section>
   );
 };

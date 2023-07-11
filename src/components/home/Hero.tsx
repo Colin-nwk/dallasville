@@ -11,7 +11,7 @@ const Hero = () => {
       </div>
 
       <div className="mt-10">
-        <div className="flex h-14 w-56  cursor-pointer">
+        <div className="flex h-14 w-56 md:w-72 cursor-pointer">
           <span className="h-full w-1 bg-white"></span>
           <span className="h-full w-full bg-black opacity-50 flex justify-center -z-10 items-center">
             <span className="text-white opacity-100 text-center z-10">
