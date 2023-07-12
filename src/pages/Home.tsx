@@ -5,6 +5,8 @@ import Projects from "../components/home/Projects";
 import HomeValues from "../components/home/HomeValues";
 import WeAre from "../components/home/WeAre";
 import Services from "../components/home/Services";
+import Review from "../components/home/Review";
+import Article from "../components/home/Article";
 
 const Home = () => {
   return (
@@ -15,6 +17,8 @@ const Home = () => {
       <HomeValues />
       <Projects />
       <Services />
+      <Review />
+      <Article />
     </>
   );
 };
