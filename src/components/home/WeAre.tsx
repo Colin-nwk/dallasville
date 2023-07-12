@@ -45,11 +45,11 @@ const WeAre = () => {
                   Number of Estates
                 </span>
               </div>
-              <div className="flex flex-col items-center gap-2">
-                <span className="bg-white w-6 h-6 md:w-10 md:h-10 rounded-full font-bold flex justify-center items-center text-main md:text-base text-sm">
+              <div className="flex flex-col justify-start  items-center gap-2">
+                <span className="bg-white w-6 h-6 md:w-10 md:h-10 rounded-full font-bold flex  justify-center items-center text-main md:text-base text-sm">
                   6
                 </span>
-                <span className="text-xs md:text-base  text-white font-semibold">
+                <span className="text-xs md:text-base text-white font-semibold">
                   Years of Operation
                 </span>
               </div>
