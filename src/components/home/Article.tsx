@@ -22,8 +22,8 @@ const Article = () => {
               </h3>
             </div>
           </div>
-          <div className="flex gap-4 h-full">
-            <div className=" w-full h-full">
+          <div className="flex gap-4 h-full overflow-x-scroll">
+            <div className="min-w-[80%] md:w-full h-full">
               <img src={maxcenter} alt="" className="w-fit object-contain" />
               <div className="w-full h-52 px-4 py-2 bg-main flex justify-center items-center relative">
                 <h4 className="font-medium  text-xl text-ellipsis text-white">
@@ -34,7 +34,7 @@ const Article = () => {
                 </h3>
               </div>
             </div>
-            <div className="w-full h-full">
+            <div className="min-w-[80%] md:w-full h-full">
               <img src={maxcenter2} alt="" className="w-fit object-contain" />
               <div className="w-full h-52 px-4 py-2 bg-main flex justify-center items-center relative">
                 <h4 className="font-medium  text-xl text-ellipsis text-white">
