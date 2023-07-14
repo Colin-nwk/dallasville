@@ -15,7 +15,7 @@ export default {
         },
       },
       fontFamily: {
-        mont: ["Montserrat", "sans-serif"],
+        sangblue: ["sangblue", "sans-serif"],
         inter: ["Inter", "sans-serif"],
       },
     },

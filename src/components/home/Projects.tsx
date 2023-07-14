@@ -14,8 +14,8 @@ const Projects = () => {
         />
         <div className="w-36 h-96 bg-main p-6 absolute left-0 top-40 hidden md:block ">
           <div className="-rotate-90 text-white font-mont flex flex-col items-end">
-            <p className="text-7xl tracking-wide mr-44">Our </p>
-            <p className="text-7xl w-auto tracking-wide mr-4">Projects</p>
+            <h3 className="text-7xl tracking-wide mr-44">Our </h3>
+            <h3 className="text-7xl w-auto tracking-wide mr-4">Projects</h3>
           </div>
         </div>
         <div className=" ml-10 hidden md:grid grid-cols-1 md:grid-cols-5  gap-4 justify-end items-start">
@@ -47,9 +47,7 @@ const Projects = () => {
             <img src={didi} alt="" className="w-fit h-fit object-contain" />
 
             <div className="flex justify-between items-center gap-4 mt-5">
-              <p className="text-lg font-mont font-bold">
-                HackBerry Jahi District
-              </p>
+              <h4 className="text-lg  font-bold">HackBerry Jahi District</h4>
               <p className="text-gray-600">COMMERCIAL</p>
             </div>
           </div>
@@ -57,9 +55,7 @@ const Projects = () => {
             <img src={chairs} alt="" className="w-fit h-fit object-contain" />
 
             <div className="flex justify-between items-center gap-4 mt-5">
-              <p className="text-lg font-mont font-bold">
-                Dewberry Terrance Gwarimpa
-              </p>
+              <h4 className="text-lg  font-bold">Dewberry Terrance Gwarimpa</h4>
               <p className="text-gray-600">COMMERCIAL</p>
             </div>
             <div className="pt-5 md:pt-10 hidden md:flex justify-start md:justify-end">

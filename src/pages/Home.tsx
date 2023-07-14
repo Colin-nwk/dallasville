@@ -9,6 +9,7 @@ import Review from "../components/home/Review";
 import Article from "../components/home/Article";
 import Sponsors from "../components/home/Sponsors";
 import Brochure from "../components/home/Brochure";
+import Footer from "../components/general/Footer";
 
 const Home = () => {
   return (
@@ -23,6 +24,7 @@ const Home = () => {
       <Article />
       <Sponsors />
       <Brochure />
+      <Footer />
     </>
   );
 };

@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className="">
       <div className="mt-5 md:mt-20">
-        <h1 className="text-white font-mont font-bold text-4xl md:text-6xl">
+        <h1 className="text-white font-sangblue font-bold text-4xl md:text-6xl">
           Discover Your Dream
           <span className="block mt-4"> Home with Ease</span>
         </h1>
