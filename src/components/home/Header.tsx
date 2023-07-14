@@ -19,7 +19,7 @@ const Header = () => {
       />
       {/* <div id="header-image" className="h-full w-full"></div> */}
       <div className="container  mx-auto px-4 md:px-10 w-full h-screen z-20 ">
-        <div className=" flex flex-col md:flex-row justify-start  md:justify-end items-start md:items-center font-light text-white gap-2 md:gap-6 md:text-base py-2 md:py-4 text-sm">
+        {/* <div className=" flex flex-col md:flex-row justify-start  md:justify-end items-start md:items-center font-light text-white gap-2 md:gap-6 md:text-base py-2 md:py-4 text-sm">
           <a
             href="tel:+23480036003600"
             className="inline-flex justify-start items-center cursor-pointer"
@@ -39,7 +39,7 @@ const Header = () => {
             <GoLocation className="mr-2" />
             <span>3rd Floor, Novare Central Office, Wuse Zone, Abuja</span>
           </div>
-        </div>
+        </div> */}
         {/* navbar */}
         <Navbar />
         <Hero />

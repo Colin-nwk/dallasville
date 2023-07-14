@@ -3,7 +3,7 @@ import HeroCarousel from "../general/HeroCarousel";
 
 const Hero = () => {
   return (
-    <div className="">
+    <div className="container  mx-auto px-4 md:px-10 w-full h-fit">
       <div className="mt-16 md:mt-20">
         <h1 className="text-white font-sangblue font-bold text-4xl md:text-6xl">
           Discover Your Dream

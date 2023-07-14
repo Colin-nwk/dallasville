@@ -1,6 +1,6 @@
 // import logo from "../../public/asset/image/logo.png";
 import Banner from "../components/home/Banner";
-import Header from "../components/home/Header";
+// import Header from "../components/home/Header";
 import Projects from "../components/home/Projects";
 import HomeValues from "../components/home/HomeValues";
 import WeAre from "../components/home/WeAre";
@@ -10,11 +10,28 @@ import Article from "../components/home/Article";
 import Sponsors from "../components/home/Sponsors";
 import Brochure from "../components/home/Brochure";
 import Footer from "../components/general/Footer";
-
+import header from "../../public/asset/image/header.png";
+import TopBanner from "../components/general/TopBanner";
+import Navbar from "../components/Navbar";
+import Hero from "../components/home/Hero";
 const Home = () => {
   return (
-    <>
-      <Header />
+    <div className="">
+      <header className="bg-gradient-to-b from-black to-gray-600 relative w-full h-screen z-10">
+        <img
+          loading="eager"
+          src={header}
+          alt="luxuzy house with pool"
+          className="w-full h-full object-cover absolute mix-blend-overlay -z-10"
+        />
+        <div className="z-20 ">
+          <TopBanner />
+          <Navbar />
+          <Hero />
+        </div>
+      </header>
+
+      {/* <Header /> */}
       <Banner />
       <WeAre />
       <HomeValues />
@@ -25,7 +42,7 @@ const Home = () => {
       <Sponsors />
       <Brochure />
       <Footer />
-    </>
+    </div>
   );
 };
 
