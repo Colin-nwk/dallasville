@@ -18,9 +18,7 @@ const Brochure = () => {
               <h3 className="text-2xl font-sansblue font-bold">
                 Download our Brochure
               </h3>
-              <h4 className="text-xl font-mont font-medium">
-                Fill in your details below
-              </h4>
+              <p className="text-xl  font-medium">Fill in your details below</p>
               {/* input forms */}
               <form action="" className="w-full">
                 <div className=" flex flex-col gap-8 w-full mt-4">

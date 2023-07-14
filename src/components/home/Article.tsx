@@ -10,37 +10,40 @@ const Article = () => {
         <div className="flex justify-end item-center -z-10">
           <img src={articles} alt="our articles" />
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-4 sm:grid-col-2 justify-center items-start gap-4 mt-5 md:-mt-14">
-          <div className="md:col-span-2 h-full">
+        <div className="grid grid-cols-1 sm:grid-cols-2 justify-center items-start gap-4 mt-5 md:-mt-14">
+          <div className="w-full h-full">
             <img src={hotel} alt="" className="w-full h-auto object-contain" />
-            <div className="w-full h-32 px-4 py-2 bg-main flex justify-center items-center">
-              <p className="font-medium text-xl text-ellipsis text-white">
+            <div className="w-full h-32 mb-2 px-4 py-2 bg-main flex justify-center items-center relative">
+              <h4 className="font-medium text-xl text-ellipsis text-white">
                 Buying or selling a home goes beyond a perfect MOU.
-              </p>
+              </h4>
+              <h3 className="text-white absolute -top-8 right-4 text-5xl border-b-8 border-[#DC0000]">
+                01
+              </h3>
             </div>
           </div>
-          <div className="h-full">
-            <img
-              src={maxcenter}
-              alt=""
-              className="w-full h-auto object-contain"
-            />
-            <div className="w-full h-32 px-4 py-2 bg-main flex justify-center items-center">
-              <p className="font-medium  text-xl text-ellipsis text-white">
-                Buying or selling a home goes beyond a perfect MOU.
-              </p>
+          <div className="flex gap-4 h-full">
+            <div className=" w-full h-full">
+              <img src={maxcenter} alt="" className="w-fit object-contain" />
+              <div className="w-full h-52 px-4 py-2 bg-main flex justify-center items-center relative">
+                <h4 className="font-medium  text-xl text-ellipsis text-white">
+                  Buying or selling a home goes beyond a perfect MOU.
+                </h4>
+                <h3 className="text-white absolute -top-8 left-4 text-5xl border-b-8 border-[#DC0000]">
+                  02
+                </h3>
+              </div>
             </div>
-          </div>
-          <div className="h-full">
-            <img
-              src={maxcenter2}
-              alt=""
-              className="w-full h-auto object-contain"
-            />
-            <div className="w-full h-32 px-4 py-2 bg-main flex justify-center items-center">
-              <p className="font-medium  text-xl text-ellipsis text-white">
-                Buying or selling a home goes beyond a perfect MOU.
-              </p>
+            <div className="w-full h-full">
+              <img src={maxcenter2} alt="" className="w-fit object-contain" />
+              <div className="w-full h-52 px-4 py-2 bg-main flex justify-center items-center relative">
+                <h4 className="font-medium  text-xl text-ellipsis text-white">
+                  Buying or selling a home goes beyond a perfect MOU.
+                </h4>
+                <h3 className="text-white absolute -top-8 left-4 text-5xl border-b-8 border-[#DC0000]">
+                  03
+                </h3>
+              </div>
             </div>
           </div>
         </div>
