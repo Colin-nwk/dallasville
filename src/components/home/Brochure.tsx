@@ -1,5 +1,6 @@
 import { FormControl, FormLabel, Input } from "@chakra-ui/react";
 import room from "../../../public/asset/image/living-room.png";
+import { AiOutlineArrowRight } from "react-icons/ai";
 const Brochure = () => {
   return (
     <>
@@ -21,10 +22,38 @@ const Brochure = () => {
                 Fill in your details below
               </h4>
               {/* input forms */}
-              <FormControl isRequired>
-                <FormLabel>First name</FormLabel>
-                <Input placeholder="First name" />
-              </FormControl>
+              <form action="" className="w-full">
+                <div className=" flex flex-col gap-8 w-full mt-4">
+                  <FormControl isRequired>
+                    <FormLabel>Full Name</FormLabel>
+                    <Input placeholder="full name" />
+                  </FormControl>
+                  <FormControl isRequired>
+                    <FormLabel>Email Address</FormLabel>
+                    <Input
+                      placeholder="Enter your email address"
+                      type="email"
+                    />
+                  </FormControl>
+
+                  <FormControl isRequired>
+                    <FormLabel>Phone Number</FormLabel>
+                    <Input
+                      placeholder="enter your mobile number"
+                      type="number"
+                    />
+                  </FormControl>
+                </div>
+                <div className="mt-10">
+                  <button
+                    className="bg-main rounded-full py-2 px-6 text-white  duration-300 transition-all ease-in-out flex justify-between items-center cursor-pointer group w-fit"
+                    type="submit"
+                  >
+                    <span>Download brochure</span>
+                    <AiOutlineArrowRight className="text-white h-5 w-5 translate-x-0 group-hover:translate-x-2 ease-in-out transition-all duration-300" />
+                  </button>
+                </div>
+              </form>
             </div>
           </div>
         </div>
