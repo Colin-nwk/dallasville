@@ -1,7 +1,7 @@
 import header from "../../../public/asset/image/header.png";
-import { BsTelephoneForward } from "react-icons/bs";
-import { HiOutlineMail } from "react-icons/hi";
-import { GoLocation } from "react-icons/go";
+// import { BsTelephoneForward } from "react-icons/bs";
+// import { HiOutlineMail } from "react-icons/hi";
+// import { GoLocation } from "react-icons/go";
 import Navbar from "../Navbar";
 import Hero from "./Hero";
 
