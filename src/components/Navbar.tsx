@@ -43,7 +43,7 @@ const Navbar = () => {
             transition={{ duration: 0.2 }}
           >
             <motion.div
-              className="bg-main w-2/3 h-full ml-auto p-10 "
+              className="bg-main w-4/5 h-full ml-auto p-10 "
               initial={{ x: -10, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.3, delay: 0.1 }}
@@ -58,7 +58,7 @@ const Navbar = () => {
                 <li>Home</li>
                 <li>About Us</li>
                 <li>Projects</li>
-                <li className="bg-white rounded-full py-2.5 px-4 text-slate-950 hover:bg-white/70 duration-300 transition-all ease-in-out">
+                <li className="bg-white rounded-full py-2.5 px-4 text-slate-950 hover:bg-white/70 duration-300 transition-all ease-in-out w-fit">
                   Schedule Appointment
                 </li>
               </ul>
