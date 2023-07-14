@@ -13,8 +13,50 @@ const HomeValues = () => {
         </h4>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-5 justify-start items-start gap-3">
-        {/* new */}
-        <div className="col-span-3 flex justify-between items-center gap-4 overflow-x-scroll md:overflow-x-hidden">
+        {/* desktop */}
+        <div className="col-span-3 hidden md:flex justify-between items-center gap-4 overflow-x-scroll md:overflow-x-hidden">
+          <div className="w-[80%] md:w-1/3 relative">
+            <img
+              src={grid}
+              className="w-full h-full"
+              alt="Unparalleled Expertise and Support"
+            />
+            <div className="h-12 w-12 border-2 rounded-full font-bold  flex items-center justify-center bg-transparent backdrop-blur-md border-white absolute right-2 bottom-12 text-white text-xl">
+              01
+            </div>
+            <h3 className="w-full h-14 px-2 py-1 bg-gray-100 ">
+              Unparalleled Expertise and Support
+            </h3>
+          </div>
+          <div className="w-[80%] md:w-1/3 relative">
+            <img
+              src={grid2}
+              className="w-full h-full"
+              alt="Intuitive Search and Seamless Experience"
+            />
+            <div className="h-12 w-12 border-2 rounded-full font-bold  flex items-center justify-center bg-transparent backdrop-blur-md border-white absolute right-2 bottom-12 text-white text-xl">
+              02
+            </div>
+            <h3 className="w-full h-14 px-2 py-1 bg-gray-100 ">
+              Intuitive Search and Seamless Experience
+            </h3>
+          </div>
+          <div className="w-[80%] md:w-1/3 relative">
+            <img
+              src={grid3}
+              className="w-full h-full"
+              alt="  A Trustworthy Partner"
+            />
+            <div className="h-12 w-12 border-2 rounded-full font-bold  flex items-center justify-center bg-transparent backdrop-blur-md border-white absolute right-2 bottom-12 text-white text-xl">
+              03
+            </div>
+            <h3 className="w-full h-14 px-2 py-1 bg-gray-100 ">
+              A Trustworthy Partner
+            </h3>
+          </div>
+        </div>
+        {/* mobile */}
+        <div className="col-span-3 flex md:hidden justify-between items-center gap-4 overflow-x-scroll md:overflow-x-hidden">
           <div className="min-w-[80%] md:w-1/3 relative">
             <img
               src={grid}
