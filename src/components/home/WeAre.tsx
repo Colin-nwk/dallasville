@@ -27,26 +27,26 @@ const WeAre = () => {
             alt="room with stairs"
             className="w-full h-72 md:h-full"
           />
-          <div className=" backdrop-blur-lg w-full h-20 md:h-24 absolute bottom-0 right-0 left-0 p-4">
+          <div className="backdrop-blur-sm w-full h-20 md:h-28 absolute bottom-0 right-0 left-0 p-4">
             <div className="flex justify-around items-start md:items-center gap-2 md:gap-4">
-              <div className="flex flex-col items-center gap-1 md:gap-2">
-                <span className="bg-white w-6 h-6 md:w-10 md:h-10 rounded-full font-bold flex justify-center items-center text-main md:text-base text-sm">
+              <div className="flex flex-col items-center gap-1 md:gap-0.5">
+                <span className="bg-white w-8 h-8 md:w-16 md:h-16 rounded-full font-bold flex justify-center items-center text-main md:text-lg text-sm">
                   24
                 </span>
                 <span className="text-xs md:text-base text-white">
                   Completed Projects
                 </span>
               </div>
-              <div className="flex flex-col items-center gap-2">
-                <span className="bg-white w-6 h-6 md:w-10 md:h-10 rounded-full font-bold flex justify-center items-center text-main md:text-base text-sm">
+              <div className="flex flex-col items-center  gap-1 md:gap-0.5">
+                <span className="bg-white w-8 h-8 md:w-16 md:h-16 rounded-full font-bold flex justify-center items-center text-main md:text-lg text-sm">
                   10
                 </span>
                 <span className="text-xs md:text-base  text-white">
                   Number of Estates
                 </span>
               </div>
-              <div className="flex flex-col justify-start  items-center gap-2">
-                <span className="bg-white w-6 h-6 md:w-10 md:h-10 rounded-full font-bold flex  justify-center items-center text-main md:text-base text-sm">
+              <div className="flex flex-col justify-start  items-center  gap-1 md:gap-0.5">
+                <span className="bg-white w-8 h-8 md:w-16 md:h-16 rounded-full font-bold flex  justify-center items-center text-main md:text-lg text-sm">
                   6
                 </span>
                 <span className="text-xs md:text-base text-white font-semibold">

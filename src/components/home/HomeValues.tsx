@@ -22,9 +22,9 @@ const HomeValues = () => {
           <div className="h-12 w-12 border-2 rounded-full font-bold  flex items-center justify-center bg-transparent backdrop-blur-md border-white absolute right-2 bottom-12 text-white text-xl">
             01
           </div>
-          <div className="w-full h-14 px-2 py-1 bg-gray-100 ">
+          <h3 className="w-full h-14 px-2 py-1 bg-gray-100 ">
             Unparalleled Expertise and Support
-          </div>
+          </h3>
         </div>
         <div className="col-span-1 relative">
           <img
@@ -35,9 +35,9 @@ const HomeValues = () => {
           <div className="h-12 w-12 border-2 rounded-full font-bold  flex items-center justify-center bg-transparent backdrop-blur-md border-white absolute right-2 bottom-12 text-white text-xl">
             02
           </div>
-          <div className="w-full h-14 px-2 py-1 bg-gray-100 ">
+          <h3 className="w-full h-14 px-2 py-1 bg-gray-100 ">
             Intuitive Search and Seamless Experience
-          </div>
+          </h3>
         </div>
         <div className="col-span-1 relative">
           <img
@@ -48,9 +48,9 @@ const HomeValues = () => {
           <div className="h-12 w-12 border-2 rounded-full font-bold  flex items-center justify-center bg-transparent backdrop-blur-md border-white absolute right-2 bottom-12 text-white text-xl">
             03
           </div>
-          <div className="w-full h-14 px-2 py-1 bg-gray-100 ">
+          <h3 className="w-full h-14 px-2 py-1 bg-gray-100 ">
             A Trustworthy Partner
-          </div>
+          </h3>
         </div>
 
         <div className="col-span-2 hidden md:inline-block h-full ml-4">

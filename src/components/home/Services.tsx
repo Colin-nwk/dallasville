@@ -28,7 +28,7 @@ const Services = () => {
           <div className=" ">
             <h2 className="hidden md:block text-xl my-3">Our Services</h2>
             <div className="border-l-8 border-main rounded">
-              <Accordion allowMultiple className="ml-4 ">
+              <Accordion className="ml-4 ">
                 <AccordionItem>
                   {({ isExpanded }) => (
                     <>
@@ -38,18 +38,18 @@ const Services = () => {
                             as="span"
                             flex="1"
                             textAlign="left"
-                            className="text-xl md:text-2xl font-semibold font-mont"
+                            className="text-xl md:text-2xl font-semibold py-4"
                           >
                             01 Property Development
                           </Box>
                           {isExpanded ? (
-                            <LiaTimesSolid className="text-xl" />
+                            <LiaTimesSolid className="text-3xl" />
                           ) : (
-                            <AiOutlinePlus className="text-xl" />
+                            <AiOutlinePlus className="text-3xl" />
                           )}
                         </AccordionButton>
                       </h2>
-                      <AccordionPanel pb={6} className="text-lg md:text-xl">
+                      <AccordionPanel pb={8} className="text-lg md:text-xl">
                         Development of commercial, residential, industrial or
                         government building and valuation of Properties and
                         Assets for a Variety of Purposes
@@ -66,18 +66,18 @@ const Services = () => {
                             as="span"
                             flex="1"
                             textAlign="left"
-                            className="text-xl md:text-2xl font-semibold font-mont"
+                            className="text-xl md:text-2xl font-semibold py-4"
                           >
                             02 Property Leasing
                           </Box>
                           {isExpanded ? (
-                            <LiaTimesSolid className="text-xl" />
+                            <LiaTimesSolid className="text-3xl" />
                           ) : (
-                            <AiOutlinePlus className="text-xl" />
+                            <AiOutlinePlus className="text-3xl" />
                           )}
                         </AccordionButton>
                       </h2>
-                      <AccordionPanel pb={6} className="text-lg md:text-xl">
+                      <AccordionPanel pb={8} className="text-lg md:text-xl">
                         Development of commercial, residential, industrial or
                         government building and valuation of Properties and
                         Assets for a Variety of Purposes
@@ -94,18 +94,18 @@ const Services = () => {
                             as="span"
                             flex="1"
                             textAlign="left"
-                            className="text-xl md:text-2xl font-semibold font-mont"
+                            className="text-xl md:text-2xl font-semibold py-4"
                           >
                             03 Facility Management
                           </Box>
                           {isExpanded ? (
-                            <LiaTimesSolid className="text-xl" />
+                            <LiaTimesSolid className="text-3xl" />
                           ) : (
-                            <AiOutlinePlus className="text-xl" />
+                            <AiOutlinePlus className="text-3xl" />
                           )}
                         </AccordionButton>
                       </h2>
-                      <AccordionPanel pb={6} className="text-lg md:text-xl">
+                      <AccordionPanel pb={8} className="text-lg md:text-xl">
                         Development of commercial, residential, industrial or
                         government building and valuation of Properties and
                         Assets for a Variety of Purposes
@@ -122,18 +122,18 @@ const Services = () => {
                             as="span"
                             flex="1"
                             textAlign="left"
-                            className="text-xl md:text-2xl font-semibold font-mont"
+                            className="text-xl md:text-2xl font-semibold py-4"
                           >
                             04 General Real Estate Consultancy Services
                           </Box>
                           {isExpanded ? (
-                            <LiaTimesSolid className="text-xl" />
+                            <LiaTimesSolid className="text-3xl" />
                           ) : (
-                            <AiOutlinePlus className="text-xl" />
+                            <AiOutlinePlus className="text-3xl" />
                           )}
                         </AccordionButton>
                       </h2>
-                      <AccordionPanel pb={6} className="text-lg md:text-xl">
+                      <AccordionPanel pb={8} className="text-lg md:text-xl">
                         Development of commercial, residential, industrial or
                         government building and valuation of Properties and
                         Assets for a Variety of Purposes
