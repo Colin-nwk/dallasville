@@ -34,7 +34,7 @@ const Footer = () => {
               <p className="text-left">Edgefield</p>
             </div>
 
-            <div className="flex flex-col justify-start items-start gap-4 md:col-span-2 w-full h-full">
+            <div className="flex flex-col justify-start items-start gap-6 md:col-span-2 w-full h-full">
               <p className="">
                 Get real time accurate information on property investments and
                 news
@@ -45,17 +45,25 @@ const Footer = () => {
                   name=""
                   id=""
                   placeholder="Enter Email"
-                  className="px-6 py-4 bg-white rounded-l-xl"
+                  className="px-3 py-2.5 bg-white rounded-l-3xl w-4/6"
                 />
                 <input
                   type="submit"
                   value="Submit"
-                  className="px-6 py-4 bg-main rounded-r-xl cursor-pointer"
+                  className="px-3 py-2.5 bg-main rounded-r-3xl cursor-pointer w-1/4"
                 />
               </div>
-              <div className="">
-                <img src={sbo} alt="sbo" className="w-fit h-fit" />
-                <h3></h3>
+              <div className="grid grid-cols-2">
+                <div className="flex flex-col gap-3">
+                  <img src={sbo} alt="sbo" className="w-fit h-fit" />
+                  <h5>Trusted Busines</h5>
+                </div>
+                <div className="flex flex-col gap-3">
+                  <h5>Address</h5>
+                  <p className="">
+                    3rd Floor, Novare Central Office, Wuse Zone, Abuja
+                  </p>
+                </div>
               </div>
             </div>
           </div>

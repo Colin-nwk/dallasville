@@ -11,34 +11,34 @@ const Article = () => {
           <img src={articles} alt="our articles" />
         </div>
         <div className="grid grid-cols-1 md:grid-cols-4 sm:grid-col-2 justify-center items-start gap-4 mt-5 md:-mt-14">
-          <div className="md:col-span-2">
+          <div className="md:col-span-2 h-full">
             <img src={hotel} alt="" className="w-full h-auto object-contain" />
             <div className="w-full h-32 px-4 py-2 bg-main flex justify-center items-center">
-              <p className="font-medium font-mont text-xl md:text-2xl text-ellipsis text-white">
+              <p className="font-medium text-xl text-ellipsis text-white">
                 Buying or selling a home goes beyond a perfect MOU.
               </p>
             </div>
           </div>
-          <div className="">
+          <div className="h-full">
             <img
               src={maxcenter}
               alt=""
               className="w-full h-auto object-contain"
             />
             <div className="w-full h-32 px-4 py-2 bg-main flex justify-center items-center">
-              <p className="font-medium font-mont text-xl md:text-2xl text-ellipsis text-white">
+              <p className="font-medium  text-xl text-ellipsis text-white">
                 Buying or selling a home goes beyond a perfect MOU.
               </p>
             </div>
           </div>
-          <div className="">
+          <div className="h-full">
             <img
               src={maxcenter2}
               alt=""
               className="w-full h-auto object-contain"
             />
             <div className="w-full h-32 px-4 py-2 bg-main flex justify-center items-center">
-              <p className="font-medium font-mont text-xl md:text-2xl text-ellipsis text-white">
+              <p className="font-medium  text-xl text-ellipsis text-white">
                 Buying or selling a home goes beyond a perfect MOU.
               </p>
             </div>

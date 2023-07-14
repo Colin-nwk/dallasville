@@ -1,6 +1,6 @@
 import { FormControl, FormLabel, Input } from "@chakra-ui/react";
 import room from "../../../public/asset/image/living-room.png";
-import { AiOutlineArrowRight } from "react-icons/ai";
+
 const Brochure = () => {
   return (
     <>

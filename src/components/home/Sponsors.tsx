@@ -9,7 +9,7 @@ const Sponsors = () => {
         <section className="container  mx-auto p-4 md:p-10 w-full h-fit">
           <div className="flex justify-start md:justify-between items-center gap-4 flex-wrap ">
             <div>
-              <p className="text-3xl font-bold ">As featured in</p>
+              <h4 className="text-3xl font-bold ">As featured in</h4>
             </div>
 
             <img
