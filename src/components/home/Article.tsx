@@ -1,4 +1,3 @@
-import React from "react";
 import articles from "../../../public/asset/image/article.svg";
 import hotel from "../../../public/asset/image/hotel.png";
 import maxcenter from "../../../public/asset/image/mayexcenter.png";
