@@ -8,7 +8,7 @@ const Navbar = () => {
           <li>Home</li>
           <li>About Us</li>
           <li>Projects</li>
-          <li className="bg-white rounded-full p-1 px-3 text-slate-950 hover:bg-white/70 duration-300 transition-all ease-in-out">
+          <li className="bg-white rounded-full py-2.5 px-4 text-slate-950 hover:bg-white/70 duration-300 transition-all ease-in-out">
             Schedule Appointment
           </li>
         </ul>

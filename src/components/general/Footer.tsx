@@ -69,7 +69,7 @@ const Footer = () => {
           </div>
         </div>
         <div id="footer-bottom">
-          <p className="text-sm text-center">
+          <p className="text-xs text-left md:text-center">
             At Dallasville Resources Ltd, we are dedicated to delivering
             unparalleled quality and customer satisfaction. That's why we
             proudly offer a comprehensive 12-month Money Back Guarantee. If,
@@ -81,9 +81,11 @@ const Footer = () => {
             are at the forefront of our commitment, and we are devoted to
             ensuring your confidence in your investment with us
           </p>
-          <div className=" flex justify-between items-center flex-wrap gap-4 mt-5">
-            <p className="">@2023 Dallasville ResourceS Limited</p>
-            <div className="flex justify-center gap-4">
+          <div className=" flex justify-center md:justify-between items-center flex-wrap gap-4 mt-5">
+            <p className="order-3 md:order-1">
+              @2023 Dallasville ResourceS Limited
+            </p>
+            <div className="flex justify-center gap-4 order-1 md:order-2">
               <a href="" target="_blank" rel="noopener noreferrer">
                 Privacy Policy
               </a>
@@ -91,7 +93,7 @@ const Footer = () => {
                 Terms of Services
               </a>
             </div>
-            <div className="flex justify-center items-center gap-8">
+            <div className="flex justify-center items-center gap-8 order-2 md:order-3">
               <a
                 href=""
                 target="_blank"
