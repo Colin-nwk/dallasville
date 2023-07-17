@@ -63,9 +63,15 @@ const Navbar = () => {
                 />
               </div>
               <ul className="flex flex-col items-start gap-8 justify-end text-white">
-                <li>Home</li>
-                <li>About Us</li>
-                <li>Projects</li>
+                <li>
+                  <Link to="/">Home</Link>
+                </li>
+                <li>
+                  <Link to="/about">About Us</Link>
+                </li>
+                <li>
+                  <Link to="/projects">Projects</Link>
+                </li>
                 <li className="bg-white rounded-full py-2.5 px-4 text-slate-950 hover:bg-white/70 duration-300 transition-all ease-in-out w-fit">
                   Schedule Appointment
                 </li>
