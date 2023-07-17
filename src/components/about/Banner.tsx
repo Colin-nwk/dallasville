@@ -24,7 +24,7 @@ const Banner = () => {
             alt="luxuzy house"
             className="block md:hidden w-full h-fit object-cover mix-blend-overlay -z-10"
           />
-          <div className="z-30 absolute inset-0">
+          <div className="z-30 absolute inset-0 flex flex-col justify-center items-center gap-4">
             <h3 className="text-center text-white font-bold text-xl md:text-3xl py-5 mt-5 ">
               Explore your smart home choices with us
             </h3>
@@ -72,7 +72,7 @@ const Banner = () => {
                 <span className="text-xs text-white ">Distributed Audio</span>
               </div>
             </div>
-            <div className="md:mt-5 mt-10 flex justify-center items-center">
+            <div className=" mt-10 flex justify-center items-center">
               <Button text="Schedule Appointment" />
             </div>
           </div>

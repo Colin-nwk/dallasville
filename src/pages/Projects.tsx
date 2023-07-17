@@ -2,6 +2,10 @@ import Navbar from "../components/Navbar";
 import TopBanner from "../components/general/TopBanner";
 import Hero from "../components/home/Hero";
 import heroBg from "../../public/asset/image/projects/project-hero.png";
+import Brochure from "../components/home/Brochure";
+import Footer from "../components/general/Footer";
+import Intro from "../components/projects/Intro";
+import ProjectDetails from "../components/projects/ProjectDetails";
 
 const Projects = () => {
   return (
@@ -20,6 +24,10 @@ const Projects = () => {
             <Hero />
           </div>
         </header>
+        <Intro />
+        <ProjectDetails />
+        <Brochure />
+        <Footer />
       </div>
     </>
   );
