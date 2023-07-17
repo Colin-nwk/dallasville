@@ -6,7 +6,7 @@ const Brochure = () => {
     <>
       <section className="container  mx-auto p-4 md:p-10 w-full h-fit">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-start md:justify-between items-center">
-          <div className="">
+          <div className=" hidden md:block">
             <img
               src={room}
               alt="living room design"

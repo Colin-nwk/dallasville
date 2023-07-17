@@ -1,8 +1,10 @@
 import { useState } from "react";
 import logo from "../../public/asset/image/logo.png";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 import { LiaTimesSolid } from "react-icons/lia";
+
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState<boolean>(false);
   return (
@@ -12,9 +14,15 @@ const Navbar = () => {
           <img src={logo} className="h-fit w-20" alt="dallasville logo" />
           <nav className="hidden md:block">
             <ul className="flex justify-between items-center gap-10 cursor-pointer">
-              <li>Home</li>
-              <li>About Us</li>
-              <li>Projects</li>
+              <li>
+                <Link to="/">Home</Link>
+              </li>
+              <li>
+                <Link to="/about">About Us</Link>
+              </li>
+              <li>
+                <Link to="/projects">Projects</Link>
+              </li>
               <li className="bg-white rounded-full py-2.5 px-4 text-slate-950 hover:bg-white/70 duration-300 transition-all ease-in-out">
                 Schedule Appointment
               </li>
