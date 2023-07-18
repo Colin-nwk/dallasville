@@ -5,6 +5,7 @@ import frameTwo from "../../../public/asset/image/projects/hackbery/frame2.png";
 import frameThree from "../../../public/asset/image/projects/hackbery/frame3.png";
 import frameFour from "../../../public/asset/image/projects/hackbery/frame4.png";
 import lounge from "../../../public/asset/image/projects/hackbery/lounge.png";
+import mobile from "../../../public/asset/image/projects/hackbery/lounge-mobile.png";
 import Banner from "./Banner";
 
 const ProjectDetails = () => {
@@ -47,7 +48,7 @@ const ProjectDetails = () => {
                   <img
                     src={aside}
                     alt="hackberry"
-                    className="h-56 w-full md:w-fit md:h-fit object-none"
+                    className="h-56 w-full md:w-fit md:h-full object-none"
                   />
                   <div
                     className="absolute inset-x-0 bottom-0 p-2 w-full h-24  backdrop-blur flex items-center
@@ -103,44 +104,125 @@ const ProjectDetails = () => {
                   </div>
                 </aside>
               </div>
-              <div className="w-full h-full bg-red-500 py-5">
+              <div className="w-full h-full py-5">
                 <h3 className="text-left font-bold text-xl  py-2 text-main">
                   Explore the Gallery
                 </h3>
-                <div className="bg-blue-600 py-3 gap-4 overflow-x-auto md:overflow-x-hidden flex justify-between items-center ">
-                  <div className="h-[300px] w-[340px]">
+                <div className=" py-3 gap-4 md:gap-1 overflow-x-auto  flex justify-start items-start ">
+                  <div className="h-56 w-56 flex-none">
                     <img
                       src={frameOne}
                       alt="hackberry image"
-                      className="h-full w-full  object-none"
+                      className="h-full w-full  object-center"
                     />
                   </div>
-                  <div className="h-[300px] w-[340px]">
+                  <div className="h-56 w-56 flex-none">
                     <img
                       src={frameTwo}
                       alt="hackberry image"
                       className=" w-full h-full object-center"
                     />
                   </div>
-                  <div className="h-[300px] w-[340px]">
+                  <div className="h-56 w-56 flex-none">
                     <img
                       src={frameThree}
                       alt="hackberry image"
                       className=" w-full h-full object-center"
                     />
                   </div>
-                  <div className="h-[300px] w-[340px]">
+                  <div className="h-56 w-56 flex-none">
                     <img
                       src={frameFour}
                       alt="hackberry image"
-                      className=" w-full h-full object-center"
+                      className=" w-full h-full object-center "
                     />
                   </div>
                 </div>
+                <article className="w-full h-full  py-5">
+                  <h3 className="text-left font-bold text-xl  py-4 text-main">
+                    Project Summary
+                  </h3>
+                  <div className="relative">
+                    <img
+                      src={lounge}
+                      alt="lounge"
+                      className="w-full h-full object-cover mix-blend-overlay -z-10 hidden md:block"
+                    />
+                    <img
+                      src={mobile}
+                      alt="lounge"
+                      className="w-full h-full object-cover mix-blend-overlay -z-10 block md:hidden"
+                    />
+
+                    <div className=" absolute top-0 left-0 text-white grid grid-cols-2 md:grid-cols-3 gap-4 justify-start items-center px-4 py-8 md:px-8 h-full w-full ">
+                      <div className="flex flex-col justify-between items-start gap-6 h-full w-full">
+                        <div className=" flex flex-col justify-start items-start gap-2">
+                          <p className="text-sm">Type</p>
+                          <h4 className="">Residential</h4>
+                        </div>
+                        <div className=" flex flex-col gap-2">
+                          <p className="text-sm">Architecture</p>
+                          <h4 className="">Lucrezia</h4>
+                        </div>
+                        <div className=" flex flex-col gap-2">
+                          <p className="text-sm">PROJECT VALUE</p>
+                          <h4 className="">NGN</h4>
+                        </div>
+                        <div className=" flex flex-col gap-2">
+                          <p className="text-sm">BEDROOM MAISONETTES</p>
+                          <h4 className="">4</h4>
+                        </div>
+                      </div>
+                      <div className="flex flex-col justify-between items-start gap-6 h-full w-full">
+                        <div className=" flex flex-col justify-start items-start gap-2">
+                          <p className="text-sm">PENTHOUSE APPROX</p>
+                          <h4 className="">1350 M2</h4>
+                        </div>
+                        <div className=" flex flex-col gap-2">
+                          <p className="text-sm">FLOORS</p>
+                          <h4 className="">14</h4>
+                        </div>
+                        <div className=" flex flex-col gap-2">
+                          <p className="text-sm">STATUS</p>
+                          <h4 className="">In progress</h4>
+                        </div>
+                        <div className=" flex flex-col gap-2">
+                          <p className="text-sm">BEDROOM PENTHOUSES</p>
+                          <h4 className="">4</h4>
+                        </div>
+                      </div>
+                      <div className="flex flex-col justify-between items-start gap-6 h-full w-full">
+                        <div className=" flex flex-col gap-2">
+                          <p className="text-sm">PENTHOUSE APPROX</p>
+                          <h4 className="">452 M2</h4>
+                        </div>
+                        <div className=" flex flex-col gap-2">
+                          <p className="text-sm">FEET</p>
+                          <h4 className="">220</h4>
+                        </div>
+                        <div className=" flex flex-col gap-2">
+                          <p className="text-sm">COMPLETION DATE</p>
+                          <h4 className="">Q3-2023</h4>
+                        </div>
+                        <div className=" flex flex-col gap-2">
+                          <p className="text-sm">LOCATION</p>
+                          <h4 className="">Banana Island</h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bg-gradient-to-b from-black to-gray-600 w-full h-full   -z-20 top-0 left-0 transparent"></div>
+                  </div>
+                </article>
               </div>
             </TabPanel>
             <TabPanel>
-              <p>two!</p>
+              <p> Sycamore Estate</p>
+            </TabPanel>
+            <TabPanel>
+              <p> Dewberry Estate</p>
+            </TabPanel>
+            <TabPanel>
+              <p> Edgefield Estate</p>
             </TabPanel>
           </TabPanels>
         </Tabs>
