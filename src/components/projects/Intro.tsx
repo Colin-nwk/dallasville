@@ -7,7 +7,7 @@ const Intro = () => {
         </h3>
         <p className="text-left md:text-center text-base py-4 ">
           Each project in our portfolio reflects our unwavering dedication to
-          quality, craftsmanship, and customer satisfaction. 
+          quality, craftsmanship, and customer satisfaction.
         </p>
       </section>
     </>
