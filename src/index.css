@@ -29,7 +29,7 @@ h5,
 h6 {
   font-family: "sangblue", sans-serif !important;
 }
-#header-image {
+/* #header-image {
   background-image: url("../public/asset/image/header.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -43,7 +43,13 @@ h6 {
   background-image: url("../public/asset/image/about/banner.png");
   background-repeat: no-repeat;
   background-size: cover;
-  /* width: 100%;
-  height: 100%;
-  mix-blend-mode: darken; */
+} */
+
+.no-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }

@@ -3,7 +3,7 @@ import HeroCarousel from "../general/HeroCarousel";
 
 const Hero = () => {
   return (
-    <div className="container  mx-auto px-4 md:px-10 w-full h-fit">
+    <div className="container  mx-auto px-4 md:px-10 w-full h-full">
       <div className="mt-10 md:mt-20">
         <h1 className="text-white font-sangblue font-bold text-3xl md:text-6xl">
           Discover Your Dream
@@ -24,7 +24,7 @@ const Hero = () => {
           </span>
         </div>
       </div>
-      <div className="flex-col md:absolute md:right-10 md:bottom-4 mt-10 md:mt-0 flex justify-center items-start gap-4">
+      <div className="flex-col md:absolute md:right-10 md:bottom-4 mt-0 md:mt-0 flex justify-center items-start gap-4">
         <h3 className="text-white text-sm">Feature Estate</h3>
         <div className=" w-full h-full md:h-72 md:w-96">
           <HeroCarousel />

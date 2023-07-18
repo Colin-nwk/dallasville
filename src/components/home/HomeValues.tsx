@@ -12,9 +12,9 @@ const HomeValues = () => {
           Your Ideal Home is Just a Few Clicks
         </h4>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-5 justify-start items-start gap-3">
+      <div className="grid grid-cols-1 md:grid-cols-6 justify-start items-start gap-3">
         {/* desktop */}
-        <div className="col-span-3 hidden md:flex justify-between items-center gap-4 overflow-x-scroll md:overflow-x-hidden">
+        <div className="col-span-4 hidden md:flex justify-between items-center gap-4 overflow-x-scroll md:overflow-x-hidden">
           <div className="w-[80%] md:w-1/3 relative">
             <img
               src={grid}
@@ -56,8 +56,8 @@ const HomeValues = () => {
           </div>
         </div>
         {/* mobile */}
-        <div className="col-span-3 flex md:hidden justify-between items-center gap-4 overflow-x-scroll md:overflow-x-hidden">
-          <div className="min-w-[80%] md:w-1/3 relative">
+        <div className="md:col-span-3 md:hidden flex justify-between items-center gap-4 overflow-x-scroll ">
+          <div className="min-w-[80%]  relative">
             <img
               src={grid}
               className="w-full h-full"
@@ -70,7 +70,7 @@ const HomeValues = () => {
               Unparalleled Expertise and Support
             </h3>
           </div>
-          <div className="min-w-[80%] md:w-1/3 relative">
+          <div className="min-w-[80%]  relative">
             <img
               src={grid2}
               className="w-full h-full"
@@ -83,7 +83,7 @@ const HomeValues = () => {
               Intuitive Search and Seamless Experience
             </h3>
           </div>
-          <div className="min-w-[80%] md:w-1/3 relative">
+          <div className="min-w-[80%] relative">
             <img
               src={grid3}
               className="w-full h-full"
