@@ -14,9 +14,13 @@ import header from "../../public/asset/image/header.png";
 import TopBanner from "../components/general/TopBanner";
 import Navbar from "../components/Navbar";
 import Hero from "../components/home/Hero";
+import PopUp from "../components/general/PopUp";
 const Home = () => {
   return (
     <div className="">
+      {/* popup */}
+      <PopUp />
+      {/* endpopup */}
       <header className="bg-gradient-to-b from-black to-gray-600 relative w-full h-screen z-10 overflow-clip">
         <img
           loading="eager"
@@ -26,13 +30,9 @@ const Home = () => {
         />
         <div className="container mx-auto px-4 md:px-10 w-ful w-full  -z-20 ">
           <div className=" container grid grid-cols-3  w-full h-full absolute top-28 md:top-14 -z-20 ">
-            {/* <div className="border-l-[.5px] border-l-white/40"></div> */}
-            {/* <div className="border-l-[.5px] border-l-white/40"></div> */}
             <div className="border-l border-white/20"></div>
             <div className="border-l border-white/20"></div>
             <div className="border-l border-white/20 border-r"></div>
-            {/* <div className="border-r border-white/20"></div> */}
-            {/* <div className="border-l-[.5px] border-r-white/40 bg-red-400"></div> */}
           </div>
         </div>
         <div className="z-20 ">
