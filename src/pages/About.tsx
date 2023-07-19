@@ -41,7 +41,7 @@ const About = () => {
         <Banner />
         <People />
         <Team />
-        <Brochure />
+        <Brochure bg="bg-[#FFF1F8]" />
         <Footer />
       </div>
     </>

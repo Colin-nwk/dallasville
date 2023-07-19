@@ -51,7 +51,7 @@ const Home = () => {
       <Review />
       <Article />
       <Sponsors />
-      <Brochure />
+      <Brochure bg="bg-white" />
       <Footer />
     </div>
   );

@@ -33,7 +33,7 @@ const Projects = () => {
         </header>
         <Intro />
         <ProjectDetails />
-        <Brochure />
+        <Brochure bg="bg-[#FFF1F8]" />
         <Footer />
       </div>
     </>
