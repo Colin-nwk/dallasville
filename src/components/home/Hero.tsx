@@ -17,7 +17,7 @@ const Hero = () => {
       <div className="mt-28 md:mt-20">
         <div className="flex h-14 w-full md:w-1/3   cursor-pointer">
           <span className="h-full w-1 bg-white"></span>
-          <span className="h-full w-full bg-black opacity-50 flex justify-center -z-10 items-center">
+          <span className="h-full w-full backdrop-blur-md  flex justify-center -z-10 items-center">
             <span className="text-white opacity-100 text-center z-10">
               See our Projects
             </span>
