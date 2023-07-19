@@ -1,6 +1,6 @@
 import { AiOutlineArrowRight } from "react-icons/ai";
 // import HeroCarousel from "../general/HeroCarousel";
-import Carousel from "../general/Carousel";
+// import Carousel from "../general/Carousel";
 import SwiperCarousel from "../general/SwiperCarousel";
 
 const Hero = () => {
@@ -27,7 +27,7 @@ const Hero = () => {
           </span>
         </div>
       </div>
-      <div className="flex-col md:absolute md:right-24 md:bottom-4 mt-40 sm:mt-24 md:mt-0 flex justify-center items-start gap-4">
+      <div className="flex-col md:absolute md:right-20 md:bottom-4 mt-40 sm:mt-24 md:mt-0 flex justify-center items-start gap-4">
         <h3 className="text-white text-sm">Feature Estate</h3>
         <div className="w-full h-full md:h-full md:w-96 border-l-4 border-white">
           {/* <HeroCarousel /> */}
