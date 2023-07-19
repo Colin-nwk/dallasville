@@ -6,7 +6,8 @@ import {
   ModalBody,
   ModalCloseButton,
 } from "@chakra-ui/react";
-import vogue from "../../../public/asset/image/vogue/vogue.png";
+import hackberry from "../../../public/asset/image/hackberry/hackberry.png";
+// import hackberrylogo from "../../../public/asset/image/hackberry/hackberry.svg";
 
 const PopUp = () => {
   const [isOpen, setIsOpen] = useState<boolean>(true);
@@ -45,7 +46,7 @@ const PopUp = () => {
               <div className="flex flex-col">
                 <div className="relative">
                   <img
-                    src={vogue}
+                    src={hackberry}
                     alt=""
                     className="object-cover w-full h-fit"
                   />
