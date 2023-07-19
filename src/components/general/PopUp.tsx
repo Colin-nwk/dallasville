@@ -21,7 +21,7 @@ const PopUp = () => {
         isOpen={isOpen}
         onClose={() => setIsOpen(false)}
         isCentered
-        size="md"
+        size="xl"
       >
         <ModalOverlay />
         <ModalContent
@@ -44,32 +44,40 @@ const PopUp = () => {
             <section className="w-full h-full  rounded-lg overflow-x-clip">
               <div className="flex flex-col">
                 <div className="relative">
-                  <img src={vogue} alt="" className="object-none w-full" />
+                  <img
+                    src={vogue}
+                    alt=""
+                    className="object-cover w-full h-fit"
+                  />
                   <div className="absolute bottom-0 insect-x-0 h-14 backdrop-blur-md backdrop:bg-black w-full flex justify-between items-center px-4">
-                    <h3 className="text-white text-2xl">La’Vogue Estate</h3>
-                    <p className="text-white bg-red-700 px-4 py-1 text-xs rounded-md">
-                      {" "}
-                      For Sale
+                    <h3 className="text-white text-2xl">
+                      Hackberry Apartments
+                    </h3>
+                    <p className="text-white bg-red-700 px-4 py-1 text-sm rounded-md">
+                      Early Bird Sale
                     </p>
                   </div>
                 </div>
                 <div className="bg-white p-4 flex flex-col gap-3 relative">
-                  <p className="text-4xl font-semibold">15% off</p>
+                  <p className="text-4xl font-semibold">
+                    <span className="text-5xl"> 20% </span> off for the first 2
+                    units
+                  </p>
                   <p className="">
                     Pay{" "}
                     <span className="font-bold leading-relaxed">
-                      35,000,000 NGN
+                      36,000,0000 NGN
                     </span>{" "}
                     for the first 3 units instead of 45,000,000 NGN
                   </p>
                   <p className="text-sm">
-                    La’ Vogue is a stunning building offers 3-bedroom
+                    Hackberry Apartments is a stunning building offers 3-bedroom
                     apartments, a master bedroom and two other bedrooms all
                     en-suite.
                   </p>
                   <a
                     href=""
-                    className="text-right underline hover:text-main duration-300 ease-in-out"
+                    className="text-right underline hover:text-main duration-300 ease-in-out cursor-pointer z-40"
                   >
                     <h4>schedule an appointment</h4>
                   </a>

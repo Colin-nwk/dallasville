@@ -6,7 +6,7 @@ import frameFour from "../../../public/asset/image/about/we4.png";
 const WeAre = () => {
   return (
     <section className="container  mx-auto px-4 md:px-10 w-full py-4 md:py-10">
-      <h3 className="text-center font-bold text-xl md:text-3xl py-10 text-main">
+      <h3 className="text-center font-bold text-xl md:text-3xl py-10 text-black">
         Who We Are
       </h3>
       <p className="text-lg leading-loose text-center text-ellipsis py-5">

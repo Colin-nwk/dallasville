@@ -16,6 +16,7 @@ export default {
       },
       fontFamily: {
         sangblue: ["sangblue", "sans-serif"],
+        sangmedium: ["sangblue-medium", "sans-serif"],
         inter: ["Inter", "sans-serif"],
       },
     },

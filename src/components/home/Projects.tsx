@@ -34,7 +34,7 @@ const Projects = () => {
             </p>
             <a
               href=""
-              className="underline text-lg flex  items-center text-main gap-3 group"
+              className="underline text-lg flex  items-center text-black gap-3 group"
             >
               <span> view all projects</span>{" "}
               <AiOutlineArrowRight className="group-hover:translate-x-3  ease-in-out duration-300 transition-all translate-x-0" />

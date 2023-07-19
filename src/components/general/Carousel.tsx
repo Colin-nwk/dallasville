@@ -28,7 +28,7 @@ const Carousel = () => {
 
   return (
     <>
-      <div className="w-full h-full backdrop-blur-md border-l-4 border-white overflow-hidden">
+      <div className="w-full h-full backdrop-blur-md border-l-4 border-white overflow-hidden grid grid-cols-1 ">
         <div className="flex flex-col justify-between items-start gap-4 ml-4 p-1">
           <div className="flex flex-col gap-y-4">
             <div className="flex justify-center items-center gap-2 p-1">
@@ -43,7 +43,7 @@ const Carousel = () => {
             </div>
             <div className="group cursor-pointer">
               <h3 className="text-white text-2xl ">
-                La’Vogue Apartments{" "}
+                Hackberry Apartments
                 <BsArrowRight className="text-white  inline-flex group-hover:translate-x-2 duration-300 ease-out transition-all translate-x-0" />
               </h3>
             </div>
@@ -62,7 +62,7 @@ const Carousel = () => {
               key={index}
               src={item}
               alt="hackberry projects"
-              className="object-fill w-full h-full md:w-fit md:h-fit no-scroll"
+              className="object-fill w-full h-full no-scroll"
             />
           ))}
           {/* <img

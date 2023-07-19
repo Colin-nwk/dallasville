@@ -68,9 +68,10 @@ const Navbar = () => {
             initial={{ x: -10, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.2 }}
+            onClick={() => setShowMenu(!showMenu)}
           >
             <motion.div
-              className="bg-main w-4/5 h-full ml-auto p-10 "
+              className="bg-black w-full h-fit ml-auto p-10 "
               initial={{ x: -10, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.3, delay: 0.1 }}
@@ -92,7 +93,7 @@ const Navbar = () => {
                   <Link to="/projects">Projects</Link>
                 </li>
                 <li
-                  className="bg-white rounded-full py-2.5 px-4 text-slate-950 hover:bg-white/70 duration-300 transition-all ease-in-out w-fit"
+                  className="bg-white rounded-full py-2.5 px-4 text-[#640032] hover:bg-white/70 duration-300 transition-all ease-in-out w-fit self-end"
                   onClick={onOpen}
                 >
                   Schedule Appointment

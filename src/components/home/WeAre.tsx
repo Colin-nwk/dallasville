@@ -4,7 +4,7 @@ import Button from "../general/Button";
 const WeAre = () => {
   return (
     <section className="container  mx-auto p-4 md:p-10 w-full h-fit">
-      <h3 className="font-mont font-bold text-xl md:text-3xl py-10 text-main">
+      <h3 className="font-mont font-bold text-xl md:text-3xl py-10 text-black">
         Who We Are
       </h3>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
@@ -30,7 +30,7 @@ const WeAre = () => {
           <div className="backdrop-blur-sm w-full h-20 md:h-28 absolute bottom-0 right-0 left-0 p-4">
             <div className="flex justify-around items-start md:items-center gap-2 md:gap-4">
               <div className="flex flex-col items-center gap-1 md:gap-0.5">
-                <span className="bg-white w-8 h-8 md:w-16 md:h-16 rounded-full font-bold flex justify-center items-center text-main md:text-lg text-sm">
+                <span className="bg-white w-8 h-8 md:w-16 md:h-16 rounded-full font-bold flex justify-center items-center text-black md:text-lg text-sm">
                   24
                 </span>
                 <span className="text-xs md:text-base text-white">
@@ -38,7 +38,7 @@ const WeAre = () => {
                 </span>
               </div>
               <div className="flex flex-col items-center  gap-1 md:gap-0.5">
-                <span className="bg-white w-8 h-8 md:w-16 md:h-16 rounded-full font-bold flex justify-center items-center text-main md:text-lg text-sm">
+                <span className="bg-white w-8 h-8 md:w-16 md:h-16 rounded-full font-bold flex justify-center items-center text-black md:text-lg text-sm">
                   10
                 </span>
                 <span className="text-xs md:text-base  text-white">
@@ -46,7 +46,7 @@ const WeAre = () => {
                 </span>
               </div>
               <div className="flex flex-col justify-start  items-center  gap-1 md:gap-0.5">
-                <span className="bg-white w-8 h-8 md:w-16 md:h-16 rounded-full font-bold flex  justify-center items-center text-main md:text-lg text-sm">
+                <span className="bg-white w-8 h-8 md:w-16 md:h-16 rounded-full font-bold flex  justify-center items-center text-black md:text-lg text-sm">
                   6
                 </span>
                 <span className="text-xs md:text-base text-white font-semibold">

@@ -17,27 +17,31 @@ const ProjectDetails = () => {
             <TabList className="gap-4" alignContent="center">
               <Tab
                 _selected={{ color: "white", bg: "#640032" }}
-                className="rounded-full bg-gray-200 min-w-fit"
+                className="rounded-full px-10 bg-gray-200 min-w-fit"
+                paddingX="10"
               >
                 Hackberry Estate
               </Tab>
               <Tab
                 _selected={{ color: "white", bg: "#640032" }}
-                className="rounded-full bg-gray-200 min-w-fit"
+                className="rounded-full px-10 bg-gray-200 min-w-fit"
+                paddingX="10"
               >
-                Sycamore Estate
+                3D Models
               </Tab>
               <Tab
                 _selected={{ color: "white", bg: "#640032" }}
-                className="rounded-full bg-gray-200 min-w-fit"
+                className="rounded-full px-10 bg-gray-200 min-w-fit"
+                paddingX="10"
               >
-                Dewberry Estate
+                Floor Plan
               </Tab>
               <Tab
                 _selected={{ color: "white", bg: "#640032" }}
-                className="rounded-full bg-gray-200 min-w-fit"
+                className="rounded-full px-10 bg-gray-200 min-w-fit"
+                paddingX="10"
               >
-                Edgefield Estate
+                Payment Plan
               </Tab>
             </TabList>
           </div>
@@ -105,7 +109,7 @@ const ProjectDetails = () => {
                 </aside>
               </div>
               <div className="w-full h-full py-5">
-                <h3 className="text-left font-bold text-xl  py-2 text-main">
+                <h3 className="text-left font-bold text-xl  py-10 text-black">
                   Explore the Gallery
                 </h3>
                 <div className=" py-3 gap-4 md:gap-1 overflow-x-auto  flex justify-start items-start ">
@@ -139,7 +143,7 @@ const ProjectDetails = () => {
                   </div>
                 </div>
                 <article className="w-full h-full  py-5">
-                  <h3 className="text-left font-bold text-xl  py-4 text-main">
+                  <h3 className="text-left font-bold text-xl  py-4 pb-10 text-black">
                     Project Summary
                   </h3>
                   <div className="relative">
@@ -154,59 +158,59 @@ const ProjectDetails = () => {
                       className="w-full h-full object-cover mix-blend-overlay -z-10 block md:hidden"
                     />
 
-                    <div className=" absolute top-0 left-0 text-white grid grid-cols-2 md:grid-cols-3 gap-4 justify-start items-center px-4 py-8 md:px-8 h-full w-full ">
+                    <div className=" absolute top-0 left-0 text-white grid grid-cols-2 md:grid-cols-3 gap-4 justify-start items-center px-4 py-8 md:px-8 h-full w-full ml-[60px] ">
                       <div className="flex flex-col justify-between items-start gap-6 h-full w-full">
                         <div className=" flex flex-col justify-start items-start gap-2">
-                          <p className="text-sm">Type</p>
-                          <h4 className="">Residential</h4>
+                          <p className="text-base">Type</p>
+                          <h4 className="text-2xl">Residential</h4>
                         </div>
                         <div className=" flex flex-col gap-2">
-                          <p className="text-sm">Architecture</p>
-                          <h4 className="">Lucrezia</h4>
+                          <p className="text-base">Architecture</p>
+                          <h4 className="text-2xl">Lucrezia</h4>
                         </div>
                         <div className=" flex flex-col gap-2">
-                          <p className="text-sm">PROJECT VALUE</p>
-                          <h4 className="">NGN</h4>
+                          <p className="text-base">PROJECT VALUE</p>
+                          <h4 className="text-2xl">NGN</h4>
                         </div>
                         <div className=" flex flex-col gap-2">
-                          <p className="text-sm">BEDROOM MAISONETTES</p>
-                          <h4 className="">4</h4>
+                          <p className="text-base">BEDROOM MAISONETTES</p>
+                          <h4 className="text-2xl">4</h4>
                         </div>
                       </div>
                       <div className="flex flex-col justify-between items-start gap-6 h-full w-full">
                         <div className=" flex flex-col justify-start items-start gap-2">
-                          <p className="text-sm">PENTHOUSE APPROX</p>
-                          <h4 className="">1350 M2</h4>
+                          <p className="text-base">PENTHOUSE APPROX</p>
+                          <h4 className="text-2xl">1350 M2</h4>
                         </div>
                         <div className=" flex flex-col gap-2">
-                          <p className="text-sm">FLOORS</p>
-                          <h4 className="">14</h4>
+                          <p className="text-base">FLOORS</p>
+                          <h4 className="text-2xl">14</h4>
                         </div>
                         <div className=" flex flex-col gap-2">
-                          <p className="text-sm">STATUS</p>
-                          <h4 className="">In progress</h4>
+                          <p className="text-base">STATUS</p>
+                          <h4 className="text-2xl">In progress</h4>
                         </div>
                         <div className=" flex flex-col gap-2">
-                          <p className="text-sm">BEDROOM PENTHOUSES</p>
-                          <h4 className="">4</h4>
+                          <p className="text-base">BEDROOM PENTHOUSES</p>
+                          <h4 className="text-2xl">4</h4>
                         </div>
                       </div>
                       <div className="flex flex-col justify-between items-start gap-6 h-full w-full">
                         <div className=" flex flex-col gap-2">
-                          <p className="text-sm">PENTHOUSE APPROX</p>
-                          <h4 className="">452 M2</h4>
+                          <p className="text-base">PENTHOUSE APPROX</p>
+                          <h4 className="text-2xl">452 M2</h4>
                         </div>
                         <div className=" flex flex-col gap-2">
-                          <p className="text-sm">FEET</p>
-                          <h4 className="">220</h4>
+                          <p className="text-base">FEET</p>
+                          <h4 className="text-2xl">220</h4>
                         </div>
                         <div className=" flex flex-col gap-2">
-                          <p className="text-sm">COMPLETION DATE</p>
-                          <h4 className="">Q3-2023</h4>
+                          <p className="text-base">COMPLETION DATE</p>
+                          <h4 className="text-2xl">Q3-2023</h4>
                         </div>
                         <div className=" flex flex-col gap-2">
-                          <p className="text-sm">LOCATION</p>
-                          <h4 className="">Banana Island</h4>
+                          <p className="text-base">LOCATION</p>
+                          <h4 className="text-2xl">Banana Island</h4>
                         </div>
                       </div>
                     </div>

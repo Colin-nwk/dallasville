@@ -6,6 +6,13 @@
   /* url("/fonts/sangbleu-sans-medium.ttf") format("ttf"); */
 }
 
+@font-face {
+  font-family: "sangblue-medium";
+  src: local("sangbleu-sans-medium"),
+    url("./fonts/sangbleu-sans-medium.ttf") format("truetype");
+  /* url("/fonts/sangbleu-sans-medium.ttf") format("ttf"); */
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

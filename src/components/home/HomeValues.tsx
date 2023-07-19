@@ -7,8 +7,8 @@ const HomeValues = () => {
   return (
     <section className="container  mx-auto p-4 md:p-10 w-full h-fit mb-14 md:mb-0">
       <div className="flex md:hidden flex-col justify-between items-start gap-4">
-        <h3 className="text-main">Our Core Values</h3>
-        <h4 className="text-main text-2xl font-mont font-bold text-ellipsis mb-4">
+        <h3 className="text-black">Our Core Values</h3>
+        <h4 className="text-black text-2xl font-mont font-bold text-ellipsis mb-4">
           Your Ideal Home is Just a Few Clicks
         </h4>
       </div>
@@ -100,8 +100,8 @@ const HomeValues = () => {
 
         <div className="col-span-2 hidden md:inline-block h-full ml-4">
           <div className="flex flex-col justify-between items-start gap-8">
-            <h3 className="text-main">Our Core Values</h3>
-            <h4 className="text-main text-4xl font-mont font-bold text-ellipsis">
+            <h3 className="text-black">Our Core Values</h3>
+            <h4 className="text-black text-4xl font-mont font-bold text-ellipsis">
               Your Ideal Home is Just a Few Clicks
             </h4>
             <Button text="Schedule Appointment" />
