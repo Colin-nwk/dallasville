@@ -29,7 +29,7 @@ const HeroCarousel = () => {
           <img
             src={hackbery}
             alt="hackberry projects"
-            className="object-contain "
+            className="object-center md:object-contain w-full h-full md:w-fit md:h-fit"
           />
         </div>
       </div>

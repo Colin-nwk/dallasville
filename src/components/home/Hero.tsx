@@ -11,8 +11,8 @@ const Hero = () => {
         </h1>
       </div>
 
-      <div className="mt-10">
-        <div className="flex h-14 w-full md:w-80 cursor-pointer">
+      <div className="mt-14 md:mt-20">
+        <div className="flex h-14 w-full md:w-1/3   cursor-pointer">
           <span className="h-full w-1 bg-white"></span>
           <span className="h-full w-full bg-black opacity-50 flex justify-center -z-10 items-center">
             <span className="text-white opacity-100 text-center z-10">
@@ -24,7 +24,7 @@ const Hero = () => {
           </span>
         </div>
       </div>
-      <div className="flex-col md:absolute md:right-10 md:bottom-4 mt-0 md:mt-0 flex justify-center items-start gap-4">
+      <div className="flex-col md:absolute md:right-24 md:bottom-4 mt-28 sm:mt-24 md:mt-0 flex justify-center items-start gap-4">
         <h3 className="text-white text-sm">Feature Estate</h3>
         <div className=" w-full h-full md:h-72 md:w-96">
           <HeroCarousel />
