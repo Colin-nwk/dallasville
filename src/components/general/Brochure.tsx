@@ -16,7 +16,7 @@ const Brochure = ({ bg = "bg-white" }: Props) => {
                 className="w-fit h-fit object-contain"
               />
             </div>
-            <div className="border rounded-md full h-full p-4 bg-white">
+            <div className="border rounded-md full h-full p-4 py-10 bg-white">
               <div className="flex flex-col gap-4 items-start justify-start px-4">
                 <h3 className="text-2xl font-sansblue font-bold">
                   Download our Brochure

@@ -7,14 +7,14 @@ const Hero = () => {
   return (
     <div className="container  mx-auto px-4 md:px-10 w-full h-full">
       {/* <div className="grid grid-cols-1 md:grid-cols-3"> */}
-      <div className="mt-10 md:mt-20">
-        <h1 className="text-white font-sangblue font-bold text-3xl md:text-6xl">
+      <div className="mt-10">
+        <h1 className="text-white font-sangblue font-bold text-3xl md:text-5xl">
           Discover Your Dream
           <span className="block mt-4"> Home with Ease</span>
         </h1>
       </div>
 
-      <div className="mt-28 md:mt-20">
+      <div className="my-5 md:mt-20">
         <div className="flex h-14 w-full md:w-1/3   cursor-pointer">
           <span className="h-full w-1 bg-white"></span>
           <span className="h-full w-full backdrop-blur-md  flex justify-center -z-10 items-center">
@@ -27,8 +27,8 @@ const Hero = () => {
           </span>
         </div>
       </div>
-      <div className="flex-col md:absolute md:right-20 md:bottom-4 mt-40 sm:mt-24 md:mt-0 flex justify-center items-start gap-4">
-        <h3 className="text-white text-sm">Feature Estate</h3>
+      <div className="flex-col md:absolute md:right-20 md:bottom-4 flex justify-center items-start gap-4 ">
+        <h3 className="text-white text-sm hidden md:block">Feature Estate</h3>
         <div className="w-full h-full md:h-full md:w-96 border-l-4 border-white">
           {/* <HeroCarousel /> */}
           {/* <Carousel /> */}

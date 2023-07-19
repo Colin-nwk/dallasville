@@ -1,6 +1,6 @@
 import { BiLogoFacebook } from "react-icons/bi";
 import { AiOutlineTwitter, AiOutlineInstagram } from "react-icons/ai";
-import logo from "../../../public/asset/image/logo2.png";
+import logo from "../../../public/asset/image/logo_white.png";
 import sbo from "../../../public/asset/image/sbo.png";
 const Footer = () => {
   return (

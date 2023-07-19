@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "../../public/asset/image/logo.png";
+import logo from "../../../public/asset/image/general/logo.png";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import {
@@ -15,7 +15,7 @@ import {
   Select,
 } from "@chakra-ui/react";
 
-import room from "../../public/asset/image/modalimage.png";
+import room from "../../../public/asset/image/modalimage.png";
 
 import { LiaTimesSolid } from "react-icons/lia";
 

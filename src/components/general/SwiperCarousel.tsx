@@ -1,5 +1,10 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import hackbery from "../../../public/asset/image/hackberry.png";
+// import hackbery from "../../../public/asset/image/hackberry.png";
+import hackberyOne from "../../../public/asset/image/hackberry/lugbe/hackberry_1.jpg";
+import hackberyTwo from "../../../public/asset/image/hackberry/lugbe/hackberry_2.jpg";
+import hackberyThree from "../../../public/asset/image/hackberry/lugbe/hackberry_3.jpg";
+import hackberyFour from "../../../public/asset/image/hackberry/lugbe/hackberry_4.jpg";
+import hackberyFive from "../../../public/asset/image/hackberry/lugbe/hackberry_5.jpg";
 import { BsArrowRight } from "react-icons/bs";
 
 // Import Swiper styles
@@ -15,7 +20,7 @@ const SwiperCarousel = () => {
       <div className="w-full h-full backdrop-blur-md overflow-y-hidden">
         <div className="flex flex-col justify-between items-start gap-4 ml-4 p-1">
           <div className="group cursor-pointer">
-            <h3 className="text-white text-2xl ">
+            <h3 className="text-white text-lg md:text-2xl ">
               {/* La’Vogue Apartments{" "} */} Hackberry Apartments
               <BsArrowRight className="text-white  inline-flex group-hover:translate-x-4 duration-300 ease-out transition-all translate-x-2" />
             </h3>
@@ -41,32 +46,63 @@ const SwiperCarousel = () => {
           <SwiperSlide className="">
             <div className="h-full w-full relative">
               <img
-                src={hackbery}
-                alt="hackberry projects"
+                src={hackberyOne}
+                alt="hackberry lugbe day"
                 className="object-center md:object-contain w-full h-full"
               />
-              <div className="bg-black opacity-40 absolute inset-0 h-full w-full "></div>
+              <div className="bg-black opacity-20 absolute inset-0 h-full w-full "></div>
             </div>
           </SwiperSlide>
           <SwiperSlide className="">
             <div className="h-full w-full relative">
               <img
-                src={hackbery}
-                alt="hackberry projects"
+                src={hackberyTwo}
+                alt="hackberry lugbe day"
                 className="object-center md:object-contain w-full h-full"
               />
-              <div className="bg-black opacity-40 absolute inset-0 h-full w-full "></div>
+              <div className="bg-black opacity-20 absolute inset-0 h-full w-full "></div>
             </div>
           </SwiperSlide>
-          {/* <SwiperSlide className="">
-            <div className="h-full w-full">
+          <SwiperSlide className="">
+            <div className="h-full w-full relative">
               <img
-                src={hackbery}
-                alt="hackberry projects"
+                src={hackberyTwo}
+                alt="hackberry lugbe day"
                 className="object-center md:object-contain w-full h-full"
               />
+              <div className="bg-black opacity-20 absolute inset-0 h-full w-full "></div>
             </div>
-          </SwiperSlide> */}
+          </SwiperSlide>
+          <SwiperSlide className="">
+            <div className="h-full w-full relative">
+              <img
+                src={hackberyThree}
+                alt="hackberry lugbe day"
+                className="object-center md:object-contain w-full h-full"
+              />
+              <div className="bg-black opacity-20 absolute inset-0 h-full w-full "></div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="">
+            <div className="h-full w-full relative">
+              <img
+                src={hackberyFour}
+                alt="hackberry lugbe day"
+                className="object-center md:object-contain w-full h-full"
+              />
+              <div className="bg-black opacity-20 absolute inset-0 h-full w-full "></div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="">
+            <div className="h-full w-full relative">
+              <img
+                src={hackberyFive}
+                alt="hackberry lugbe day"
+                className="object-center md:object-contain w-full h-full"
+              />
+              <div className="bg-black opacity-20 absolute inset-0 h-full w-full "></div>
+            </div>
+          </SwiperSlide>
         </Swiper>
       </div>
     </>

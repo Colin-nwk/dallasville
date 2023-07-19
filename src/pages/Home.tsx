@@ -8,11 +8,11 @@ import Services from "../components/home/Services";
 import Review from "../components/home/Review";
 import Article from "../components/home/Article";
 import Sponsors from "../components/home/Sponsors";
-import Brochure from "../components/home/Brochure";
+import Brochure from "../components/general/Brochure";
 import Footer from "../components/general/Footer";
 import header from "../../public/asset/image/header.png";
 import TopBanner from "../components/general/TopBanner";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/general/Navbar";
 import Hero from "../components/home/Hero";
 import PopUp from "../components/general/PopUp";
 const Home = () => {

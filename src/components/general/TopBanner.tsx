@@ -1,6 +1,6 @@
-import { BsTelephoneForward } from "react-icons/bs";
-import { HiOutlineMail } from "react-icons/hi";
-import { GoLocation } from "react-icons/go";
+import call from "../../../public/asset/image/general/call.svg";
+import sms from "../../../public/asset/image/general/sms.svg";
+import location from "../../../public/asset/image/general/location.svg";
 const TopBanner = () => {
   return (
     <div className="border-b-[.5px] border-white/20 z-50">
@@ -11,7 +11,7 @@ const TopBanner = () => {
             href="tel:+23480036003600"
             className="inline-flex justify-start items-center cursor-pointer"
           >
-            <BsTelephoneForward className="mr-2" />
+            <img src={call} alt="call icon" className="object-contain mr-1" />
             <span>Toll Free: 0800 3600 3600 ( 🇳🇬 Only)</span>
           </a>
 
@@ -19,11 +19,17 @@ const TopBanner = () => {
             href="mailto:info@dallasville.com"
             className="inline-flex justify-start items-center cursor-pointer"
           >
-            <HiOutlineMail className="mr-2" />
+            {/* <HiOutlineMail className="mr-2" /> */}
+            <img src={sms} alt="sms icon" className="object-contain mr-2" />
             <span>info@dallasville.com</span>
           </a>
           <div className="inline-flex justify-start items-center cursor-pointer">
-            <GoLocation className="mr-2" />
+            {/* <GoLocation className="mr-2" /> */}
+            <img
+              src={location}
+              alt="location icon"
+              className="object-contain mr-1"
+            />
             <span>
               3rd Floor, Novare Central Office (301i), Wuse Zone 5, Abuja
             </span>
