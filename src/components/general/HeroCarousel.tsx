@@ -8,7 +8,6 @@ const HeroCarousel = () => {
         <div className="flex flex-col justify-between items-start gap-4 ml-4 p-1">
           <div className="flex flex-col gap-y-4">
             <div className="flex justify-center items-center gap-2 p-1">
-              {" "}
               <div className="h-2 w-2 rounded-full bg-white"></div>
               <div className="h-2 w-2 rounded-full bg-white opacity-50"></div>
               <div className="h-2 w-2 rounded-full bg-white opacity-50"></div>

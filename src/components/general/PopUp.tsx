@@ -24,7 +24,14 @@ const PopUp = () => {
         size="md"
       >
         <ModalOverlay />
-        <ModalContent padding="-0.5" background="transparent" margin="-0.5">
+        <ModalContent
+          padding="-0.5"
+          background="transparent"
+          margin="-0.5"
+          border="transparent"
+          borderColor="transparent"
+          backdropBlur="xl"
+        >
           {/* <ModalHeader>Modal Title</ModalHeader> */}
           <ModalCloseButton
             padding="1"
@@ -64,9 +71,9 @@ const PopUp = () => {
                     href=""
                     className="text-right underline hover:text-main duration-300 ease-in-out"
                   >
-                    <h4>schedule appointment</h4>
+                    <h4>schedule an appointment</h4>
                   </a>
-                  <div className="absolute inset-0 flex justify-center items-center text-main/20 ">
+                  <div className="absolute inset-0 flex justify-center items-center text-main/10 ">
                     <h4 className="text-9xl text-center">%</h4>
                   </div>
                 </div>

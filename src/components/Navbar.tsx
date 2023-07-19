@@ -105,12 +105,12 @@ const Navbar = () => {
         {/* dialogue */}
         <Modal isOpen={isOpen} onClose={onClose} isCentered size="3xl">
           <ModalOverlay />
-          <ModalContent>
+          <ModalContent padding="-2" margin="-10">
             {/* <ModalHeader>Modal Title</ModalHeader> */}
             <ModalCloseButton />
             <ModalBody>
-              <section className=" mx-auto p-4">
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 justify-start md:justify-between items-center">
+              <section className=" mx-auto">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 justify-start md:justify-between items-center mx-2 md:mx-0">
                   <div className=" hidden md:block md:col-span-1 overflow-clip h-full w-full rounded-l-xl">
                     <img
                       src={room}
@@ -119,7 +119,7 @@ const Navbar = () => {
                     />
                   </div>
                   <div className="w-full h-full md:col-span-2 ">
-                    <div className="flex flex-col gap-4 items-start justify-start p-4">
+                    <div className="flex flex-col gap-4 items-start justify-start py-4 md:p-4">
                       <h3 className="text-2xl font-sansblue font-bold">
                         Schedule Appointment
                       </h3>
