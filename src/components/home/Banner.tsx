@@ -13,7 +13,7 @@ const Banner = () => {
         <img src={right} alt="qoute" className="mt-20 md:inline-block hidden" />
       </div>
       <p className="text-xl  font-sangmedium text-center font-semibold mt-5">
-        -- Samuel McDallas Ojukwu
+        -- Ojukwu, Samuel O. McDallas
       </p>
     </section>
   );
