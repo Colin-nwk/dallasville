@@ -48,11 +48,11 @@ const ProjectDetails = () => {
           <TabPanels className="mt-5" alignItems="flex-start">
             <TabPanel>
               <div className="w-full h-full grid grid-cols-1 md:grid-cols-4 gap-4 justify-start">
-                <aside className="md:col-span-1 relative">
+                <aside className="md:col-span-1 relative w-full">
                   <img
                     src={aside}
                     alt="hackberry"
-                    className="h-56 w-full md:w-fit md:h-full object-none"
+                    className="h-56 w-full md:w-fit md:h-full object-cover"
                   />
                   <div
                     className="absolute inset-x-0 bottom-0 p-2 w-full h-24  backdrop-blur flex items-center
@@ -158,59 +158,72 @@ const ProjectDetails = () => {
                       className="w-full h-full object-cover mix-blend-overlay -z-10 block md:hidden"
                     />
 
-                    <div className=" absolute top-0 left-0 text-white grid grid-cols-2 md:grid-cols-3 gap-4 justify-start items-center px-4 py-8 md:px-8 h-full w-full ml-[60px] ">
-                      <div className="flex flex-col justify-between items-start gap-6 h-full w-full">
+                    <div className=" absolute top-0 left-0 text-white grid grid-cols-2 md:grid-cols-3 gap-4 justify-start items-center px-4 py-8 md:px-8 h-full w-full md:ml-[60px] ">
+                      <div className="flex flex-col justify-between items-start gap-6 h-full w-full col-span-1">
                         <div className=" flex flex-col justify-start items-start gap-2">
-                          <p className="text-base">Type</p>
-                          <h4 className="text-2xl">Residential</h4>
+                          <p className="text-sm md:text-base">Type</p>
+                          <h4 className="text-lg md:text-2xl">Residential</h4>
                         </div>
                         <div className=" flex flex-col gap-2">
-                          <p className="text-base">Architecture</p>
-                          <h4 className="text-2xl">Lucrezia</h4>
+                          <p className="text-sm md:text-base">Architecture</p>
+                          <h4 className="text-lg md:text-2xl">Lucrezia</h4>
                         </div>
                         <div className=" flex flex-col gap-2">
-                          <p className="text-base">PROJECT VALUE</p>
-                          <h4 className="text-2xl">NGN</h4>
+                          <p className="text-sm md:text-base">PROJECT VALUE</p>
+                          <h4 className="text-lg md:text-2xl">NGN</h4>
                         </div>
                         <div className=" flex flex-col gap-2">
-                          <p className="text-base">BEDROOM MAISONETTES</p>
-                          <h4 className="text-2xl">4</h4>
+                          <p className="text-sm md:text-base">
+                            BEDROOM MAISONETTES
+                          </p>
+                          <h4 className="text-lg md:text-2xl">4</h4>
                         </div>
                       </div>
-                      <div className="flex flex-col justify-between items-start gap-6 h-full w-full">
+                      <div className="flex flex-col justify-between items-start gap-6 h-full w-full col-span-1">
                         <div className=" flex flex-col justify-start items-start gap-2">
-                          <p className="text-base">PENTHOUSE APPROX</p>
-                          <h4 className="text-2xl">1350 M2</h4>
+                          <p className="text-sm md:text-base">
+                            PENTHOUSE APPROX
+                          </p>
+                          <h4 className="text-lg md:text-2xl">1350 M2</h4>
                         </div>
                         <div className=" flex flex-col gap-2">
-                          <p className="text-base">FLOORS</p>
-                          <h4 className="text-2xl">14</h4>
+                          <p className="text-sm md:text-base">FLOORS</p>
+                          <h4 className="text-lg md:text-2xl">14</h4>
                         </div>
                         <div className=" flex flex-col gap-2">
-                          <p className="text-base">STATUS</p>
-                          <h4 className="text-2xl">In progress</h4>
+                          <p className="text-sm md:text-base">STATUS</p>
+                          <h4 className="text-lg md:text-2xl">In progress</h4>
                         </div>
                         <div className=" flex flex-col gap-2">
                           <p className="text-base">BEDROOM PENTHOUSES</p>
-                          <h4 className="text-2xl">4</h4>
+                          <h4 className="text-lg md:text-2xl">4</h4>
                         </div>
                       </div>
-                      <div className="flex flex-col justify-between items-start gap-6 h-full w-full">
+                      <div className="flex flex-col justify-between items-start gap-6 h-full w-full  col-span-1">
+                        {/* <div className="flex md:flex-col">
+                          <div className="flex flex-col"></div>
+                          <div className="flex flex-col"></div>
+                        </div> */}
+                        {/* <div></div> */}
                         <div className=" flex flex-col gap-2">
-                          <p className="text-base">PENTHOUSE APPROX</p>
-                          <h4 className="text-2xl">452 M2</h4>
+                          <p className="text-sm md:text-base">
+                            PENTHOUSE APPROX
+                          </p>
+                          <h4 className="text-lg md:text-2xl">452 M2</h4>
                         </div>
                         <div className=" flex flex-col gap-2">
-                          <p className="text-base">FEET</p>
-                          <h4 className="text-2xl">220</h4>
+                          <p className="text-sm md:text-base">FEET</p>
+                          <h4 className="text-lg md:text-2xl">220</h4>
                         </div>
                         <div className=" flex flex-col gap-2">
-                          <p className="text-base">COMPLETION DATE</p>
-                          <h4 className="text-2xl">Q3-2023</h4>
+                          <p className="text-sm md:text-base">
+                            COMPLETION DATE
+                          </p>
+                          <h4 className="text-lg md:text-2xl">Q3-2023</h4>
                         </div>
                         <div className=" flex flex-col gap-2">
-                          <p className="text-base">LOCATION</p>
-                          <h4 className="text-2xl">Banana Island</h4>
+                          <p className="text-sm md:text-base">LOCATION</p>
+                          <h4 className="text-lg md:text-2xl">Banana Island</h4>
                         </div>
                       </div>
                     </div>

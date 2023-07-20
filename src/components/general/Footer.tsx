@@ -17,7 +17,7 @@ const Footer = () => {
                 living experienc
               </p>
             </div>
-            <div className="grid grid-cols-2">
+            <div className="grid grid-cols-2 md:col-span-2">
               <div className="flex flex-col justify-start items-start gap-2 w-full h-full">
                 <p className="font-semibold mb-4">About Us</p>
                 <p className="text-left">The company</p>
