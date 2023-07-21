@@ -42,7 +42,7 @@ const Header = () => {
         </div> */}
         {/* navbar */}
         <Navbar />
-        <Hero />
+        <Hero primary={true} />
       </div>
     </header>
   );
