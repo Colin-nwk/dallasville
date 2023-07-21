@@ -7,6 +7,7 @@ import {
   ModalCloseButton,
 } from "@chakra-ui/react";
 import hackberry from "../../../public/asset/image/hackberry/hackberry.png";
+import ScheduleAppointment from "./ScheduleAppointment";
 // import hackberrylogo from "../../../public/asset/image/hackberry/hackberry.svg";
 
 const PopUp = () => {
@@ -42,7 +43,7 @@ const PopUp = () => {
             borderRadius="full"
           />
           <ModalBody>
-            <section className="w-full h-full  rounded-lg overflow-x-clip">
+            <section className="w-full h-full  rounded-lg overflow-x-clip z-20">
               <div className="flex flex-col">
                 <div className="relative">
                   <img
@@ -76,13 +77,10 @@ const PopUp = () => {
                     apartments, a master bedroom and two other bedrooms all
                     en-suite.
                   </p>
-                  <a
-                    href=""
-                    className="text-right underline hover:text-main duration-300 ease-in-out cursor-pointer z-40 pb-4"
-                  >
-                    <h4>schedule an appointment</h4>
-                  </a>
-                  <div className="absolute inset-0 flex justify-center items-center text-main/10 ">
+                  <div className="flex justify-end items-end">
+                    <ScheduleAppointment type="line" />
+                  </div>
+                  <div className="absolute inset-0 flex justify-center items-center text-main/10 z-10">
                     <h4 className="text-9xl text-center">%</h4>
                   </div>
                 </div>

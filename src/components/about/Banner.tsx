@@ -5,7 +5,8 @@ import home from "../../../public/asset/image/about/home-wifi.svg";
 import lock from "../../../public/asset/image/about/lock.svg";
 import alarm from "../../../public/asset/image/about/alarm.svg";
 import music from "../../../public/asset/image/about/music-play.svg";
-import Button from "../general/Button";
+// import Button from "../general/Button";
+import ScheduleAppointment from "../general/ScheduleAppointment";
 const Banner = () => {
   return (
     <>
@@ -73,7 +74,7 @@ const Banner = () => {
               </div>
             </div>
             <div className=" mt-10 flex justify-center items-center">
-              <Button text="Schedule Appointment" />
+              <ScheduleAppointment type="icon" />
             </div>
           </div>
           <div className="absolute bg-gradient-to-b from-black to-gray-600 w-full h-full   -z-20 top-0 left-0 transparent"></div>

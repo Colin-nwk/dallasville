@@ -16,10 +16,10 @@ import room from "../../../public/asset/image/modalimage.png";
 import arrow from "../../../public/asset/image/arrow-r.svg";
 
 type Props = {
-  primary: boolean;
+  type: string;
 };
 
-const ScheduleAppointment = ({ primary = true }: Props) => {
+const ScheduleAppointment = ({ type }: Props) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   const [fullname, setFullname] = useState<string>("");
@@ -35,7 +35,7 @@ const ScheduleAppointment = ({ primary = true }: Props) => {
   };
   return (
     <>
-      {primary ? (
+      {/* {primary ? (
         <button
           className="bg-main rounded-full py-2 px-6 text-white  duration-300 transition-all ease-in-out flex justify-between items-center cursor-pointer group w-fit"
           onClick={onOpen}
@@ -53,6 +53,35 @@ const ScheduleAppointment = ({ primary = true }: Props) => {
           onClick={onOpen}
         >
           Schedule Appointment
+        </button>
+      )} */}
+      {type == "icon" && (
+        <button
+          className="bg-main rounded-full py-2 px-6 text-white  duration-300 transition-all ease-in-out flex justify-between items-center cursor-pointer group w-fit"
+          onClick={onOpen}
+        >
+          <span> Schedule Appointment</span>
+          <img
+            src={arrow}
+            alt="arrow right"
+            className="text-white h-4 w-4 translate-x-0 group-hover:translate-x-2 ease-in-out transition-all duration-300 ml-2"
+          />
+        </button>
+      )}
+      {type == "primary" && (
+        <button
+          className="backdrop-blur-md drop-shadow rounded-full py-2.5 px-4 text-purple-100 hover:border-white/50 duration-300 transition-all ease-in-out border border-white/10  "
+          onClick={onOpen}
+        >
+          Schedule Appointment
+        </button>
+      )}
+      {type == "line" && (
+        <button
+          className="text-right underline hover:text-main duration-300 ease-in-out cursor-pointer z-40 pb-4"
+          onClick={onOpen}
+        >
+          <h4>schedule an appointment</h4>
         </button>
       )}
 

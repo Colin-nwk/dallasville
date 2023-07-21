@@ -139,7 +139,7 @@ const Projects = () => {
             </div>
             <div className="pt-5 md:pt-10 hidden md:flex justify-start md:justify-end">
               {/* <Button text="Schedule Appointment" /> */}
-              <ScheduleAppointment primary={true} />
+              <ScheduleAppointment type="icon" />
             </div>
           </div>
           {/* MOBILE */}
@@ -159,7 +159,7 @@ const Projects = () => {
               </p>
               <div className="mt-5">
                 {/* <Button text="Schedule Appointment" /> */}
-                <ScheduleAppointment primary={true} />
+                <ScheduleAppointment type="icon" />
               </div>
             </div>
           </div>

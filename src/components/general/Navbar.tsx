@@ -76,7 +76,7 @@ const Navbar = () => {
                 </NavLink>
               </li>
               <li>
-                <ScheduleAppointment primary={false} />
+                <ScheduleAppointment type="primary" />
               </li>
             </ul>
           </nav>

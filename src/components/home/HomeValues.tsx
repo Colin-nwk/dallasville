@@ -106,7 +106,7 @@ const HomeValues = () => {
               Your Ideal Home is Just a Few Clicks
             </h4>
             {/* <Button text="Schedule Appointment" /> */}
-            <ScheduleAppointment primary={true} />
+            <ScheduleAppointment type="icon" />
           </div>
         </div>
       </div>
