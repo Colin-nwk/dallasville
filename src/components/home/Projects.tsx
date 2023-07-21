@@ -1,6 +1,6 @@
 import projects from "../../../public/asset/image/our-projects.svg";
 // import didi from "../../../public/asset/image/didi_1.png";
-import chairs from "../../../public/asset/image/chairs.png";
+// import chairs from "../../../public/asset/image/chairs.png";
 
 import slideA from "../../../public/asset/image/home/slide/slide.png";
 import slideATwo from "../../../public/asset/image/home/slide/slideOne.png";
