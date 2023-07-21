@@ -40,7 +40,7 @@ const OurMission = () => {
               </p>
               <div className=" mb-5 md:mb-0 md:mt-5">
                 {/* <Button text="Schedule Appointment" /> */}
-                <ScheduleAppointment primary={true} />
+                <ScheduleAppointment type="icon" />
               </div>
             </div>
           </div>
