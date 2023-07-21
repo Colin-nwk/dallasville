@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import stairs from "../../../public/asset/image/stairs.png";
+import stairs from "../../../public/asset/image/home/stairs.png";
 import Button from "../general/Button";
 
 const WeAre = () => {

@@ -23,7 +23,7 @@ const Projects = () => {
             loading="eager"
             src={Herodesk}
             alt="luxuzy house with pool"
-            className="w-full h-full object-center absolute mix-blend-overlay -z-10 mb-20"
+            className="w-full h-full object-center absolute mix-blend-overlay -z-10 mb-20 overflow-x-hidden"
           />
           {/* <img
             loading="eager"

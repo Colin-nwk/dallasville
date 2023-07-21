@@ -6,9 +6,10 @@ import Navbar from "../general/Navbar";
 // import PopUp from "../general/PopUp";
 import TopBanner from "../general/TopBanner";
 import Hero from "../general/Hero";
-import Img from "../../../public/asset/image/header.png";
-import ImgTwo from "../../../public/asset/image/about/about-hero.png";
-import ImgThree from "../../../public/asset/image/projects/project-hero.png";
+
+import home from "../../../public/asset/image/herocarousel/home-hero.png";
+import about from "../../../public/asset/image/herocarousel/about-hero.png";
+import project from "../../../public/asset/image/herocarousel/project-hero.png";
 const Header = () => {
   return (
     <>
@@ -30,7 +31,7 @@ const Header = () => {
           <SwiperSlide className="">
             <img
               loading="eager"
-              src={Img}
+              src={home}
               alt="luxuzy house with pool"
               className="w-full h-full object-cover "
             />
@@ -38,7 +39,7 @@ const Header = () => {
           <SwiperSlide className="w-full h-full  ">
             <img
               loading="eager"
-              src={ImgTwo}
+              src={about}
               alt="luxuzy house with pool"
               className="w-full h-full object-cover "
             />
@@ -46,7 +47,7 @@ const Header = () => {
           <SwiperSlide className="w-full h-full ">
             <img
               loading="eager"
-              src={ImgThree}
+              src={project}
               alt="luxuzy house with pool"
               className="w-full h-full object-cover "
             />
