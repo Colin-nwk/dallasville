@@ -10,7 +10,7 @@ import modelEight from "../../../public/asset/image/hackberry/3d/modelEight.jpg"
 const Models = () => {
   return (
     <>
-      <div className="grid md:grid-cols-2 grid-cols-1 gap-2 mb-8">
+      <div className="grid md:grid-cols-2 grid-cols-1 gap-4 mb-4">
         <div className="w-full h-full  rounded-xl">
           <img
             src={model}
@@ -18,7 +18,7 @@ const Models = () => {
             className="w-full h-full object-cover rounded-xl"
           />
         </div>
-        <div className=" w-full h-full  rounded-xl grid md:grid-cols-2 gap-2">
+        <div className=" w-full h-full  rounded-xl grid md:grid-cols-2 gap-4">
           <div className=" w-full h-full rounded-xl">
             <img
               src={modelTwo}
@@ -42,7 +42,7 @@ const Models = () => {
           </div>
         </div>
       </div>
-      <div className="grid md:grid-cols-2 grid-cols-1 gap-2 mb-8">
+      <div className="grid md:grid-cols-2 grid-cols-1 gap-4 mb-4">
         <div className=" w-full h-full rounded-xl">
           <img
             src={modelFive}
@@ -58,7 +58,7 @@ const Models = () => {
           />
         </div>
       </div>
-      <div className="grid md:grid-cols-5 grid-cols-1 gap-2 mb-8">
+      <div className="grid md:grid-cols-5 grid-cols-1 gap-4 mb-4">
         <div className=" w-full h-full  rounded-xl md:col-span-3">
           {" "}
           <img
