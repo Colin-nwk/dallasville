@@ -10,37 +10,15 @@ import Article from "../components/home/Article";
 import Sponsors from "../components/home/Sponsors";
 import Brochure from "../components/general/Brochure";
 import Footer from "../components/general/Footer";
-import headerImg from "../../public/asset/image/header.png";
-import TopBanner from "../components/general/TopBanner";
-import Navbar from "../components/general/Navbar";
-import Hero from "../components/home/Hero";
+
 import PopUp from "../components/general/PopUp";
+import Header from "../components/home/Header";
 const Home = () => {
   return (
     <div className="">
       {/* popup */}
       <PopUp />
-      {/* endpopup */}
-      <header className="bg-gradient-to-b from-black to-gray-600 relative w-full h-screen z-10 overflow-clip ">
-        <img
-          loading="eager"
-          src={headerImg}
-          alt="luxuzy house with pool"
-          className="w-full h-full object-cover absolute mix-blend-overlay -z-10"
-        />
-
-        <div className=" container mx-auto px-4 md:px-10 grid grid-cols-3  w-full h-full absolute top-28 md:top-14 -z-20 inset-x-0">
-          <div className="border-l border-white/20 "></div>
-          <div className="border-l border-white/20 "></div>
-          <div className="border-l border-white/20  border-r"></div>
-        </div>
-
-        <div className="z-20 ">
-          <TopBanner />
-          <Navbar />
-          <Hero primary={true} />
-        </div>
-      </header>
+      <Header />
       <Banner />
       <WeAre />
       <HomeValues />

@@ -10,29 +10,13 @@ import Footer from "../components/general/Footer";
 import Brochure from "../components/general/Brochure";
 import People from "../components/about/People";
 import Team from "../components/about/Team";
+import Header from "../components/home/Header";
 
 const About = () => {
   return (
     <>
       <div className="">
-        <header className="bg-gradient-to-b from-black to-gray-600 relative w-full h-screen z-10 overflow-clip">
-          <img
-            loading="eager"
-            src={heroBg}
-            alt="luxuzy house with pool"
-            className="w-full h-full object-cover absolute mix-blend-overlay -z-10"
-          />
-          <div className=" container mx-auto px-4 md:px-10 grid grid-cols-3  w-full h-full absolute top-28 md:top-14 -z-20 inset-x-0">
-            <div className="border-l border-white/20 "></div>
-            <div className="border-l border-white/20 "></div>
-            <div className="border-l border-white/20  border-r"></div>
-          </div>
-          <div className="z-20 ">
-            <TopBanner />
-            <Navbar />
-            <Hero primary={true} />
-          </div>
-        </header>
+        <Header />
         <WeAre />
         <OurMission />
         <OurCore />
