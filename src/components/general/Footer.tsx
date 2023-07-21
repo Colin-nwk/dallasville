@@ -104,7 +104,7 @@ const Footer = () => {
           </p>
           <div className=" flex justify-center md:justify-between items-center flex-wrap gap-4 mt-5">
             <p className="order-3 md:order-1">
-              @2023 Dallasville ResourceS Limited
+              @2023 Dallasville Resource Limited
             </p>
             <div className="flex justify-center gap-4 order-1 md:order-2">
               <a href="" target="_blank" rel="noopener noreferrer">

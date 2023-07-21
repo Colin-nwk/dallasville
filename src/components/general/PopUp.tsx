@@ -50,16 +50,16 @@ const PopUp = () => {
                     alt=""
                     className="object-cover w-full h-fit"
                   />
-                  <div className="absolute bottom-0 insect-x-0 h-14 backdrop-blur-md backdrop:bg-black w-full flex justify-between items-center px-4">
+                  <div className="absolute bottom-0 insect-x-0 h-14 backdrop-blur-md backdrop:bg-black w-full flex justify-between items-center px-6 md:px-10">
                     <h3 className="text-white text-2xl">
                       Hackberry Apartments
                     </h3>
-                    <p className="text-white bg-red-700 px-4 py-1 text-sm rounded-md">
+                    <p className="text-white bg-red-700 px-2 md:px-4 py-1 text-xs md:text-sm rounded-md">
                       Early Bird Sale
                     </p>
                   </div>
                 </div>
-                <div className="bg-white p-4 flex flex-col gap-3 relative">
+                <div className="bg-white px-6 md:px-10 p-4 flex flex-col gap-3 relative">
                   <p className="text-4xl font-semibold">
                     <span className="text-5xl"> 20% </span> off for the first 2
                     units
@@ -67,9 +67,9 @@ const PopUp = () => {
                   <p className="">
                     Pay{" "}
                     <span className="font-bold leading-relaxed">
-                      36,000,0000 NGN
+                      56,000,000 NGN
                     </span>{" "}
-                    for the first 3 units instead of 45,000,000 NGN
+                    for the first 2 units instead of 70,000,000 NGN
                   </p>
                   <p className="text-sm">
                     Hackberry Apartments is a stunning building offers 3-bedroom
@@ -78,7 +78,7 @@ const PopUp = () => {
                   </p>
                   <a
                     href=""
-                    className="text-right underline hover:text-main duration-300 ease-in-out cursor-pointer z-40"
+                    className="text-right underline hover:text-main duration-300 ease-in-out cursor-pointer z-40 pb-4"
                   >
                     <h4>schedule an appointment</h4>
                   </a>
