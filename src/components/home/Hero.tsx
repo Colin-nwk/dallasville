@@ -4,7 +4,7 @@ import SwiperCarousel from "../general/SwiperCarousel";
 type Props = {
   primary: boolean;
 };
-const Hero = ({ primary }: Props) => {
+const Hero = ({ primary = true }: Props) => {
   return (
     <div className="container  mx-auto px-4 md:px-10 w-full h-full">
       {/* <div className="grid grid-cols-1 md:grid-cols-3"> */}

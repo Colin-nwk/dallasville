@@ -1,7 +1,7 @@
 import mission from "../../../public/asset/image/about/ourmission.svg";
 import missionOne from "../../../public/asset/image/about/mission1.png";
 import missionTwo from "../../../public/asset/image/about/mission2.png";
-import Button from "../general/Button";
+// import Button from "../general/Button";
 import ScheduleAppointment from "../general/ScheduleAppointment";
 
 const OurMission = () => {
