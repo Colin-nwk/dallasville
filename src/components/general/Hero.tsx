@@ -1,6 +1,7 @@
 import { AiOutlineArrowDown, AiOutlineArrowRight } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
-import SwiperCarousel from "../general/SwiperCarousel";
+import SwiperCarousel from "./SwiperCarousel";
 type Props = {
   primary: boolean;
 };
@@ -16,7 +17,10 @@ const Hero = ({ primary = true }: Props) => {
       </div>
 
       <div className="my-5 md:mt-20">
-        <div className="flex h-14 w-full md:w-1/3   cursor-pointer">
+        <Link
+          to="/projects"
+          className="flex h-14 w-full md:w-1/3   cursor-pointer"
+        >
           <span className="h-full w-1 bg-white"></span>
           <span className="h-full w-full backdrop-blur-md  flex justify-center -z-10 items-center">
             <span className="text-white opacity-100 text-center z-10">
@@ -30,7 +34,7 @@ const Hero = ({ primary = true }: Props) => {
               <AiOutlineArrowDown className="text-black h-8 w-8" />
             )}
           </span>
-        </div>
+        </Link>
       </div>
       <div className="flex-col md:absolute md:right-20 md:bottom-4 flex justify-center items-start gap-4 ">
         <h3 className="text-white text-sm hidden md:block">Feature Estate</h3>

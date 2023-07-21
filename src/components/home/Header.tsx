@@ -5,7 +5,7 @@ import { Autoplay } from "swiper/modules";
 import Navbar from "../general/Navbar";
 // import PopUp from "../general/PopUp";
 import TopBanner from "../general/TopBanner";
-import Hero from "./Hero";
+import Hero from "../general/Hero";
 import Img from "../../../public/asset/image/header.png";
 import ImgTwo from "../../../public/asset/image/about/about-hero.png";
 import ImgThree from "../../../public/asset/image/projects/project-hero.png";

@@ -49,7 +49,7 @@ const ScheduleAppointment = ({ primary = true }: Props) => {
         </button>
       ) : (
         <button
-          className="backdrop-blur-md drop-shadow rounded-full py-2.5 px-4 text-white hover:text-white/80 duration-300 transition-all ease-in-out"
+          className="backdrop-blur-md drop-shadow rounded-full py-2.5 px-4 text-purple-100 hover:border-white/50 duration-300 transition-all ease-in-out border border-white/10  "
           onClick={onOpen}
         >
           Schedule Appointment

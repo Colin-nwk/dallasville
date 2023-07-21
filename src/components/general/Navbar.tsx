@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import logo from "../../../public/asset/image/general/logo.png";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import {
   Modal,
   ModalOverlay,
@@ -39,20 +39,41 @@ const Navbar = () => {
   return (
     <>
       <div className="container  mx-auto px-4 md:px-10 w-full">
-        <div className="text-white font-mont flex justify-between items-center mt-10">
+        <div className=" flex justify-between items-center mt-10">
           <Link to="/">
             <img src={logo} className="h-fit w-20" alt="dallasville logo" />
           </Link>
           <nav className="hidden md:block">
             <ul className="flex justify-between items-center gap-10 cursor-pointer">
               <li>
-                <Link to="/">Home</Link>
+                <NavLink
+                  to="/"
+                  className={({ isActive }) =>
+                    isActive ? "text-white" : "text-white/50"
+                  }
+                >
+                  Home
+                </NavLink>
               </li>
               <li>
-                <Link to="/about">About Us</Link>
+                <NavLink
+                  to="/about"
+                  className={({ isActive }) =>
+                    isActive ? "text-white" : "text-white/50"
+                  }
+                >
+                  About Us
+                </NavLink>
               </li>
               <li>
-                <Link to="/projects">Projects</Link>
+                <NavLink
+                  to="/projects"
+                  className={({ isActive }) =>
+                    isActive ? "text-white" : "text-white/50"
+                  }
+                >
+                  Projects
+                </NavLink>
               </li>
               <li>
                 <ScheduleAppointment primary={false} />
@@ -96,13 +117,34 @@ const Navbar = () => {
               </div>
               <ul className="flex flex-col items-start gap-8 justify-end text-white">
                 <li>
-                  <Link to="/">Home</Link>
+                  <NavLink
+                    to="/"
+                    className={({ isActive }) =>
+                      isActive ? "text-white" : "text-white/50"
+                    }
+                  >
+                    Home
+                  </NavLink>
                 </li>
                 <li>
-                  <Link to="/about">About Us</Link>
+                  <NavLink
+                    to="/about"
+                    className={({ isActive }) =>
+                      isActive ? "text-white" : "text-white/50"
+                    }
+                  >
+                    About Us
+                  </NavLink>
                 </li>
                 <li>
-                  <Link to="/projects">Projects</Link>
+                  <NavLink
+                    to="/projects"
+                    className={({ isActive }) =>
+                      isActive ? "text-white" : "text-white/50"
+                    }
+                  >
+                    Projects
+                  </NavLink>
                 </li>
                 <li
                   className="bg-white rounded-full py-2.5 px-4 text-[#640032] hover:bg-white/70 duration-300 transition-all ease-in-out w-fit self-end"
