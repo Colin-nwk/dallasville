@@ -1,10 +1,10 @@
-import efe from "../../../public/asset/image/team/architect_efe.jpeg";
+import efe from "../../../public/asset/image/team/architect_efe.jpg";
 import ceo from "../../../public/asset/image/team/ceo_samuel_dallas.jpg";
 import surveyor from "../../../public/asset/image/team/quantity_surveyor_Itori.jpeg";
 import adeola from "../../../public/asset/image/team/business_developer_adeola.jpg";
 import naomi from "../../../public/asset/image/team/communication_pr_naomi.jpg";
-import jamiu from "../../../public/asset/image/team/jamiu_architect.jpeg";
-import sarah from "../../../public/asset/image/team/sarah_architect.jpeg";
+import jamiu from "../../../public/asset/image/team/jamiu_architect.jpg";
+import sarah from "../../../public/asset/image/team/sarah_architect.jpg";
 
 const Team = () => {
   return (

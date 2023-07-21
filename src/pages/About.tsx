@@ -1,7 +1,3 @@
-import TopBanner from "../components/general/TopBanner";
-import Navbar from "../components/general/Navbar";
-import Hero from "../components/home/Hero";
-import heroBg from "../../public/asset/image/about/about-hero.png";
 import WeAre from "../components/about/WeAre";
 import OurMission from "../components/about/OurMission";
 import OurCore from "../components/about/OurCore";
