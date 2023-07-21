@@ -7,6 +7,9 @@ import frameFour from "../../../public/asset/image/projects/hackbery/frame4.png"
 import lounge from "../../../public/asset/image/projects/hackbery/lounge.png";
 import mobile from "../../../public/asset/image/projects/hackbery/lounge-mobile.png";
 import Banner from "./Banner";
+import Models from "./Models";
+import Floor from "./Floor";
+import Payment from "./Payment";
 
 const ProjectDetails = () => {
   return (
@@ -233,13 +236,13 @@ const ProjectDetails = () => {
               </div>
             </TabPanel>
             <TabPanel>
-              <p> 3D Models</p>
+              <Models />
             </TabPanel>
             <TabPanel>
-              <p> Floor Plan</p>
+              <Floor />
             </TabPanel>
             <TabPanel>
-              <p> Payment Plan</p>
+              <Payment />
             </TabPanel>
           </TabPanels>
         </Tabs>
