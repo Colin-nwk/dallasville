@@ -17,10 +17,10 @@ const Floor = () => {
         </div>
       </div>
       <div className="grid md:grid-cols-8 grid-cols-1 gap-2 w-full h-full my-5 place-items-center">
-        <div className="w-full h-fit md:col-span-7  ">
+        <div className="w-full h-fit md:col-span-7 order-2 ">
           <img src={first} alt="w-full h-full object-cover" />
         </div>
-        <div className="w-full h-fit md:col-span-1 md:block hidden self-center ">
+        <div className="w-full h-fit md:col-span-1 md:block hidden self-center  order-1">
           <img src={firstSvg} alt="" className="w-fit h-fit object-contain" />
         </div>
       </div>
