@@ -27,21 +27,21 @@ const ProjectDetails = () => {
                 className="rounded-full px-10 bg-gray-200 min-w-fit"
                 paddingX="10"
               >
-                Sycamore Estate
+                3D Models
               </Tab>
               <Tab
                 _selected={{ color: "white", bg: "#640032" }}
                 className="rounded-full px-10 bg-gray-200 min-w-fit"
                 paddingX="10"
               >
-                Dewberry Estate
+                Floor Plan
               </Tab>
               <Tab
                 _selected={{ color: "white", bg: "#640032" }}
                 className="rounded-full px-10 bg-gray-200 min-w-fit"
                 paddingX="10"
               >
-                Edgefield Estate
+                Payment Plan
               </Tab>
             </TabList>
           </div>
@@ -233,13 +233,13 @@ const ProjectDetails = () => {
               </div>
             </TabPanel>
             <TabPanel>
-              <p> Sycamore Estate</p>
+              <p> 3D Models</p>
             </TabPanel>
             <TabPanel>
-              <p> Dewberry Estate</p>
+              <p> Floor Plan</p>
             </TabPanel>
             <TabPanel>
-              <p> Edgefield Estate</p>
+              <p> Payment Plan</p>
             </TabPanel>
           </TabPanels>
         </Tabs>

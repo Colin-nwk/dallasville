@@ -1,10 +1,26 @@
 import projects from "../../../public/asset/image/our-projects.svg";
-import didi from "../../../public/asset/image/didi_1.png";
+// import didi from "../../../public/asset/image/didi_1.png";
 import chairs from "../../../public/asset/image/chairs.png";
+
+import slideA from "../../../public/asset/image/home/slide/slide.png";
+import slideATwo from "../../../public/asset/image/home/slide/slideOne.png";
+import slideAThree from "../../../public/asset/image/home/slide/slideTwo.png";
+
+import slideB from "../../../public/asset/image/home/slidetwo/slide_b.png";
+import slideBTwo from "../../../public/asset/image/home/slidetwo/slide_bTwo.png";
+import slideBThree from "../../../public/asset/image/home/slidetwo/slide_bThree.png";
 // import Button from "../general/Button";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import ScheduleAppointment from "../general/ScheduleAppointment";
 import { Link } from "react-router-dom";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+
+import "swiper/css/pagination";
+
+import { Autoplay } from "swiper/modules";
+
 const Projects = () => {
   return (
     <section className="container  mx-auto p-4 md:p-10 w-full h-fit">
@@ -46,7 +62,38 @@ const Projects = () => {
         <div className="grid-cols-1 md:grid-cols-5 grid mt-20 gap-10">
           <div className="col-span-1"></div>
           <div className="col-span-2 mdt-0 md:mt-24">
-            <img src={didi} alt="" className="w-fit h-fit object-contain" />
+            <Swiper
+              spaceBetween={50}
+              slidesPerView={1}
+              loop={true}
+              autoplay={{
+                delay: 4000,
+                disableOnInteraction: false,
+              }}
+              modules={[Autoplay]}
+            >
+              <SwiperSlide className="w-full h-full">
+                <img
+                  src={slideA}
+                  alt="HackBerry Jahi District"
+                  className="w-fit h-fit object-contain"
+                />
+              </SwiperSlide>
+              <SwiperSlide className="w-full h-full">
+                <img
+                  src={slideATwo}
+                  alt="HackBerry Jahi District"
+                  className="w-fit h-fit object-contain"
+                />
+              </SwiperSlide>
+              <SwiperSlide className="w-full h-full">
+                <img
+                  src={slideAThree}
+                  alt="HackBerry Jahi District"
+                  className="w-fit h-fit object-contain"
+                />
+              </SwiperSlide>
+            </Swiper>
 
             <div className="flex justify-between items-center gap-4 mt-5">
               <h4 className="text-lg  font-bold">HackBerry Jahi District</h4>
@@ -54,8 +101,38 @@ const Projects = () => {
             </div>
           </div>
           <div className="col-span-2 gap-4 justify-end items-center mt-0 md:mb-24">
-            <img src={chairs} alt="" className="w-fit h-fit object-contain" />
-
+            <Swiper
+              spaceBetween={50}
+              slidesPerView={1}
+              loop={true}
+              autoplay={{
+                delay: 6000,
+                disableOnInteraction: false,
+              }}
+              modules={[Autoplay]}
+            >
+              <SwiperSlide className="w-full h-full">
+                <img
+                  src={slideB}
+                  alt="Dewberry Terrance Gwarimpa"
+                  className="w-fit h-fit object-contain"
+                />
+              </SwiperSlide>
+              <SwiperSlide className="w-full h-full">
+                <img
+                  src={slideBTwo}
+                  alt="Dewberry Terrance Gwarimpa"
+                  className="w-fit h-fit object-contain"
+                />
+              </SwiperSlide>
+              <SwiperSlide className="w-full h-full">
+                <img
+                  src={slideBThree}
+                  alt="Dewberry Terrance Gwarimpa"
+                  className="w-fit h-fit object-contain"
+                />
+              </SwiperSlide>
+            </Swiper>
             <div className="flex justify-between items-center gap-4 mt-5">
               <h4 className="text-lg  font-bold">Dewberry Terrance Gwarimpa</h4>
               <p className="text-gray-600">COMMERCIAL</p>
