@@ -2,6 +2,7 @@ import grid from "../../../public/asset/image/grid.png";
 import grid3 from "../../../public/asset/image/grid3.png";
 import grid2 from "../../../public/asset/image/grid2.png";
 import Button from "../general/Button";
+import ScheduleAppointment from "../general/ScheduleAppointment";
 
 const HomeValues = () => {
   return (
@@ -104,7 +105,8 @@ const HomeValues = () => {
             <h4 className="text-black text-4xl font-mont font-bold text-ellipsis">
               Your Ideal Home is Just a Few Clicks
             </h4>
-            <Button text="Schedule Appointment" />
+            {/* <Button text="Schedule Appointment" /> */}
+            <ScheduleAppointment primary={true} />
           </div>
         </div>
       </div>

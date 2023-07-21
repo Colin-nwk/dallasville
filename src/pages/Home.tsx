@@ -38,7 +38,7 @@ const Home = () => {
         <div className="z-20 ">
           <TopBanner />
           <Navbar />
-          <Hero />
+          <Hero primary={true} />
         </div>
       </header>
 

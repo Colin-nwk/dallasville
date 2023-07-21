@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import logo from "../../../public/asset/image/general/logo.png";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
@@ -18,16 +18,31 @@ import {
 import room from "../../../public/asset/image/modalimage.png";
 
 import { LiaTimesSolid } from "react-icons/lia";
+import ScheduleAppointment from "./ScheduleAppointment";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState<boolean>(false);
   const { isOpen, onOpen, onClose } = useDisclosure();
 
+  const [fullname, setFullname] = useState<string>("");
+  const [email, setEmail] = useState<string>("");
+  const [phone, setPhone] = useState<string>("");
+  const [project, setProject] = useState<string>("");
+
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    console.log([fullname, project, email, phone]);
+    onClose();
+  };
+
   return (
     <>
       <div className="container  mx-auto px-4 md:px-10 w-full">
         <div className="text-white font-mont flex justify-between items-center mt-10">
-          <img src={logo} className="h-fit w-20" alt="dallasville logo" />
+          <Link to="/">
+            <img src={logo} className="h-fit w-20" alt="dallasville logo" />
+          </Link>
           <nav className="hidden md:block">
             <ul className="flex justify-between items-center gap-10 cursor-pointer">
               <li>
@@ -39,11 +54,8 @@ const Navbar = () => {
               <li>
                 <Link to="/projects">Projects</Link>
               </li>
-              <li
-                className="bg-white rounded-full py-2.5 px-4 text-slate-950 hover:bg-white/70 duration-300 transition-all ease-in-out"
-                onClick={onOpen}
-              >
-                Schedule Appointment
+              <li>
+                <ScheduleAppointment primary={false} />
               </li>
             </ul>
           </nav>
@@ -103,11 +115,10 @@ const Navbar = () => {
           </motion.div>
         )}
 
-        {/* dialogue */}
+        {/* dialogue for mobile till i fixed error */}
         <Modal isOpen={isOpen} onClose={onClose} isCentered size="3xl">
           <ModalOverlay />
           <ModalContent padding="-2" margin="-10">
-            {/* <ModalHeader>Modal Title</ModalHeader> */}
             <ModalCloseButton />
             <ModalBody>
               <section className=" mx-auto">
@@ -128,18 +139,29 @@ const Navbar = () => {
                         Please fill details below and we will get to you right
                         away
                       </p>
-                      {/* input forms */}
-                      <form action="" className="w-full">
+                      <form
+                        action=""
+                        className="w-full"
+                        onSubmit={handleSubmit}
+                      >
                         <div className=" flex flex-col gap-4 w-full ">
                           <FormControl isRequired>
                             <FormLabel>Full Name</FormLabel>
-                            <Input placeholder="full name" />
+                            <Input
+                              placeholder="full name"
+                              name="fullname"
+                              value={fullname}
+                              onChange={(e) => setFullname(e.target.value)}
+                            />
                           </FormControl>
                           <FormControl isRequired>
                             <FormLabel>Email Address</FormLabel>
                             <Input
                               placeholder="Enter your email address"
                               type="email"
+                              value={email}
+                              name="email"
+                              onChange={(e) => setEmail(e.target.value)}
                             />
                           </FormControl>
 
@@ -148,19 +170,32 @@ const Navbar = () => {
                             <Input
                               placeholder="enter your mobile number"
                               type="number"
+                              name="phone"
+                              value={phone}
+                              onChange={(e) => setPhone(e.target.value)}
                             />
                           </FormControl>
                           <FormControl isRequired>
                             <FormLabel>
                               What project are you interested in
                             </FormLabel>
-                            <Select placeholder="Select option">
-                              <option value="option1">Option 1</option>
-                              <option value="option2">Option 2</option>
-                              <option value="option3">Option 3</option>
+                            <Select
+                              value={project}
+                              onChange={(e) => setProject(e.target.value)}
+                            >
+                              <option value="Hackberry">
+                                {" "}
+                                Hackberry Estate
+                              </option>
+                              <option value="Sycamore">Sycamore Estate</option>
+                              <option value="Dewberry">Dewberry Estate</option>
+                              <option value="Edgefield">
+                                Edgefield Estate
+                              </option>
                             </Select>
                           </FormControl>
                         </div>
+
                         <div className="mt-10">
                           <button
                             className="bg-main rounded py-2 px-6 text-white  duration-300 transition-all ease-in-out flex justify-center items-center cursor-pointer group w-full hover:bg-main/95"
@@ -175,13 +210,6 @@ const Navbar = () => {
                 </div>
               </section>
             </ModalBody>
-
-            {/* <ModalFooter>
-              <Button colorScheme="blue" mr={3} onClick={onClose}>
-                Close
-              </Button>
-              <Button variant="ghost">Secondary Action</Button>
-            </ModalFooter> */}
           </ModalContent>
         </Modal>
         {/* end dialogue */}

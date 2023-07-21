@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import stairs from "../../../public/asset/image/stairs.png";
 import Button from "../general/Button";
 
@@ -8,7 +9,7 @@ const WeAre = () => {
         Who We Are
       </h3>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-        <div className="flex flex-col justify-around items-start gap-y-6">
+        <div className="flex flex-col justify-around items-start gap-y-4">
           <p className="text-base leading-loose">
             Dallasville is a leading real estate company dedicated to helping
             individuals and families find their perfect homes. At Dallasville,
@@ -19,7 +20,9 @@ const WeAre = () => {
             cutting-edge features that enhance convenience, efficiency, and
             security
           </p>
-          <Button text="Learn More" />
+          <Link to="/about">
+            <Button text="Learn More" />
+          </Link>
         </div>
         <div className="relative">
           <img

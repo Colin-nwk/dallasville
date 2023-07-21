@@ -27,21 +27,21 @@ const ProjectDetails = () => {
                 className="rounded-full px-10 bg-gray-200 min-w-fit"
                 paddingX="10"
               >
-                3D Models
+                Sycamore Estate
               </Tab>
               <Tab
                 _selected={{ color: "white", bg: "#640032" }}
                 className="rounded-full px-10 bg-gray-200 min-w-fit"
                 paddingX="10"
               >
-                Floor Plan
+                Dewberry Estate
               </Tab>
               <Tab
                 _selected={{ color: "white", bg: "#640032" }}
                 className="rounded-full px-10 bg-gray-200 min-w-fit"
                 paddingX="10"
               >
-                Payment Plan
+                Edgefield Estate
               </Tab>
             </TabList>
           </div>

@@ -26,7 +26,7 @@ const Projects = () => {
           <div className="z-20 ">
             <TopBanner />
             <Navbar />
-            <Hero />
+            <Hero primary={false} />
           </div>
         </header>
         <Intro />

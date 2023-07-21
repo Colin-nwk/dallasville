@@ -2,6 +2,7 @@ import mission from "../../../public/asset/image/about/ourmission.svg";
 import missionOne from "../../../public/asset/image/about/mission1.png";
 import missionTwo from "../../../public/asset/image/about/mission2.png";
 import Button from "../general/Button";
+import ScheduleAppointment from "../general/ScheduleAppointment";
 
 const OurMission = () => {
   return (
@@ -38,7 +39,8 @@ const OurMission = () => {
                 prioritizing your unique needs and aspirations.
               </p>
               <div className=" mb-5 md:mb-0 md:mt-5">
-                <Button text="Schedule Appointment" />
+                {/* <Button text="Schedule Appointment" /> */}
+                <ScheduleAppointment primary={true} />
               </div>
             </div>
           </div>

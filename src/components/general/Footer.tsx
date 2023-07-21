@@ -2,6 +2,7 @@ import { BiLogoFacebook } from "react-icons/bi";
 import { AiOutlineTwitter, AiOutlineInstagram } from "react-icons/ai";
 import logo from "../../../public/asset/image/logo_white.png";
 import sbo from "../../../public/asset/image/sbo.png";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="bg-[#171719] text-white">
@@ -9,7 +10,9 @@ const Footer = () => {
         <div id="footer-top" className="my-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-6 gap-4  md:gap-14 items-center justify-between">
             <div className="flex flex-col justify-start items-start gap-4 md:col-span-2 w-full h-full">
-              <img src={logo} alt="dallasville" className="w-fit h-fit" />
+              <Link to="/">
+                <img src={logo} alt="dallasville" className="w-fit h-fit" />
+              </Link>
               <p className="">
                 At Dallasville, we believe in the power of smart homes and
                 connected living. Our smart real estate solutions integrate home

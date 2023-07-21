@@ -1,8 +1,10 @@
 import projects from "../../../public/asset/image/our-projects.svg";
 import didi from "../../../public/asset/image/didi_1.png";
 import chairs from "../../../public/asset/image/chairs.png";
-import Button from "../general/Button";
+// import Button from "../general/Button";
 import { AiOutlineArrowRight } from "react-icons/ai";
+import ScheduleAppointment from "../general/ScheduleAppointment";
+import { Link } from "react-router-dom";
 const Projects = () => {
   return (
     <section className="container  mx-auto p-4 md:p-10 w-full h-fit">
@@ -32,13 +34,13 @@ const Projects = () => {
               architectural styles, sizes, and locations to cater to your unique
               preferences.
             </p>
-            <a
-              href=""
+            <Link
+              to="/projects"
               className="underline text-lg flex  items-center text-black gap-3 group"
             >
-              <span> view all projects</span>{" "}
+              <span> view all projects</span>
               <AiOutlineArrowRight className="group-hover:translate-x-3  ease-in-out duration-300 transition-all translate-x-0" />
-            </a>
+            </Link>
           </div>
         </div>
         <div className="grid-cols-1 md:grid-cols-5 grid mt-20 gap-10">
@@ -59,7 +61,8 @@ const Projects = () => {
               <p className="text-gray-600">COMMERCIAL</p>
             </div>
             <div className="pt-5 md:pt-10 hidden md:flex justify-start md:justify-end">
-              <Button text="Schedule Appointment" />
+              {/* <Button text="Schedule Appointment" /> */}
+              <ScheduleAppointment primary={true} />
             </div>
           </div>
           {/* MOBILE */}
@@ -78,7 +81,8 @@ const Projects = () => {
                 unique preferences.
               </p>
               <div className="mt-5">
-                <Button text="Schedule Appointment" />
+                {/* <Button text="Schedule Appointment" /> */}
+                <ScheduleAppointment primary={true} />
               </div>
             </div>
           </div>

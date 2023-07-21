@@ -1,9 +1,10 @@
-import { AiOutlineArrowRight } from "react-icons/ai";
-// import HeroCarousel from "../general/HeroCarousel";
-// import Carousel from "../general/Carousel";
-import SwiperCarousel from "../general/SwiperCarousel";
+import { AiOutlineArrowDown, AiOutlineArrowRight } from "react-icons/ai";
 
-const Hero = () => {
+import SwiperCarousel from "../general/SwiperCarousel";
+type Props = {
+  primary: boolean;
+};
+const Hero = ({ primary }: Props) => {
   return (
     <div className="container  mx-auto px-4 md:px-10 w-full h-full">
       {/* <div className="grid grid-cols-1 md:grid-cols-3"> */}
@@ -23,7 +24,11 @@ const Hero = () => {
             </span>
           </span>
           <span className="h-full w-20 bg-white flex justify-center items-center">
-            <AiOutlineArrowRight className="text-black h-8 w-8" />
+            {primary ? (
+              <AiOutlineArrowRight className="text-black h-8 w-8" />
+            ) : (
+              <AiOutlineArrowDown className="text-black h-8 w-8" />
+            )}
           </span>
         </div>
       </div>

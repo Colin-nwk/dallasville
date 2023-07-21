@@ -13,6 +13,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 import { Pagination, Autoplay } from "swiper/modules";
+import { Link } from "react-router-dom";
 
 const SwiperCarousel = () => {
   return (
@@ -20,10 +21,12 @@ const SwiperCarousel = () => {
       <div className="w-full h-full backdrop-blur-md overflow-y-hidden">
         <div className="flex flex-col justify-between items-start gap-4 ml-4 p-1">
           <div className="group cursor-pointer">
-            <h3 className="text-white text-lg md:text-2xl ">
-              {/* La’Vogue Apartments{" "} */} Hackberry Apartments
-              <BsArrowRight className="text-white  inline-flex group-hover:translate-x-4 duration-300 ease-out transition-all translate-x-2" />
-            </h3>
+            <Link to="/projects">
+              <h3 className="text-white text-lg md:text-2xl ">
+                {/* La’Vogue Apartments{" "} */} Hackberry Apartments
+                <BsArrowRight className="text-white  inline-flex group-hover:translate-x-4 duration-300 ease-out transition-all translate-x-2" />
+              </h3>
+            </Link>
           </div>
           <p className="text-white text-sm opacity-70 ">
             This stunning building offers 3-bedroom apartments, a master bedroom
