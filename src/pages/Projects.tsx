@@ -12,7 +12,7 @@ import flash from "../../public/asset/image/hackberry/icons/flash.svg";
 import bed from "../../public/asset/image/hackberry/icons/bed.svg";
 import lock from "../../public/asset/image/hackberry/icons/lock.svg";
 import wifi from "../../public/asset/image/hackberry/icons/wifi.svg";
-// import Heromobile from "../../public/asset/image/hackberry/heromobile.png";
+import Heromobile from "../../public/asset/image/hackberry/heromobile.png";
 
 const Projects = () => {
   return (
@@ -23,14 +23,14 @@ const Projects = () => {
             loading="eager"
             src={Herodesk}
             alt="luxuzy house with pool"
-            className="w-full h-full object-center absolute mix-blend-overlay -z-10 mb-20 overflox-x-hidden"
+            className="hidden md:block w-full h-full object-center absolute mix-blend-overlay -z-10 mb-20 overflox-x-hidden"
           />
-          {/* <img
+          <img
             loading="eager"
             src={Heromobile}
             alt=" luxuzy house with pool"
             className=" block md:hidden w-full h-full object-cover absolute mix-blend-overlay -z-10"
-          /> */}
+          />
           <div className=" container mx-auto px-4 md:px-10 grid grid-cols-3  w-full h-full absolute top-28 md:top-14 -z-20 inset-x-0">
             <div className="border-l border-white/20 "></div>
             <div className="border-l border-white/20 "></div>

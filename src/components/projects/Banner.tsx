@@ -14,16 +14,16 @@ const Banner = () => {
           loading="eager"
           src={banner}
           alt="luxuzy house"
-          className="hidden md:block w-full h-fit object-cover mix-blend-overlay -z-10"
+          className="hidden lg:block w-full h-fit object-cover mix-blend-overlay -z-10"
         />
         <img
           loading="eager"
           src={bannerTwo}
           alt="luxuzy house"
-          className="block md:hidden w-full h-fit object-cover mix-blend-overlay -z-10"
+          className="block lg:hidden w-full h-fit object-cover mix-blend-overlay -z-10"
         />
         <div className="z-30 absolute inset-0 flex flex-col justify-center items-center gap-4">
-          <h3 className="text-center text-white font-bold text-xl md:text-3xl py-5 mt-5 ">
+          <h3 className="text-center text-white font-bold text-xl md:text-3xl py-5 xl:mt-5 ">
             Estate Amenities
           </h3>
           <div className="flex justify-center items-center  flex-wrap gap-4">

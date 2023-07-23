@@ -1,15 +1,13 @@
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react";
 import aside from "../../../public/asset/image/projects/hackbery/aside.png";
-import frameOne from "../../../public/asset/image/projects/hackbery/frame.png";
-import frameTwo from "../../../public/asset/image/projects/hackbery/frame2.png";
-import frameThree from "../../../public/asset/image/projects/hackbery/frame3.png";
-import frameFour from "../../../public/asset/image/projects/hackbery/frame4.png";
+
 import lounge from "../../../public/asset/image/projects/hackbery/lounge.png";
 import mobile from "../../../public/asset/image/projects/hackbery/lounge-mobile.png";
 import Banner from "./Banner";
 import Models from "./Models";
 import Floor from "./Floor";
 import Payment from "./Payment";
+import Gallery from "./Gallery";
 
 const ProjectDetails = () => {
   return (
@@ -112,39 +110,7 @@ const ProjectDetails = () => {
                 </aside>
               </div>
               <div className="w-full h-full py-5">
-                <h3 className="text-left font-bold text-xl  py-10 text-black">
-                  Explore the Gallery
-                </h3>
-                <div className=" py-3 gap-4 md:gap-1 overflow-x-auto  flex justify-start items-start ">
-                  <div className="h-56 w-56 flex-none">
-                    <img
-                      src={frameOne}
-                      alt="hackberry image"
-                      className="h-full w-full  object-center"
-                    />
-                  </div>
-                  <div className="h-56 w-56 flex-none">
-                    <img
-                      src={frameTwo}
-                      alt="hackberry image"
-                      className=" w-full h-full object-center"
-                    />
-                  </div>
-                  <div className="h-56 w-56 flex-none">
-                    <img
-                      src={frameThree}
-                      alt="hackberry image"
-                      className=" w-full h-full object-center"
-                    />
-                  </div>
-                  <div className="h-56 w-56 flex-none">
-                    <img
-                      src={frameFour}
-                      alt="hackberry image"
-                      className=" w-full h-full object-center "
-                    />
-                  </div>
-                </div>
+                <Gallery />
                 <article className="w-full h-full  py-5">
                   <h3 className="text-left font-bold text-xl  py-4 pb-10 text-black">
                     Project Summary
