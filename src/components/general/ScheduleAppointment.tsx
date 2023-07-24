@@ -70,7 +70,7 @@ const ScheduleAppointment = ({ type }: Props) => {
       )}
       {type == "primary" && (
         <button
-          className="backdrop-blur-md drop-shadow rounded-full py-2.5 px-4 text-purple-400 hover:border-white/50 duration-300 transition-all ease-in-out border border-white/10  "
+          className="backdrop-blur-md drop-shadow rounded-full py-2.5 px-4 text-[#DC0000] hover:border-[#DC0000] duration-300 transition-all ease-in-out border border-[#DC0000]/30  "
           onClick={onOpen}
         >
           Schedule Appointment

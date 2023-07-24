@@ -23,7 +23,9 @@ const Footer = () => {
             <div className="grid grid-cols-2 md:col-span-2">
               <div className="flex flex-col justify-start items-start gap-2 w-full h-full">
                 <p className="font-semibold mb-4">About Us</p>
-                <Link to="/about" className="text-left">The company</Link>
+                <Link to="/about" className="text-left">
+                  The company
+                </Link>
                 <Link to="/about" className="text-left">
                   The people
                 </Link>
@@ -86,7 +88,7 @@ const Footer = () => {
                 <div className="flex flex-col gap-3">
                   <h5>Address</h5>
                   <p className="">
-                    3rd Floor, Novare Central Office, Wuse Zone, Abuja
+                    3rd Floor, Novare Central Office (301i), Wuse Zone 5, Abuja
                   </p>
                 </div>
               </div>

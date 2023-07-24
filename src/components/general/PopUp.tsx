@@ -55,7 +55,7 @@ const PopUp = () => {
                     <h3 className="text-white text-2xl">
                       Hackberry Apartments
                     </h3>
-                    <p className="text-white bg-red-700 px-2 md:px-4 py-1 text-xs md:text-sm rounded-md">
+                    <p className="text-white bg-[#DC0000] px-2 md:px-4 py-1 text-xs md:text-sm rounded-md">
                       Early Bird Sale
                     </p>
                   </div>

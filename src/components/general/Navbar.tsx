@@ -147,7 +147,7 @@ const Navbar = () => {
                   </NavLink>
                 </li>
                 <li
-                  className="bg-white rounded-full py-2.5 px-4 text-[#640032] hover:bg-white/70 duration-300 transition-all ease-in-out w-fit self-end"
+                  className="backdrop-blur-md drop-shadow rounded-full py-2.5 px-4 text-[#DC0000] hover:border-[#DC0000] duration-300 transition-all ease-in-out border border-[#DC0000]/30  "
                   onClick={onOpen}
                 >
                   Schedule Appointment

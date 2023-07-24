@@ -1,6 +1,6 @@
 import call from "../../../public/asset/image/general/call.svg";
 import sms from "../../../public/asset/image/general/sms.svg";
-import location from "../../../public/asset/image/general/location.svg";
+// import location from "../../../public/asset/image/general/location.svg";
 const TopBanner = () => {
   return (
     <div className="border-b-[.5px] border-white/20 z-50">
@@ -11,8 +11,25 @@ const TopBanner = () => {
             href="tel:+23480036003600"
             className="inline-flex justify-start items-center cursor-pointer"
           >
-            <img src={call} alt="call icon" className="object-contain mr-1" />
-            <span>Toll Free: 0800 3600 3600 ( 🇳🇬 Only)</span>
+            <img
+              src={call}
+              alt="call icon"
+              className="object-contain mr-1 text-xs"
+            />
+            <span className="text-xs">
+              Toll Free: 0800 3600 3600 ( 🇳🇬 Only)
+            </span>
+          </a>
+          <a
+            href="tel:+23408067812338"
+            className="inline-flex justify-start items-center cursor-pointer"
+          >
+            <img
+              src={call}
+              alt="call icon"
+              className="object-contain mr-1 text-xs"
+            />
+            <span className="text-xs">Mobile: 0806 781 2338</span>
           </a>
 
           <a
@@ -20,20 +37,24 @@ const TopBanner = () => {
             className="inline-flex justify-start items-center cursor-pointer"
           >
             {/* <HiOutlineMail className="mr-2" /> */}
-            <img src={sms} alt="sms icon" className="object-contain mr-2" />
-            <span>info@dallasville.com</span>
+            <img
+              src={sms}
+              alt="sms icon"
+              className="object-contain mr-2 text-xs"
+            />
+            <span className="text-xs">info@dallasville.com</span>
           </a>
-          <div className="inline-flex justify-start items-center cursor-pointer">
-            {/* <GoLocation className="mr-2" /> */}
+          {/* <div className="inline-flex justify-start items-center cursor-pointer">
+
             <img
               src={location}
               alt="location icon"
-              className="object-contain mr-1"
+              className="object-contain mr-1 text-xs"
             />
-            <span>
+            <span className="text-xs">
               3rd Floor, Novare Central Office (301i), Wuse Zone 5, Abuja
             </span>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
