@@ -119,12 +119,12 @@ const ProjectDetails = () => {
                     <img
                       src={lounge}
                       alt="lounge"
-                      className="w-full h-full object-cover mix-blend-overlay -z-10 hidden md:block"
+                      className="w-full h-full object-center mix-blend-overlay -z-10 hidden md:block"
                     />
                     <img
                       src={mobile}
                       alt="lounge"
-                      className="w-full h-full object-cover mix-blend-overlay -z-10 block md:hidden"
+                      className="w-full h-full object-center mix-blend-overlay -z-10 block md:hidden"
                     />
 
                     <div className=" absolute top-0 left-0 text-white grid grid-cols-2 md:grid-cols-3 gap-4 justify-start items-center px-4 py-8 md:px-8 h-full w-full md:ml-[60px] ">

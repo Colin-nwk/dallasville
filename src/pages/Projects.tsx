@@ -40,7 +40,7 @@ const Projects = () => {
             <TopBanner />
             <Navbar />
 
-            <div className="container  mx-auto px-4 md:px-10 w-full h-full">
+            {/* <div className="container  mx-auto px-4 md:px-10 w-full h-full">
               <div className="flex flex-col justify-center items-center gap-4 w-full h-full  md:mt-28 sm:mt-14 mt-10">
                 <div className="  flex flex-col justify-center items-center">
                   <p className="text-2xl font-semibold my-2 md:my-5 text-white">
@@ -109,8 +109,85 @@ const Projects = () => {
                   </div>
                 </div>
               </div>
+            </div> */}
+            {/* new grid */}
+            <div className="container  mx-auto px-4 md:px-10 w-full h-full">
+              <div className="flex flex-col justify-center items-center gap-4 w-full h-full  md:mt-28 sm:mt-14 mt-10">
+                <div className="  flex flex-col justify-center items-center">
+                  <p className="text-2xl font-semibold my-2 md:my-5 text-white">
+                    Projects
+                  </p>
+                  <img
+                    src={name}
+                    alt="hackberry"
+                    className="w-full md:h-28 h-20 "
+                  />
+                </div>
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5  backdrop-blur-sm px-14 py-10 md:py-4 w-full rounded-xl justify-between items-center gap-4 flex-wrap">
+                  <div className="flex flex-col gap-3 justify-start  w-full h-full items-center  ">
+                    <span className="rounded-full  backdrop-blur-xl border border-white/30 p-2">
+                      <img
+                        src={bed}
+                        alt="hackberry estate rooms"
+                        className="w-6 h-6 text-white "
+                      />
+                    </span>
+                    <p className="text-white text-center text-sm md:text-base text-ellipsis">
+                      3 Bedrooms
+                    </p>
+                  </div>
+                  <div className="flex flex-col gap-3 justify-start items-center  w-full h-full  ">
+                    <span className="rounded-full backdrop-blur-xl border border-white/30 p-2">
+                      <img
+                        src={car}
+                        alt="hackberry estate rooms"
+                        className="w-6 h-6 text-white "
+                      />
+                    </span>
+                    <p className="text-white text-center text-sm md:text-base text-ellipsis">
+                      Car Parking
+                    </p>
+                  </div>
+                  <div className="flex flex-col gap-3 justify-start items-center  w-full h-full  ">
+                    <span className="rounded-full backdrop-blur-xl border border-white/30 p-2">
+                      <img
+                        src={wifi}
+                        alt="hackberry estate rooms"
+                        className="w-6 h-6 text-white "
+                      />
+                    </span>
+                    <p className="text-white text-center text-sm md:text-base text-ellipsis">
+                      Smart Automation
+                    </p>
+                  </div>
+                  <div className="flex flex-col gap-3 justify-start items-center  w-full h-full  ">
+                    <span className="rounded-full backdrop-blur-xl border border-white/30 p-2">
+                      <img
+                        src={flash}
+                        alt="hackberry estate rooms"
+                        className="w-6 h-6 text-white "
+                      />
+                    </span>
+                    <p className="text-white text-center text-sm md:text-base text-ellipsis">
+                      Uninterrupted Power supply
+                    </p>
+                  </div>
+                  <div className="flex flex-col gap-3 justify-start items-center  w-full h-full ">
+                    <span className="rounded-full backdrop-blur-xl border border-white/30 p-2">
+                      <img
+                        src={lock}
+                        alt="hackberry estate rooms"
+                        className="w-6 h-6 text-white "
+                      />
+                    </span>
+                    <p className="text-white text-center text-sm md:text-base text-ellipsis">
+                      Security & Surveillance
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
-            {/* <Hero primary={false} /> */}
+            {/* end new  */}
           </div>
         </header>
         <Intro />
