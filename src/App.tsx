@@ -4,6 +4,7 @@ import { ChakraProvider } from "@chakra-ui/react";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Router>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="*" element={<NotFound />} />
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
           </Routes>

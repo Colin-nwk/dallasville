@@ -23,8 +23,10 @@ const Footer = () => {
             <div className="grid grid-cols-2 md:col-span-2">
               <div className="flex flex-col justify-start items-start gap-2 w-full h-full">
                 <p className="font-semibold mb-4">About Us</p>
-                <p className="text-left">The company</p>
-                <p className="text-left">The people</p>
+                <Link to="/about" className="text-left">The company</Link>
+                <Link to="/about" className="text-left">
+                  The people
+                </Link>
                 <p className="text-left">The culture</p>
                 <p className="text-left">CSR projects</p>
                 <p className="text-left">Sales partners</p>
@@ -32,7 +34,9 @@ const Footer = () => {
               <div className="flex flex-col justify-start items-start gap-2 w-full h-full">
                 <p className="font-semibold mb-4">Projects</p>
                 <p className="text-left">La Vogue</p>
-                <p className="text-left">Hackberry</p>
+                <Link to="/projects" className="text-left">
+                  Hackberry
+                </Link>
                 <p className="text-left">Sycamore</p>
                 <p className="text-left">Dewberry</p>
                 <p className="text-left">Edgefield</p>
