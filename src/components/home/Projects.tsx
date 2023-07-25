@@ -2,14 +2,23 @@ import projects from "../../../public/asset/image/our-projects.svg";
 // import didi from "../../../public/asset/image/didi_1.png";
 // import chairs from "../../../public/asset/image/chairs.png";
 
-import slideA from "../../../public/asset/image/home/slide/slide.png";
-import slideATwo from "../../../public/asset/image/home/slide/slideOne.png";
-import slideAThree from "../../../public/asset/image/home/slide/slideTwo.png";
+// import slideA from "../../../public/asset/image/home/slide/slide.png";
+// import slideATwo from "../../../public/asset/image/home/slide/slideOne.png";
+// import slideAThree from "../../../public/asset/image/home/slide/slideTwo.png";
 
-import slideB from "../../../public/asset/image/home/slidetwo/slide_b.png";
-import slideBTwo from "../../../public/asset/image/home/slidetwo/slide_bTwo.png";
-import slideBThree from "../../../public/asset/image/home/slidetwo/slide_bThree.png";
+// import slideB from "../../../public/asset/image/home/slidetwo/slide_b.png";
+// import slideBTwo from "../../../public/asset/image/home/slidetwo/slide_bTwo.png";
+// import slideBThree from "../../../public/asset/image/home/slidetwo/slide_bThree.png";
 // import Button from "../general/Button";
+
+import slideA from "../../../public/asset/image/interior/newinterior.jpg";
+import slideATwo from "../../../public/asset/image/interior/newinteriorTwo.jpg";
+import slideAThree from "../../../public/asset/image/interior/newinteriorThree.jpg";
+
+import slideB from "../../../public/asset/image/interior/newinteriorFour.jpg";
+import slideBTwo from "../../../public/asset/image/interior/newinteriorFive.jpg";
+import slideBThree from "../../../public/asset/image/interior/newinteriorSix.jpg";
+
 import { AiOutlineArrowRight } from "react-icons/ai";
 import ScheduleAppointment from "../general/ScheduleAppointment";
 import { Link } from "react-router-dom";
