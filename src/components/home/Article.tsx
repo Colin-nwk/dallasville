@@ -3,6 +3,10 @@ import hotel from "../../../public/asset/image/hotel.png";
 import maxcenter from "../../../public/asset/image/mayexcenter.png";
 import maxcenter2 from "../../../public/asset/image/mayexcenter2.png";
 
+// import newInterior from "../../../public/asset/image/interior/newinterior.jpg";
+// import newInteriorThree from "../../../public/asset/image/interior/newinteriorThree.jpg";
+// import newInteriorTwelve from "../../../public/asset/image/interior/newinteriorTwelve.jpg";
+
 const Article = () => {
   return (
     <section className="container  mx-auto p-4 md:p-10 w-full h-fit">

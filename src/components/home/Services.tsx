@@ -1,5 +1,6 @@
 import services from "../../../public/asset/image/our-services.png";
-import homechair from "../../../public/asset/image/home-chair.png";
+// import homechair from "../../../public/asset/image/home-chair.png";
+import newInteriorTen from "../../../public/asset/image/interior/newinteriorTen.jpg";
 import {
   Accordion,
   AccordionItem,
@@ -38,18 +39,18 @@ const Services = () => {
                             as="span"
                             flex="1"
                             textAlign="left"
-                            className="text-xl md:text-2xl font-semibold py-4"
+                            className="text-xl py-2"
                           >
                             01 Property Development
                           </Box>
                           {isExpanded ? (
-                            <LiaTimesSolid className="text-3xl" />
+                            <LiaTimesSolid className="text-2xl" />
                           ) : (
-                            <AiOutlinePlus className="text-3xl" />
+                            <AiOutlinePlus className="text-2xl" />
                           )}
                         </AccordionButton>
                       </h2>
-                      <AccordionPanel pb={8} className="text-lg md:text-xl">
+                      <AccordionPanel pb={8} className="text-base">
                         Development of commercial, residential, industrial or
                         government building and valuation of Properties and
                         Assets for a Variety of Purposes
@@ -66,18 +67,18 @@ const Services = () => {
                             as="span"
                             flex="1"
                             textAlign="left"
-                            className="text-xl md:text-2xl font-semibold py-4"
+                            className="text-xl  py-2"
                           >
                             02 Property Leasing
                           </Box>
                           {isExpanded ? (
-                            <LiaTimesSolid className="text-3xl" />
+                            <LiaTimesSolid className="text-2xl" />
                           ) : (
-                            <AiOutlinePlus className="text-3xl" />
+                            <AiOutlinePlus className="text-2xl" />
                           )}
                         </AccordionButton>
                       </h2>
-                      <AccordionPanel pb={8} className="text-lg md:text-xl">
+                      <AccordionPanel pb={8} className="text-base ">
                         Development of commercial, residential, industrial or
                         government building and valuation of Properties and
                         Assets for a Variety of Purposes
@@ -94,18 +95,18 @@ const Services = () => {
                             as="span"
                             flex="1"
                             textAlign="left"
-                            className="text-xl md:text-2xl font-semibold py-4"
+                            className="text-xl py-2"
                           >
                             03 Facility Management
                           </Box>
                           {isExpanded ? (
-                            <LiaTimesSolid className="text-3xl" />
+                            <LiaTimesSolid className="text-2xl" />
                           ) : (
-                            <AiOutlinePlus className="text-3xl" />
+                            <AiOutlinePlus className="text-2xl" />
                           )}
                         </AccordionButton>
                       </h2>
-                      <AccordionPanel pb={8} className="text-lg md:text-xl">
+                      <AccordionPanel pb={8} className="text-base">
                         Development of commercial, residential, industrial or
                         government building and valuation of Properties and
                         Assets for a Variety of Purposes
@@ -122,18 +123,18 @@ const Services = () => {
                             as="span"
                             flex="1"
                             textAlign="left"
-                            className="text-xl md:text-2xl font-semibold py-4"
+                            className="text-xl py-2"
                           >
                             04 General Real Estate Consultancy Services
                           </Box>
                           {isExpanded ? (
-                            <LiaTimesSolid className="text-3xl" />
+                            <LiaTimesSolid className="text-2xl" />
                           ) : (
-                            <AiOutlinePlus className="text-3xl" />
+                            <AiOutlinePlus className="text-2xl" />
                           )}
                         </AccordionButton>
                       </h2>
-                      <AccordionPanel pb={8} className="text-lg md:text-xl">
+                      <AccordionPanel pb={8} className="text-base">
                         Development of commercial, residential, industrial or
                         government building and valuation of Properties and
                         Assets for a Variety of Purposes
@@ -144,11 +145,11 @@ const Services = () => {
               </Accordion>
             </div>
           </div>
-          <div className="relative z-30">
+          <div className="relative z-30 w-full h-full ">
             <img
-              src={homechair}
+              src={newInteriorTen}
               alt="our services"
-              className="object-contain w-fit h-fit "
+              className="object-cover w-full h-full "
             />
             <div className="w-4/5 h-28 backdrop-blur-lg absolute left-0 bottom-0 flex justify-center items-center">
               <p className="text-xl font-semibold font-mont text-white text-ellipsis pl-5 md:pl-0">

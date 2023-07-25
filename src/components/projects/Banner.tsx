@@ -1,5 +1,6 @@
-import banner from "../../../public/asset/image/about/banner.png";
-import bannerTwo from "../../../public/asset/image/about/banner2.png";
+// import banner from "../../../public/asset/image/about/banner.png";
+import banner from "../../../public/asset/image/interior/newinteriorTwelve.jpg";
+// import bannerTwo from "../../../public/asset/image/about/banner2.png";
 import wifi from "../../../public/asset/image/about/wifi-square.svg";
 import home from "../../../public/asset/image/about/home-wifi.svg";
 import lock from "../../../public/asset/image/about/lock.svg";
@@ -14,14 +15,14 @@ const Banner = () => {
           loading="eager"
           src={banner}
           alt="luxuzy house"
-          className="hidden lg:block w-full h-fit object-cover mix-blend-overlay -z-10"
+          className=" w-full h-80 object-cover mix-blend-overlay -z-10"
         />
-        <img
+        {/* <img
           loading="eager"
           src={bannerTwo}
           alt="luxuzy house"
           className="block lg:hidden w-full h-fit object-cover mix-blend-overlay -z-10"
-        />
+        /> */}
         <div className="z-30 absolute inset-0 flex flex-col justify-center items-center gap-4">
           <h3 className="text-center text-white font-bold text-xl md:text-3xl py-5 xl:mt-5 ">
             Estate Amenities

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import stairs from "../../../public/asset/image/home/stairs.png";
+// import stairs from "../../../public/asset/image/home/stairs.png";
+import newInterior from "../../../public/asset/image/interior/newinterior.jpg";
 import Button from "../general/Button";
 
 const WeAre = () => {
@@ -26,7 +27,7 @@ const WeAre = () => {
         </div>
         <div className="relative">
           <img
-            src={stairs}
+            src={newInterior}
             alt="room with stairs"
             className="w-full h-72 md:h-full"
           />

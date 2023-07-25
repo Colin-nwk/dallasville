@@ -1,7 +1,9 @@
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react";
-import aside from "../../../public/asset/image/projects/hackbery/aside.png";
+// import aside from "../../../public/asset/image/projects/hackbery/aside.png";
+import aside from "../../../public/asset/image/interior/newinteriorFour.jpg";
+import summary from "../../../public/asset/image/interior/newinteriorFive.jpg";
 
-import lounge from "../../../public/asset/image/projects/hackbery/lounge.png";
+// import lounge from "../../../public/asset/image/projects/hackbery/lounge.png";
 import mobile from "../../../public/asset/image/projects/hackbery/lounge-mobile.png";
 import Banner from "./Banner";
 import Models from "./Models";
@@ -120,7 +122,7 @@ const ProjectDetails = () => {
                   </h3>
                   <div className="relative">
                     <img
-                      src={lounge}
+                      src={summary}
                       alt="lounge"
                       className="w-full h-full object-center mix-blend-overlay -z-10 hidden md:block"
                     />

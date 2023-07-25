@@ -6,17 +6,29 @@ import "swiper/css";
 
 import "swiper/css/pagination";
 
-import interior from "../../../public/asset/image/hackberry/gallery/interior.jpg";
-import interiorTwo from "../../../public/asset/image/hackberry/gallery/interiorTwo.jpg";
-import interiorThree from "../../../public/asset/image/hackberry/gallery/interiorThree.jpg";
-import interiorFour from "../../../public/asset/image/hackberry/gallery/interiorFour.jpg";
-import interiorFive from "../../../public/asset/image/hackberry/gallery/interiorFive.jpg";
-import interiorSix from "../../../public/asset/image/hackberry/gallery/interiorSix.jpg";
-import interiorSeven from "../../../public/asset/image/hackberry/gallery/interiorSeven.jpg";
-import interiorEight from "../../../public/asset/image/hackberry/gallery/interiorEight.png";
-import interiorNine from "../../../public/asset/image/hackberry/gallery/interiornNine.png";
-import interiorTen from "../../../public/asset/image/hackberry/gallery/interiorTen.png";
-import interiorEleven from "../../../public/asset/image/hackberry/gallery/interiorEleven.png";
+// import interior from "../../../public/asset/image/hackberry/gallery/interior.jpg";
+// import interiorTwo from "../../../public/asset/image/hackberry/gallery/interiorTwo.jpg";
+// import interiorThree from "../../../public/asset/image/hackberry/gallery/interiorThree.jpg";
+// import interiorFour from "../../../public/asset/image/hackberry/gallery/interiorFour.jpg";
+// import interiorFive from "../../../public/asset/image/hackberry/gallery/interiorFive.jpg";
+// import interiorSix from "../../../public/asset/image/hackberry/gallery/interiorSix.jpg";
+// import interiorSeven from "../../../public/asset/image/hackberry/gallery/interiorSeven.jpg";
+// import interiorEight from "../../../public/asset/image/hackberry/gallery/interiorEight.png";
+// import interiorNine from "../../../public/asset/image/hackberry/gallery/interiornNine.png";
+// import interiorTen from "../../../public/asset/image/hackberry/gallery/interiorTen.png";
+// import interiorEleven from "../../../public/asset/image/hackberry/gallery/interiorEleven.png";
+import newinterior from "../../../public/asset/image/interior/newinterior.jpg";
+import newinteriorTwo from "../../../public/asset/image/interior/newinteriorTwo.jpg";
+import newinteriorThree from "../../../public/asset/image/interior/newinteriorThree.jpg";
+import newinteriorFour from "../../../public/asset/image/interior/newinteriorFour.jpg";
+import newinteriorFive from "../../../public/asset/image/interior/newinteriorFive.jpg";
+import newinteriorSix from "../../../public/asset/image/interior/newinteriorSix.jpg";
+import newinteriorSeven from "../../../public/asset/image/interior/newinteriorSeven.jpg";
+import newinteriorEight from "../../../public/asset/image/interior/newinteriorEight.jpg";
+import newinteriorNine from "../../../public/asset/image/interior/newinteriorNine.jpg";
+import newinteriorTen from "../../../public/asset/image/interior/newinteriorTen.jpg";
+import newinteriorEleven from "../../../public/asset/image/interior/newinteriorEleven.jpg";
+// import newinteriorTwelve from "../../../public/asset/image/interior/newinteriorTwelve.jpg";
 
 import { Pagination, Autoplay } from "swiper/modules";
 type Props = {
@@ -80,7 +92,7 @@ const Gallery = ({ text, options = "" }: Props) => {
           <SwiperSlide>
             <div className=" w-full h-56 md:w-56 flex-none">
               <img
-                src={interiorTwo}
+                src={newinterior}
                 alt="hackberry image"
                 className=" w-full h-full object-cover"
               />
@@ -89,7 +101,7 @@ const Gallery = ({ text, options = "" }: Props) => {
           <SwiperSlide>
             <div className=" w-full h-56 md:w-56 flex-none">
               <img
-                src={interiorTen}
+                src={newinteriorTwo}
                 alt="hackberry image"
                 className=" w-full h-full object-cover"
               />
@@ -98,7 +110,7 @@ const Gallery = ({ text, options = "" }: Props) => {
           <SwiperSlide>
             <div className=" w-full h-56 md:w-56 flex-none">
               <img
-                src={interiorEleven}
+                src={newinteriorThree}
                 alt="hackberry image"
                 className=" w-full h-full object-cover"
               />
@@ -107,7 +119,7 @@ const Gallery = ({ text, options = "" }: Props) => {
           <SwiperSlide>
             <div className=" w-full h-56 md:w-56 flex-none">
               <img
-                src={interiorNine}
+                src={newinteriorFour}
                 alt="hackberry image"
                 className=" w-full h-full object-cover"
               />
@@ -116,7 +128,7 @@ const Gallery = ({ text, options = "" }: Props) => {
           <SwiperSlide>
             <div className=" w-full h-56 md:w-56 flex-none">
               <img
-                src={interiorThree}
+                src={newinteriorFive}
                 alt="hackberry image"
                 className=" w-full h-full object-cover"
               />
@@ -125,7 +137,7 @@ const Gallery = ({ text, options = "" }: Props) => {
           <SwiperSlide>
             <div className=" w-full h-56 md:w-56 flex-none">
               <img
-                src={interiorFour}
+                src={newinteriorSeven}
                 alt="hackberry image"
                 className=" w-full h-full object-cover"
               />
@@ -134,7 +146,7 @@ const Gallery = ({ text, options = "" }: Props) => {
           <SwiperSlide>
             <div className=" w-full h-56 md:w-56 flex-none">
               <img
-                src={interior}
+                src={newinteriorSix}
                 alt="hackberry image"
                 className=" w-full h-full object-cover"
               />
@@ -143,7 +155,7 @@ const Gallery = ({ text, options = "" }: Props) => {
           <SwiperSlide>
             <div className=" w-full h-56 md:w-56 flex-none">
               <img
-                src={interiorFive}
+                src={newinteriorEight}
                 alt="hackberry image"
                 className=" w-full h-full object-cover"
               />
@@ -152,7 +164,7 @@ const Gallery = ({ text, options = "" }: Props) => {
           <SwiperSlide>
             <div className=" w-full h-56 md:w-56 flex-none">
               <img
-                src={interiorSix}
+                src={newinteriorNine}
                 alt="hackberry image"
                 className=" w-full h-full object-cover"
               />
@@ -161,7 +173,7 @@ const Gallery = ({ text, options = "" }: Props) => {
           <SwiperSlide>
             <div className=" w-full h-56 md:w-56 flex-none">
               <img
-                src={interiorSeven}
+                src={newinteriorTen}
                 alt="hackberry image"
                 className=" w-full h-full object-cover"
               />
@@ -170,7 +182,7 @@ const Gallery = ({ text, options = "" }: Props) => {
           <SwiperSlide>
             <div className=" w-full h-56 md:w-56 flex-none">
               <img
-                src={interiorEight}
+                src={newinteriorEleven}
                 alt="hackberry image"
                 className=" w-full h-full object-cover"
               />

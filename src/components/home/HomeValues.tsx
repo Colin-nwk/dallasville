@@ -1,25 +1,29 @@
-import grid from "../../../public/asset/image/grid.png";
-import grid3 from "../../../public/asset/image/grid3.png";
-import grid2 from "../../../public/asset/image/grid2.png";
+// import grid from "../../../public/asset/image/grid.png";
+// import grid3 from "../../../public/asset/image/grid3.png";
+// import grid2 from "../../../public/asset/image/grid2.png";
 import Button from "../general/Button";
 import ScheduleAppointment from "../general/ScheduleAppointment";
+
+import newInteriorSix from "../../../public/asset/image/interior/newinteriorSix.jpg";
+import newInteriorEleven from "../../../public/asset/image/interior/newinteriorEleven.jpg";
+import newInteriorEight from "../../../public/asset/image/interior/newinteriorEight.jpg";
 
 const HomeValues = () => {
   return (
     <section className="container  mx-auto p-4 md:p-10 w-full h-fit mb-14 md:mb-0">
       <div className="flex md:hidden flex-col justify-between items-start gap-4">
         <h3 className="text-black">Our Core Values</h3>
-        <h4 className="text-black text-2xl font-mont font-bold text-ellipsis mb-4">
+        <h4 className="text-black text-2xl font-bold text-ellipsis mb-2">
           Your Ideal Home is Just a Few Clicks
         </h4>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-6 justify-start items-start gap-3">
         {/* desktop */}
         <div className="col-span-4 hidden md:flex justify-between items-center gap-4 overflow-x-scroll md:overflow-x-hidden">
-          <div className="w-[80%] md:w-1/3 relative">
+          <div className="w-[80%] md:w-1/3  relative">
             <img
-              src={grid}
-              className="w-full h-full"
+              src={newInteriorSix}
+              className="w-full h-full object-cover"
               alt="Unparalleled Expertise and Support"
             />
             <div className="h-12 w-12 border-2 rounded-full font-bold  flex items-center justify-center bg-transparent backdrop-blur-md border-white absolute right-2 bottom-12 text-white text-xl">
@@ -31,8 +35,8 @@ const HomeValues = () => {
           </div>
           <div className="w-[80%] md:w-1/3 relative">
             <img
-              src={grid2}
-              className="w-full h-full"
+              src={newInteriorEleven}
+              className="w-full h-full object-cover"
               alt="Intuitive Search and Seamless Experience"
             />
             <div className="h-12 w-12 border-2 rounded-full font-bold  flex items-center justify-center bg-transparent backdrop-blur-md border-white absolute right-2 bottom-12 text-white text-xl">
@@ -44,8 +48,8 @@ const HomeValues = () => {
           </div>
           <div className="w-[80%] md:w-1/3 relative">
             <img
-              src={grid3}
-              className="w-full h-full"
+              src={newInteriorEight}
+              className="w-full h-full object-cover"
               alt="  A Trustworthy Partner"
             />
             <div className="h-12 w-12 border-2 rounded-full font-bold  flex items-center justify-center bg-transparent backdrop-blur-md border-white absolute right-2 bottom-12 text-white text-xl">
@@ -60,7 +64,7 @@ const HomeValues = () => {
         <div className="md:col-span-3 md:hidden flex justify-between items-center gap-4 overflow-x-scroll ">
           <div className="min-w-[80%]  relative">
             <img
-              src={grid}
+              src={newInteriorSix}
               className="w-full h-full"
               alt="Unparalleled Expertise and Support"
             />
@@ -73,7 +77,7 @@ const HomeValues = () => {
           </div>
           <div className="min-w-[80%]  relative">
             <img
-              src={grid2}
+              src={newInteriorEleven}
               className="w-full h-full"
               alt="Intuitive Search and Seamless Experience"
             />
@@ -86,7 +90,7 @@ const HomeValues = () => {
           </div>
           <div className="min-w-[80%] relative">
             <img
-              src={grid3}
+              src={newInteriorEleven}
               className="w-full h-full"
               alt="  A Trustworthy Partner"
             />

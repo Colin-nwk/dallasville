@@ -47,8 +47,8 @@ const Flippers = () => {
 
           <div className="container  mx-auto px-4 md:px-10 w-full h-full">
             <div className="flex flex-col justify-center items-center gap-4 w-full h-full  md:mt-28 sm:mt-14 mt-10">
-              <div className="  flex flex-col justify-center items-center mt-20">
-                <h2 className=" text-2xl sm:text-4xl md:text-6xl font-semibold  text-white text-ellipsis">
+              <div className="  flex flex-col justify-center items-center md:mt-20 mt-40 ">
+                <h2 className=" text-3xl sm:text-4xl md:text-6xl font-semibold  text-white text-ellipsis">
                   Dallasville Real Estate Flippers (REP)
                 </h2>
               </div>
