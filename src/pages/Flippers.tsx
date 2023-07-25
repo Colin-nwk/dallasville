@@ -14,6 +14,7 @@ import How from "../components/flippers/How";
 import Gallery from "../components/projects/Gallery";
 import Section from "../components/general/Section";
 import SecureSlots from "../components/flippers/SecureSlots";
+import Reviews from "../components/flippers/Reviews";
 
 const Flippers = () => {
   return (
@@ -29,7 +30,7 @@ const Flippers = () => {
           loading="eager"
           src={Heromobile}
           alt=" luxuzy house with pool"
-          className=" block md:hidden w-fit h-fit object-contain absolute mix-blend-overlay -z-10"
+          className=" block md:hidden w-full h-fit object-cover absolute mix-blend-overlay -z-10"
         />
         <div className=" container mx-auto px-4 md:px-10 grid grid-cols-3  w-full h-full absolute top-28 md:top-14 -z-20 inset-x-0">
           <div className="border-l border-white/20 "></div>
@@ -62,6 +63,7 @@ const Flippers = () => {
         />
       </Section>
       <SecureSlots />
+      <Reviews />
 
       {/* <Brochure bg="bg-[#FFF1F8]" /> */}
       <Footer />

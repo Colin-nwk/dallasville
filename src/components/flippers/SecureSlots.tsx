@@ -8,7 +8,7 @@ const SecureSlots = () => {
     <>
       <Section>
         <div className="grid md:grid-cols-5 grid-cols-1 gap-8">
-          <div className="bg-red-400 w-full h-full md:col-span-2 ">
+          <div className=" w-full h-full md:col-span-2 ">
             <img src={clients} alt="" className="w-fit h-fit object-contain" />
           </div>
           <div className=" md:col-span-3">
