@@ -8,7 +8,7 @@ const Heading: React.FC<Props> = ({ text, className = "" }) => {
   return (
     <>
       <h2
-        className={`text-2xl md:text-3xl text-ellipsis leading-relaxed ${className}`}
+        className={`text-2xl md:text-[28px] text-ellipsis leading-relaxed ${className}`}
       >
         {text}
       </h2>
