@@ -1,7 +1,7 @@
 import Navbar from "../components/general/Navbar";
 import TopBanner from "../components/general/TopBanner";
 // import heroBg from "../../public/asset/image/projects/project-hero.png";
-import Brochure from "../components/general/Brochure";
+// import Brochure from "../components/general/Brochure";
 import Footer from "../components/general/Footer";
 
 import Herodesk from "../../public/asset/image/hackberry/herodesk.png";
@@ -11,6 +11,9 @@ import Heromobile from "../../public/asset/image/hackberry/heromobile.png";
 import Intro from "../components/flippers/Intro";
 import WhyUs from "../components/flippers/WhyUs";
 import How from "../components/flippers/How";
+import Gallery from "../components/projects/Gallery";
+import Section from "../components/general/Section";
+import SecureSlots from "../components/flippers/SecureSlots";
 
 const Flippers = () => {
   return (
@@ -52,8 +55,15 @@ const Flippers = () => {
       <Intro />
       <WhyUs />
       <How />
+      <Section>
+        <Gallery
+          options="text-2xl md:text-3xl text-ellipsis leading-relaxed text-center mb-8"
+          text="Discover the Hackberry Terrace Apartment"
+        />
+      </Section>
+      <SecureSlots />
 
-      <Brochure bg="bg-[#FFF1F8]" />
+      {/* <Brochure bg="bg-[#FFF1F8]" /> */}
       <Footer />
     </>
   );

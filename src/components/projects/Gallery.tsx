@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 
 import { Swiper, SwiperSlide } from "swiper/react";
+
 import "swiper/css";
 
 import "swiper/css/pagination";
@@ -18,10 +19,12 @@ import interiorTen from "../../../public/asset/image/hackberry/gallery/interiorT
 import interiorEleven from "../../../public/asset/image/hackberry/gallery/interiorEleven.png";
 
 import { Pagination, Autoplay } from "swiper/modules";
-
-const Gallery = () => {
+type Props = {
+  text: string;
+  options?: string;
+};
+const Gallery = ({ text, options = "" }: Props) => {
   const [slidePerView, setSlidePerView] = useState<number>(4);
-  console.log(slidePerView);
 
   const updateDimension = () => {
     const width = window.innerWidth;
@@ -55,64 +58,11 @@ const Gallery = () => {
     updateDimension();
   }, []);
 
-  //   const updateDimension = () => {
-  //     if (window.innerWidth > 768) {
-  //       setSlidePerView(5);
-  //       console.log(6);
-  //     } else if (window.innerWidth > 640 && window.innerWidth < 768) {
-  //       setSlidePerView(2);
-  //       console.log(3);
-  //     } else if (window.innerWidth < 640) {
-  //       setSlidePerView(1);
-  //       console.log(1);
-  //     }
-  //   };
-  //   useEffect(() => {
-  //     updateDimension();
-  //   }, []);
-
-  //   useEffect(() => {
-  //     const updateDimension = () => {
-  //       const width = window.innerWidth;
-  //       switch (true) {
-  //         case width > 1280:
-  //           setSlidePerView(7);
-
-  //           break;
-  //         case width > 1024 && width < 1280:
-  //           setSlidePerView(5);
-
-  //           break;
-  //         case width > 768 && width < 1024:
-  //           setSlidePerView(3);
-
-  //           break;
-  //         case width > 640 && width < 768:
-  //           setSlidePerView(2);
-
-  //           break;
-  //         case width < 640:
-  //           setSlidePerView(1);
-
-  //           break;
-  //         default:
-  //           // Set a default value here if needed
-  //           break;
-  //       }
-  //     };
-
-  //     window.addEventListener("resize", updateDimension);
-
-  //     return () => {
-  //       window.removeEventListener("resize", updateDimension);
-  //     };
-  //   }, [slidePerView]);
-
   return (
     <>
-      <h3 className="text-left font-bold text-xl  py-10 text-black">
-        Explore the Gallery
-      </h3>
+      <h3 className={options}>{text}</h3>
+      {/* <SubHeading text=" Explore the Gallery" className=" py-10" /> */}
+      {/* <Heading text=" Explore the Gallery" className={options} /> */}
       <div className=" py-3 gap-4 md:gap-1 overflow-x-auto  flex justify-start items-start ">
         <Swiper
           spaceBetween={10}

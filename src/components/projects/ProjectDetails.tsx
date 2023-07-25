@@ -110,7 +110,10 @@ const ProjectDetails = () => {
                 </aside>
               </div>
               <div className="w-full h-full py-5">
-                <Gallery />
+                <Gallery
+                  options="text-left font-bold text-xl  py-10 text-black"
+                  text="  Explore the Gallery"
+                />
                 <article className="w-full h-full  py-5">
                   <h3 className="text-left font-bold text-xl  py-4 pb-10 text-black">
                     Project Summary
