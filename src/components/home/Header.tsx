@@ -7,9 +7,9 @@ import Navbar from "../general/Navbar";
 import TopBanner from "../general/TopBanner";
 import Hero from "../general/Hero";
 
-import home from "../../../public/asset/image/herocarousel/home-hero.png";
-import about from "../../../public/asset/image/herocarousel/about-hero.png";
-import project from "../../../public/asset/image/herocarousel/project-hero.png";
+import home from "../../../public/asset/image/herocarousel/home-hero.jpg";
+import about from "../../../public/asset/image/herocarousel/about-hero.jpg";
+import project from "../../../public/asset/image/herocarousel/project-hero.jpg";
 const Header = () => {
   return (
     <>

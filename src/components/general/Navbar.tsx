@@ -76,6 +76,16 @@ const Navbar = () => {
                 </NavLink>
               </li>
               <li>
+                <NavLink
+                  to="/flippers"
+                  className={({ isActive }) =>
+                    isActive ? "text-white" : "text-white/50"
+                  }
+                >
+                  Flippers
+                </NavLink>
+              </li>
+              <li>
                 <ScheduleAppointment type="primary" />
               </li>
             </ul>
@@ -146,8 +156,19 @@ const Navbar = () => {
                     Projects
                   </NavLink>
                 </li>
+                <li>
+                  <NavLink
+                    to="/flippers"
+                    className={({ isActive }) =>
+                      isActive ? "text-white" : "text-white/50"
+                    }
+                  >
+                    Flippers
+                  </NavLink>
+                </li>
                 <li
-                  className="backdrop-blur-md drop-shadow rounded-full py-2.5 px-4 text-[#DC0000] hover:border-[#DC0000] duration-300 transition-all ease-in-out border border-[#DC0000]/30  "
+                  // className="backdrop-blur-md drop-shadow rounded-full py-2.5 px-4 text-[#DC0000] hover:border-[#DC0000] duration-300 transition-all ease-in-out border border-[#DC0000]/30  "
+                  className="backdrop-blur-md drop-shadow rounded-full py-2.5 px-4 text-[#DC0000] hover:bg-white/90 duration-300 bg-white transition-all ease-in-out hover:border-[#DC0000] border border-transparent  "
                   onClick={onOpen}
                 >
                   Schedule Appointment

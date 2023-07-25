@@ -6,7 +6,7 @@ import {
   ModalBody,
   ModalCloseButton,
 } from "@chakra-ui/react";
-import hackberry from "../../../public/asset/image/hackberry/hackberry.png";
+import hackberry from "../../../public/asset/image/hackberry/herodesk.png";
 import ScheduleAppointment from "./ScheduleAppointment";
 // import hackberrylogo from "../../../public/asset/image/hackberry/hackberry.svg";
 

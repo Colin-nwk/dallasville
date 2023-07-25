@@ -1,5 +1,5 @@
 import { FormControl, FormLabel, Input } from "@chakra-ui/react";
-import room from "../../../public/asset/image/living-room.png";
+import room from "../../../public/asset/image/living-room.jpg";
 type Props = {
   bg: string;
 };
@@ -9,11 +9,11 @@ const Brochure = ({ bg = "bg-white" }: Props) => {
       <div className={`${bg}  py-10`}>
         <section className="container  mx-auto p-4 md:p-10 w-full h-fit">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-start md:justify-between items-center">
-            <div className=" hidden md:block">
+            <div className="w-full h-full hidden md:block">
               <img
                 src={room}
                 alt="living room design"
-                className="w-fit h-fit object-contain"
+                className="w-full h-full object-cover"
               />
             </div>
             <div className="border rounded-md full h-full p-4 py-10 bg-white">

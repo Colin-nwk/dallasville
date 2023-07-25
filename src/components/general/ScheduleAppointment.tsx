@@ -12,8 +12,11 @@ import {
 } from "@chakra-ui/react";
 
 import React, { useState } from "react";
-import room from "../../../public/asset/image/modalimage.png";
+// import room from "../../../public/asset/image/modalimage.png";
 import arrow from "../../../public/asset/image/arrow-r.svg";
+
+// import home from "../../../public/asset/image/herocarousel/home-hero.jpg";
+import home from "../../../public/asset/image/herocarousel/home-hero.jpg";
 
 type Props = {
   type: string;
@@ -70,7 +73,8 @@ const ScheduleAppointment = ({ type }: Props) => {
       )}
       {type == "primary" && (
         <button
-          className="backdrop-blur-md drop-shadow rounded-full py-2.5 px-4 text-[#DC0000] hover:border-[#DC0000] duration-300 transition-all ease-in-out border border-[#DC0000]/30  "
+          // className="backdrop-blur-md drop-shadow rounded-full py-2.5 px-4 text-[#DC0000] hover:border-[#DC0000] duration-300 transition-all ease-in-out border border-[#DC0000]/30  "
+          className="backdrop-blur-md drop-shadow rounded-full py-2.5 px-4 text-[#DC0000] hover:bg-white/90 duration-300 bg-white transition-all ease-in-out hover:border-[#DC0000] border border-transparent  "
           onClick={onOpen}
         >
           Schedule Appointment
@@ -96,7 +100,7 @@ const ScheduleAppointment = ({ type }: Props) => {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4 justify-start md:justify-between items-center mx-2 md:mx-0">
                 <div className=" hidden md:block md:col-span-1 overflow-clip h-full w-full rounded-l-xl">
                   <img
-                    src={room}
+                    src={home}
                     alt="living room design"
                     className="h-full object-cover"
                   />
