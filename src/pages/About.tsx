@@ -12,7 +12,7 @@ const About = () => {
   return (
     <>
       <div className="">
-        <Header />
+        <Header sideCarousel={false} headingOne="About Us" headingTwo="" />
         <WeAre />
         <OurMission />
         <OurCore />

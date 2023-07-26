@@ -18,7 +18,11 @@ const Home = () => {
     <div className="">
       {/* popup */}
       <PopUp />
-      <Header />
+      <Header
+        sideCarousel={true}
+        headingOne=" Discover Your Dream "
+        headingTwo="Home with Ease "
+      />
       <Banner />
       <WeAre />
       <HomeValues />

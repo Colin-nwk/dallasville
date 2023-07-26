@@ -11,13 +11,21 @@ import projects from "../../../public/asset/image/our-projects.svg";
 // import slideBThree from "../../../public/asset/image/home/slidetwo/slide_bThree.png";
 // import Button from "../general/Button";
 
-import slideA from "../../../public/asset/image/interior/newinterior.jpg";
-import slideATwo from "../../../public/asset/image/interior/newinteriorTwo.jpg";
-import slideAThree from "../../../public/asset/image/interior/newinteriorThree.jpg";
+import slideA from "../../../public/asset/image/home/sliders/slide.png";
+import slideATwo from "../../../public/asset/image/home/sliders/slideTwo.png";
+import slideAThree from "../../../public/asset/image/home/sliders/slideThree.png";
 
-import slideB from "../../../public/asset/image/interior/newinteriorFour.jpg";
-import slideBTwo from "../../../public/asset/image/interior/newinteriorFive.jpg";
-import slideBThree from "../../../public/asset/image/interior/newinteriorSix.jpg";
+import slideB from "../../../public/asset/image/home/sliders/slideFour.png";
+import slideBTwo from "../../../public/asset/image/home/sliders/slideFive.png";
+import slideBThree from "../../../public/asset/image/home/sliders/slideSix.png";
+
+// import slideA from "../../../public/asset/image/interior/newinterior.jpg";
+// import slideATwo from "../../../public/asset/image/interior/newinteriorTwo.jpg";
+// import slideAThree from "../../../public/asset/image/interior/newinteriorThree.jpg";
+
+// import slideB from "../../../public/asset/image/interior/newinteriorFour.jpg";
+// import slideBTwo from "../../../public/asset/image/interior/newinteriorFive.jpg";
+// import slideBThree from "../../../public/asset/image/interior/newinteriorSix.jpg";
 
 import { AiOutlineArrowRight } from "react-icons/ai";
 import ScheduleAppointment from "../general/ScheduleAppointment";
@@ -81,25 +89,25 @@ const Projects = () => {
               }}
               modules={[Autoplay]}
             >
-              <SwiperSlide className="w-full h-full">
+              <SwiperSlide className="w-full h-full ">
                 <img
                   src={slideA}
                   alt="HackBerry Jahi District"
-                  className="w-fit h-fit object-contain"
+                  className="w-full h-full object-cover"
                 />
               </SwiperSlide>
               <SwiperSlide className="w-full h-full">
                 <img
                   src={slideATwo}
                   alt="HackBerry Jahi District"
-                  className="w-fit h-fit object-contain"
+                  className="w-full h-full object-cover"
                 />
               </SwiperSlide>
               <SwiperSlide className="w-full h-full">
                 <img
                   src={slideAThree}
                   alt="HackBerry Jahi District"
-                  className="w-fit h-fit object-contain"
+                  className="w-full h-full object-cover"
                 />
               </SwiperSlide>
             </Swiper>
@@ -124,21 +132,21 @@ const Projects = () => {
                 <img
                   src={slideB}
                   alt="Dewberry Terrance Gwarimpa"
-                  className="w-fit h-fit object-contain"
+                  className="w-full h-full object-cover"
                 />
               </SwiperSlide>
               <SwiperSlide className="w-full h-full">
                 <img
                   src={slideBTwo}
                   alt="Dewberry Terrance Gwarimpa"
-                  className="w-fit h-fit object-contain"
+                  className="w-full h-full object-cover"
                 />
               </SwiperSlide>
               <SwiperSlide className="w-full h-full">
                 <img
                   src={slideBThree}
                   alt="Dewberry Terrance Gwarimpa"
-                  className="w-fit h-fit object-contain"
+                  className="w-full h-full object-contain"
                 />
               </SwiperSlide>
             </Swiper>

@@ -10,7 +10,13 @@ import Hero from "../general/Hero";
 import home from "../../../public/asset/image/herocarousel/home-hero.jpg";
 import about from "../../../public/asset/image/herocarousel/about-hero.jpg";
 import project from "../../../public/asset/image/herocarousel/project-hero.jpg";
-const Header = () => {
+type Props = {
+  // text?: string;
+  headingOne: string;
+  headingTwo?: string;
+  sideCarousel: boolean;
+};
+const Header = ({ sideCarousel, headingOne, headingTwo }: Props) => {
   return (
     <>
       {/* {" "}
@@ -63,7 +69,12 @@ const Header = () => {
         <div className="z-20 ">
           <TopBanner />
           <Navbar />
-          <Hero primary={true} />
+
+          <Hero
+            sideCarousel={sideCarousel}
+            headingOne={headingOne}
+            headingTwo={headingTwo}
+          />
         </div>
       </header>
     </>

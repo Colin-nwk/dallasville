@@ -1,22 +1,28 @@
-import { AiOutlineArrowDown, AiOutlineArrowRight } from "react-icons/ai";
+import { AiOutlineArrowRight } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
 import SwiperCarousel from "./SwiperCarousel";
 type Props = {
-  primary: boolean;
+  sideCarousel: boolean;
+  headingOne: string;
+  headingTwo?: string;
 };
-const Hero = ({ primary = true }: Props) => {
+const Hero = ({
+  // primary = true,
+  sideCarousel,
+  headingOne,
+  headingTwo,
+}: Props) => {
   return (
     <div className="container  mx-auto px-4 md:px-10 w-full h-full">
-      {/* <div className="grid grid-cols-1 md:grid-cols-3"> */}
-      <div className="mt-10">
+      <div className={`${sideCarousel ? "mt-8 md:mt-16" : "mt-20 md:mt-16"}`}>
         <h1 className="text-white font-sangblue font-bold text-3xl md:text-5xl">
-          Discover Your Dream
-          <span className="block mt-4"> Home with Ease</span>
+          {headingOne}
+          <span className="block mt-4"> {headingTwo}</span>
         </h1>
       </div>
 
-      <div className="my-5 md:mt-20">
+      <div className={`${sideCarousel ? "my-5 md:mt-20" : "mt-40 md:mt-20"}`}>
         <Link
           to="/projects"
           className="flex h-14 w-full md:w-1/3   cursor-pointer"
@@ -28,22 +34,24 @@ const Hero = ({ primary = true }: Props) => {
             </span>
           </span>
           <span className="h-full w-20 bg-white flex justify-center items-center">
-            {primary ? (
-              <AiOutlineArrowRight className="text-black h-8 w-8" />
-            ) : (
-              <AiOutlineArrowDown className="text-black h-8 w-8" />
-            )}
+            <AiOutlineArrowRight className="text-black h-8 w-8" />
           </span>
         </Link>
       </div>
-      <div className="flex-col md:absolute md:right-20 md:bottom-4 flex justify-center items-start gap-4 ">
-        <h3 className="text-white text-sm hidden md:block">Feature Estate</h3>
-        <div className="w-full h-full md:h-full md:w-96 border-l-4 border-white">
-          {/* <HeroCarousel /> */}
-          {/* <Carousel /> */}
-          <SwiperCarousel />
+      {sideCarousel ? (
+        <div className="flex-col absolute right-5 left-4 md:left-auto bottom-2 md:right-20 md:bottom-4 flex justify-center items-start gap-4 ">
+          <h3 className="text-white text-sm hidden md:block">Feature Estate</h3>
+          <div className="w-full h-full md:h-full md:w-96 border-l-4 border-white">
+            <SwiperCarousel />
+          </div>
         </div>
-      </div>
+      ) : // <div className="flex-col md:absolute md:right-20 md:bottom-4 flex justify-center items-start gap-4 ">
+      //   <h3 className="text-white text-sm hidden md:block">Feature Estate</h3>
+      //   <div className="w-full h-full md:h-full md:w-96 border-l-4 border-white">
+      //     <SwiperCarousel />
+      //   </div>
+      // </div>
+      null}
       {/* </div> */}
     </div>
   );

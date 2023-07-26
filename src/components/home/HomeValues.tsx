@@ -4,9 +4,13 @@
 import Button from "../general/Button";
 import ScheduleAppointment from "../general/ScheduleAppointment";
 
-import newInteriorSix from "../../../public/asset/image/interior/newinteriorSix.jpg";
-import newInteriorEleven from "../../../public/asset/image/interior/newinteriorEleven.jpg";
-import newInteriorEight from "../../../public/asset/image/interior/newinteriorEight.jpg";
+import a from "../../../public/asset/image/home/grid/a.png";
+import b from "../../../public/asset/image/home/grid/b.png";
+import c from "../../../public/asset/image/home/grid/c.png";
+
+// import newInteriorSix from "../../../public/asset/image/interior/newinteriorSix.jpg";
+// import newInteriorEleven from "../../../public/asset/image/interior/newinteriorEleven.jpg";
+// import newInteriorEight from "../../../public/asset/image/interior/newinteriorEight.jpg";
 
 const HomeValues = () => {
   return (
@@ -22,7 +26,7 @@ const HomeValues = () => {
         <div className="col-span-4 hidden md:flex justify-between items-center gap-4 overflow-x-scroll md:overflow-x-hidden">
           <div className="w-[80%] md:w-1/3  relative">
             <img
-              src={newInteriorSix}
+              src={a}
               className="w-full h-full object-cover"
               alt="Unparalleled Expertise and Support"
             />
@@ -35,7 +39,7 @@ const HomeValues = () => {
           </div>
           <div className="w-[80%] md:w-1/3 relative">
             <img
-              src={newInteriorEleven}
+              src={b}
               className="w-full h-full object-cover"
               alt="Intuitive Search and Seamless Experience"
             />
@@ -48,7 +52,7 @@ const HomeValues = () => {
           </div>
           <div className="w-[80%] md:w-1/3 relative">
             <img
-              src={newInteriorEight}
+              src={c}
               className="w-full h-full object-cover"
               alt="  A Trustworthy Partner"
             />
@@ -64,7 +68,7 @@ const HomeValues = () => {
         <div className="md:col-span-3 md:hidden flex justify-between items-center gap-4 overflow-x-scroll ">
           <div className="min-w-[80%]  relative">
             <img
-              src={newInteriorSix}
+              src={a}
               className="w-full h-full"
               alt="Unparalleled Expertise and Support"
             />
@@ -77,7 +81,7 @@ const HomeValues = () => {
           </div>
           <div className="min-w-[80%]  relative">
             <img
-              src={newInteriorEleven}
+              src={b}
               className="w-full h-full"
               alt="Intuitive Search and Seamless Experience"
             />
@@ -90,7 +94,7 @@ const HomeValues = () => {
           </div>
           <div className="min-w-[80%] relative">
             <img
-              src={newInteriorEleven}
+              src={c}
               className="w-full h-full"
               alt="  A Trustworthy Partner"
             />
