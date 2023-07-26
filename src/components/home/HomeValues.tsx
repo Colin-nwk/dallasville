@@ -4,7 +4,7 @@
 import Button from "../general/Button";
 import ScheduleAppointment from "../general/ScheduleAppointment";
 
-import a from "../../../public/asset/image/home/grid/a.png";
+import e from "../../../public/asset/image/home/grid/e.png";
 import b from "../../../public/asset/image/home/grid/b.png";
 import c from "../../../public/asset/image/home/grid/c.png";
 
@@ -26,7 +26,7 @@ const HomeValues = () => {
         <div className="col-span-4 hidden md:flex justify-between items-center gap-4 overflow-x-scroll md:overflow-x-hidden">
           <div className="w-[80%] md:w-1/3  relative">
             <img
-              src={a}
+              src={e}
               className="w-full h-full object-cover"
               alt="Unparalleled Expertise and Support"
             />
@@ -68,7 +68,7 @@ const HomeValues = () => {
         <div className="md:col-span-3 md:hidden flex justify-between items-center gap-4 overflow-x-scroll ">
           <div className="min-w-[80%]  relative">
             <img
-              src={a}
+              src={e}
               className="w-full h-full"
               alt="Unparalleled Expertise and Support"
             />
