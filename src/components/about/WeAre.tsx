@@ -1,7 +1,11 @@
-import frameOne from "../../../public/asset/image/about/we1.png";
-import frameTwo from "../../../public/asset/image/about/we2.png";
-import frameThree from "../../../public/asset/image/about/we3.png";
-import frameFour from "../../../public/asset/image/about/we4.png";
+// import frameOne from "../../../public/asset/image/about/we1.png";
+// import frameTwo from "../../../public/asset/image/about/we2.png";
+// import frameThree from "../../../public/asset/image/about/we3.png";
+// import frameFour from "../../../public/asset/image/about/we4.png";
+import one from "../../../public/asset/image/about/grid/one.png";
+import two from "../../../public/asset/image/about/grid/two.png";
+import three from "../../../public/asset/image/about/grid/three.png";
+import four from "../../../public/asset/image/about/grid/four.png";
 
 const WeAre = () => {
   return (
@@ -23,28 +27,28 @@ const WeAre = () => {
       <div className="grid gap-4 grid-cols-4 py-5">
         <div className="">
           <img
-            src={frameOne}
+            src={one}
             alt="dallasville frame"
             className="h-fit w-fit aspect-auto"
           />
         </div>
         <div className="">
           <img
-            src={frameTwo}
+            src={two}
             alt="dallasville frame"
             className="h-fit w-fit aspect-auto"
           />
         </div>
         <div className="">
           <img
-            src={frameThree}
+            src={three}
             alt="dallasville frame"
             className="h-fit w-fit aspect-auto"
           />
         </div>
         <div className="">
           <img
-            src={frameFour}
+            src={four}
             alt="dallasville frame"
             className="h-fit w-fit aspect-auto"
           />
