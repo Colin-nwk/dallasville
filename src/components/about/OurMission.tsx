@@ -1,6 +1,8 @@
 import mission from "../../../public/asset/image/about/ourmission.svg";
-import missionOne from "../../../public/asset/image/about/mission1.png";
-import missionTwo from "../../../public/asset/image/about/mission2.png";
+// import missionOne from "../../../public/asset/image/about/mission1.png";
+// import missionTwo from "../../../public/asset/image/about/mission2.png";
+import missionOne from "../../../public/asset/image/about/mission/mission.png";
+import missionTwo from "../../../public/asset/image/about/mission/missionTwo.png";
 // import Button from "../general/Button";
 import ScheduleAppointment from "../general/ScheduleAppointment";
 
@@ -15,6 +17,14 @@ const OurMission = () => {
         />
 
         <div className="grid  grid-cols-1 md:grid-cols-2 gap-4 md:-mt-10 mt-0 ">
+          {/* <div className="order-2 md:order-1 ">
+            <img src={missionOne} alt="our mission " />
+            <img
+              src={missionTwo}
+              alt="our mission "
+              className="mt-10 md:mt-20"
+            />
+          </div> */}
           <div className="order-2 md:order-1 grid grid-cols-2 gap-4">
             <img src={missionOne} alt="our mission " />
             <img
