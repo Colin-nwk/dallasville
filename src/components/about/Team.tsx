@@ -14,24 +14,7 @@ const Team = () => {
         <h3 className="text-left md:text-center font-bold text-xl md:text-3xl py-10 text-main">
           Meet our Team of Experts
         </h3>
-        {/* <div className="mt-5 overflow-hidden">
-          <div className="w-full gap-8 bg-red-600  flex justify-between items-center overflow-y-scroll">
-            <div className="relative bg-green-500 h-72">
-              <img
-                src={teamMember}
-                alt=""
-                className="h-full w-full object-center"
-              />
-            </div>
-            <div className="relative bg-green-500 h-72">
-              <img
-                src={teamMember}
-                alt=""
-                className="h-72 w-56 object-center"
-              />
-            </div>
-          </div>
-        </div> */}
+
         <div className="flex overflow-x-auto justify-between gap-4 items-center no-scroll cursor-pointer">
           {/* Add your scrollable elements here */}
           <div className="flex-none w-56 md:w-fit h-72 relative">
@@ -52,7 +35,7 @@ const Team = () => {
             <img
               src={surveyor}
               alt="surveyor"
-              className="h-full w-full object-contain mix-blend-overlay  -z-10"
+              className="h-full w-full object-cover mix-blend-overlay  -z-10"
             />
             <div className="absolute bottom-0 inset-x-0 text-white p-2">
               {" "}
@@ -67,7 +50,7 @@ const Team = () => {
             <img
               src={naomi}
               alt="naomi"
-              className="h-full w-full object-contain mix-blend-overlay  -z-10"
+              className="h-full w-full object-cover mix-blend-overlay  -z-10"
             />
             <div className="absolute bottom-0 inset-x-0 text-white p-2">
               {" "}
@@ -82,7 +65,7 @@ const Team = () => {
             <img
               src={adeola}
               alt=""
-              className="h-full w-full object-contain mix-blend-overlay  -z-10"
+              className="h-full w-full object-cover mix-blend-overlay  -z-10"
             />
             <div className="absolute bottom-0 inset-x-0 text-white p-2">
               {" "}
@@ -97,7 +80,7 @@ const Team = () => {
             <img
               src={efe}
               alt="efe"
-              className="h-full w-full object-contain mix-blend-overlay  -z-10"
+              className="h-full w-full object-cover mix-blend-overlay  -z-10"
             />
             <div className="absolute bottom-0 inset-x-0 text-white p-2">
               {" "}
@@ -110,7 +93,7 @@ const Team = () => {
             <img
               src={sarah}
               alt="sarah"
-              className="h-full w-full object-contain mix-blend-overlay  -z-10"
+              className="h-full w-full object-cover mix-blend-overlay  -z-10"
             />
             <div className="absolute bottom-0 inset-x-0 text-white p-2">
               {" "}
@@ -123,7 +106,7 @@ const Team = () => {
             <img
               src={jamiu}
               alt="jamiu"
-              className="h-full w-full object-contain mix-blend-overlay  -z-10"
+              className="h-full w-full object-cover mix-blend-overlay  -z-10"
             />
             <div className="absolute bottom-0 inset-x-0 text-white p-2">
               {" "}

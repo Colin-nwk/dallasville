@@ -94,15 +94,17 @@ const Navbar = () => {
             className="w-6 h-6 flex md:hidden flex-col justify-between items-center text-4xl text-gray-50 cursor-pointer overflow-hidden group "
             onClick={() => setShowMenu(!showMenu)}
           >
-            <span className="w-full h-[2px] bg-white  inline-flex transform group-hover:translate-x-2 transition-all ease-in-out duration-300"></span>
-            <span
-              className="w-full h-[2px] bg-white  inline-flex transform
+            <span className="w-full h-[2px] bg-white dark:bg-main inline-flex transform group-hover:translate-x-2 transition-all ease-in-out duration-300"></span>
+            <span className="w-full h-[2px] bg-white dark:bg-main inline-flex transform group-hover:translate-x-2 transition-all ease-in-out duration-300"></span>
+            <span className="w-full h-[2px] bg-white dark:bg-main inline-flex transform group-hover:translate-x-2 transition-all ease-in-out duration-300"></span>
+            {/* <span
+              className="w-full h-[2px] bg-white dark:bg-main inline-flex transform
           translate-x-3 group-hover:translate-x-0 transition-all ease-in-out duration-300"
-            ></span>
-            <span
-              className="w-full h-[2px] bg-white  inline-flex transform
+            ></span> */}
+            {/* <span
+              className="w-full h-[2px] bg-white dark:bg-main inline-flex transform
           translate-x-1 group-hover:translate-x-3 transition-all ease-in-out duration-300"
-            ></span>
+            ></span> */}
           </div>
         </div>
         {showMenu && (

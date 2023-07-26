@@ -15,26 +15,38 @@ const Hero = ({
 }: Props) => {
   return (
     <div className="container  mx-auto px-4 md:px-10 w-full h-full">
-      <div className={`${sideCarousel ? "mt-8 md:mt-16" : "mt-20 md:mt-16"}`}>
-        <h1 className="text-white font-sangblue font-bold text-3xl md:text-5xl">
+      <div className={`${sideCarousel ? "mt-8 md:mt-16" : "mt-36 md:mt-30"}`}>
+        <h1
+          className={`${
+            sideCarousel ? "" : "text-center "
+          } text-white font-sangblue font-bold text-3xl md:text-5xl`}
+        >
           {headingOne}
           <span className="block mt-4"> {headingTwo}</span>
         </h1>
       </div>
 
-      <div className={`${sideCarousel ? "my-5 md:mt-20" : "mt-40 md:mt-20"}`}>
+      {}
+
+      <div
+        className={`${
+          sideCarousel
+            ? "my-5 md:mt-20"
+            : "mt-10 md:mt-14 flex justify-center items-center"
+        }`}
+      >
         <Link
           to="/projects"
-          className="flex h-14 w-full md:w-1/3   cursor-pointer"
+          className="flex h-14 w-full md:w-1/3   cursor-pointer group"
         >
           <span className="h-full w-1 bg-white"></span>
           <span className="h-full w-full backdrop-blur-md  flex justify-center -z-10 items-center">
-            <span className="text-white opacity-100 text-center z-10">
+            <span className="text-white opacity-100 text-center z-10 group-hover:translate-x-2 translate-x-0 duration-300 ease-in-out transition-all">
               See our Projects
             </span>
           </span>
           <span className="h-full w-20 bg-white flex justify-center items-center">
-            <AiOutlineArrowRight className="text-black h-8 w-8" />
+            <AiOutlineArrowRight className="text-black h-8 w-8 group-hover:translate-x-2 translate-x-0 duration-300 ease-in-out transition-all" />
           </span>
         </Link>
       </div>

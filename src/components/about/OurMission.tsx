@@ -34,11 +34,11 @@ const OurMission = () => {
             />
           </div>
           <div className="order-1 md:order-2">
-            <h2 className="text-left md:text-center font-bold text-xl md:text-3xl pt-10 md:pt-0 py-4 text-main">
+            <h2 className="text-left md:text-center font-bold text-xl md:text-3xl pt-4 md:pt-0 py-4 text-main">
               Our Mission
             </h2>
             <div className="md:px-10">
-              <p className="text-lg leading-loose text-ellipsis py-5 md:py-10 ">
+              <p className="text-lg leading-relaxed text-ellipsis py-5 md:py-10 ">
                 Our mission is to empower individuals and families to achieve
                 their real estate goals and dreams. We understand that finding
                 the perfect home is about more than just the physical space;
