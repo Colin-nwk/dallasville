@@ -1,7 +1,7 @@
 import { BiLogoFacebook } from "react-icons/bi";
 import { AiOutlineTwitter, AiOutlineInstagram } from "react-icons/ai";
 import logo from "../../../public/asset/image/logo_white.png";
-// import sbo from "../../../public/asset/image/sbo.png";
+import sbo from "../../../public/asset/image/sbo.png";
 import { Link } from "react-router-dom";
 const Footer = () => {
   return (
@@ -13,14 +13,14 @@ const Footer = () => {
               <Link to="/">
                 <img src={logo} alt="dallasville" className="w-fit h-fit" />
               </Link>
-              <p className="font-inter">
+              <p className="">
                 At Dallasville, we believe in the power of smart homes and
                 connected living. Our smart real estate solutions integrate home
                 automation technology, offering a seamless and intelligent
                 living experienc
               </p>
             </div>
-            <div className="grid grid-cols-2 md:col-span-2 font-inter">
+            <div className="grid grid-cols-2 md:col-span-2">
               <div className="flex flex-col justify-start items-start gap-2 w-full h-full">
                 <p className="font-semibold mb-4">About Us</p>
                 <Link to="/about" className="text-left">
@@ -81,11 +81,11 @@ const Footer = () => {
                   className="px-3 py-2.5 bg-main rounded-r-3xl cursor-pointer w-1/4"
                 />
               </div>
-              <div className="w-full">
-                {/* <div className="flex flex-col gap-3">
+              <div className="grid grid-cols-2">
+                <div className="flex flex-col gap-3">
                   <img src={sbo} alt="sbo" className="w-fit h-fit" />
                   <h5>Trusted Busines</h5>
-                </div> */}
+                </div>
                 <div className="flex flex-col gap-3">
                   <h5>Address</h5>
                   <p className="">

@@ -35,20 +35,22 @@ const Hero = ({
             : "mt-10 md:mt-14 flex justify-center items-center"
         }`}
       >
-        <Link
-          to="/projects"
-          className="flex h-14 w-full md:w-1/3   cursor-pointer group"
-        >
-          <span className="h-full w-1 bg-white"></span>
-          <span className="h-full w-full backdrop-blur-md  flex justify-center -z-10 items-center">
-            <span className="text-white opacity-100 text-center z-10 group-hover:translate-x-2 translate-x-0 duration-300 ease-in-out transition-all">
-              See our Projects
+        {sideCarousel ? (
+          <Link
+            to="/projects"
+            className="flex h-14 w-full md:w-1/3   cursor-pointer group"
+          >
+            <span className="h-full w-1 bg-white"></span>
+            <span className="h-full w-full backdrop-blur-md  flex justify-center -z-10 items-center">
+              <span className="text-white opacity-100 text-center z-10 group-hover:translate-x-2 translate-x-0 duration-300 ease-in-out transition-all">
+                See our Projects
+              </span>
             </span>
-          </span>
-          <span className="h-full w-20 bg-white flex justify-center items-center">
-            <AiOutlineArrowRight className="text-black h-8 w-8 group-hover:translate-x-2 translate-x-0 duration-300 ease-in-out transition-all" />
-          </span>
-        </Link>
+            <span className="h-full w-20 bg-white flex justify-center items-center">
+              <AiOutlineArrowRight className="text-black h-8 w-8 group-hover:translate-x-2 translate-x-0 duration-300 ease-in-out transition-all" />
+            </span>
+          </Link>
+        ) : null}
       </div>
       {sideCarousel ? (
         <div className="flex-col absolute right-5 left-4 md:left-auto bottom-2 md:right-20 md:bottom-4 flex justify-center items-start gap-4 ">

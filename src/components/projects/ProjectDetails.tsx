@@ -97,7 +97,7 @@ const ProjectDetails = () => {
                       <div className="flex flex-col gap-2">
                         <p className="text-gray-400">Location</p>
                         <p className="font-semibold text-lg">
-                          Lugbe, Katampe, Jahi and Gwarimper
+                          Lugbe, Katampe, Jahi and Gwarimpa
                         </p>
                       </div>
                       <div className="flex flex-col gap-2">
@@ -140,7 +140,10 @@ const ProjectDetails = () => {
                         </div>
                         <div className=" flex flex-col gap-2">
                           <p className="text-sm md:text-base">Architecture</p>
-                          <h4 className="text-lg md:text-2xl">Lucrezia</h4>
+                          {/* <h4 className="text-lg md:text-2xl">Lucrezia</h4> */}
+                          <h4 className="text-lg md:text-2xl">
+                            Hackberry (Terrace)
+                          </h4>
                         </div>
                         <div className=" flex flex-col gap-2">
                           <p className="text-sm md:text-base">PROJECT VALUE</p>
@@ -154,24 +157,36 @@ const ProjectDetails = () => {
                         </div>
                       </div>
                       <div className="flex flex-col justify-between items-start gap-6 h-full w-full col-span-1">
-                        <div className=" flex flex-col justify-start items-start gap-2">
+                        {/* <div className=" flex flex-col justify-start items-start gap-2">
                           <p className="text-sm md:text-base">
                             PENTHOUSE APPROX
                           </p>
                           <h4 className="text-lg md:text-2xl">1350 M2</h4>
+                        </div> */}
+                        <div className=" flex flex-col justify-start items-start gap-2">
+                          <p className="text-sm md:text-base">
+                            Total square Area
+                          </p>
+                          <h4 className="text-lg md:text-2xl">2809.16m²</h4>
                         </div>
                         <div className=" flex flex-col gap-2">
                           <p className="text-sm md:text-base">FLOORS</p>
-                          <h4 className="text-lg md:text-2xl">14</h4>
+                          <h4 className="text-lg md:text-2xl">2</h4>
                         </div>
                         <div className=" flex flex-col gap-2">
                           <p className="text-sm md:text-base">STATUS</p>
                           <h4 className="text-lg md:text-2xl">In progress</h4>
                         </div>
                         <div className=" flex flex-col gap-2">
+                          <p className="text-sm md:text-base">
+                            Dedicated Parking Space
+                          </p>
+                          <h4 className="text-lg md:text-2xl">30</h4>
+                        </div>
+                        {/* <div className=" flex flex-col gap-2">
                           <p className="text-base">BEDROOM PENTHOUSES</p>
                           <h4 className="text-lg md:text-2xl">4</h4>
-                        </div>
+                        </div> */}
                       </div>
                       <div className="flex flex-col justify-between items-start gap-6 h-full w-full  col-span-1">
                         {/* <div className="flex md:flex-col">
@@ -179,25 +194,39 @@ const ProjectDetails = () => {
                           <div className="flex flex-col"></div>
                         </div> */}
                         {/* <div></div> */}
+
                         <div className=" flex flex-col gap-2">
+                          <p className="text-sm md:text-base">No of Units </p>
+                          <h4 className="text-lg md:text-2xl">10</h4>
+                        </div>
+                        {/* <div className=" flex flex-col gap-2">
+                          <p className="text-sm md:text-base">
+                            Dedicated Parking Space
+                          </p>
+                          <h4 className="text-lg md:text-2xl">30</h4>
+                        </div> */}
+
+                        {/* <div className=" flex flex-col gap-2">
                           <p className="text-sm md:text-base">
                             PENTHOUSE APPROX
                           </p>
                           <h4 className="text-lg md:text-2xl">452 M2</h4>
-                        </div>
-                        <div className=" flex flex-col gap-2">
+                        </div> */}
+                        {/* <div className=" flex flex-col gap-2">
                           <p className="text-sm md:text-base">FEET</p>
                           <h4 className="text-lg md:text-2xl">220</h4>
-                        </div>
-                        <div className=" flex flex-col gap-2">
+                        </div> */}
+                        {/* <div className=" flex flex-col gap-2">
                           <p className="text-sm md:text-base">
                             COMPLETION DATE
                           </p>
                           <h4 className="text-lg md:text-2xl">Q3-2023</h4>
-                        </div>
+                        </div> */}
                         <div className=" flex flex-col gap-2">
                           <p className="text-sm md:text-base">LOCATION</p>
-                          <h4 className="text-lg md:text-2xl">Banana Island</h4>
+                          <h4 className="text-lg md:text-2xl">
+                            Lugbe, FCT, Nigeria
+                          </h4>
                         </div>
                       </div>
                     </div>

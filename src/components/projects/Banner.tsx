@@ -5,7 +5,7 @@ import wifi from "../../../public/asset/image/about/wifi-square.svg";
 import home from "../../../public/asset/image/about/home-wifi.svg";
 import lock from "../../../public/asset/image/about/lock.svg";
 import alarm from "../../../public/asset/image/about/alarm.svg";
-import music from "../../../public/asset/image/about/music-play.svg";
+// import music from "../../../public/asset/image/about/music-play.svg";
 
 const Banner = () => {
   return (
@@ -27,7 +27,7 @@ const Banner = () => {
           <h3 className="text-center text-white font-bold text-xl md:text-3xl py-5 xl:mt-5 ">
             Estate Amenities
           </h3>
-          <div className="flex justify-center items-center  flex-wrap gap-4">
+          <div className="flex justify-center items-center  flex-wrap gap-6 md:gap-10">
             <div className="flex flex-col justify-between items-center">
               <img
                 src={wifi}
@@ -60,14 +60,14 @@ const Banner = () => {
               />
               <span className="text-xs text-white ">Lightening Control</span>
             </div>
-            <div className="flex flex-col justify-between items-center">
+            {/* <div className="flex flex-col justify-between items-center">
               <img
                 src={music}
                 alt="Distributed Audio"
                 className="h-10 w-10 p-2 rounded-full bg-transparent backdrop-blur ring-[1px] ring-white mb-2"
               />
               <span className="text-xs text-white ">Distributed Audio</span>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="absolute bg-gradient-to-b from-black to-gray-600 w-full h-full   -z-20 top-0 left-0 transparent"></div>

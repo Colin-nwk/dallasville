@@ -41,7 +41,8 @@ const Navbar = () => {
       <div className="container  mx-auto px-4 md:px-10 w-full">
         <div className=" flex justify-between items-center mt-10">
           <Link to="/">
-            <img src={logo} className="h-fit w-20" alt="dallasville logo" />
+            {/* <img src={logo} className="h-fit w-20" alt="dallasville logo" /> */}
+            <img src={logo} className="h-fit w-28" alt="dallasville logo" />
           </Link>
           <nav className="hidden md:block">
             <ul className="flex justify-between items-center gap-10 cursor-pointer">
