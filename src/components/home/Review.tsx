@@ -1,6 +1,6 @@
-import user1 from "../../../public/asset/image/user1.png";
-import user2 from "../../../public/asset/image/user2.png";
-import user3 from "../../../public/asset/image/user3.png";
+// import user1 from "../../../public/asset/image/user1.png";
+// import user2 from "../../../public/asset/image/user2.png";
+// import user3 from "../../../public/asset/image/user3.png";
 
 const Review = () => {
   return (
@@ -15,8 +15,8 @@ const Review = () => {
       <div className="grid grid-col-1 md:grid-cols-3 sm:grid-cols-2 justify-between items-center gap-4 mt-10">
         <div className="border rounded-xl p-4 bg-[#F6F6F6]">
           <div className="flex justify-start items-center">
-            <img src={user1} alt="" className="h-14 w-14" />
-            <span className="ml-4 text-lg font-semibold">John and Emily S</span>
+            {/* <img src={user1} alt="" className="h-14 w-14" /> */}
+            <span className="ml-4 text-lg font-semibold">Amina Bala</span>
           </div>
           <p className="">
             Purchasing a home from DallasVille was an absolute pleasure. Their
@@ -29,8 +29,8 @@ const Review = () => {
 
         <div className="border rounded-xl p-4 bg-[#F6F6F6]">
           <div className="flex justify-start items-center">
-            <img src={user3} alt="" className="h-14 w-14" />
-            <span className="ml-4 text-lg font-semibold">Sarah M</span>
+            {/* <img src={user3} alt="" className="h-14 w-14" /> */}
+            <span className="ml-4 text-lg font-semibold">Uche Nwosu</span>
           </div>
           <p className="">
             DallasVille made selling our house a breeze. Their expertise and
@@ -42,8 +42,8 @@ const Review = () => {
         </div>
         <div className="border rounded-xl p-4 bg-[#F6F6F6]">
           <div className="flex justify-start items-center">
-            <img src={user2} alt="" className="h-14 w-14" />
-            <span className="ml-4 text-lg font-semibold">Michael L</span>
+            {/* <img src={user2} alt="" className="h-14 w-14" /> */}
+            <span className="ml-4 text-lg font-semibold">Paul Effiong</span>
           </div>
           <p className="">
             I was impressed with DallasVille s commitment to understanding my

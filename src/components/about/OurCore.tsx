@@ -42,15 +42,19 @@ const OurCore = () => {
         <div className="grid grid-cols-1 md:grid-cols-5 gap-4  justify-center items-center md:py-10 py-5">
           <div className="md:col-span-2 md:pt-20 order-2 md:order-1">
             <h3 className="text-left font-bold text-lg md:text-xl py-3 text-main">
-              Intuitive Search and Seamless Experience
+              SEAMLESS EXPERIENCE
             </h3>
             <p className="text-base leading-loose text-left text-ellipsis py-1 ">
+              Refine your living experience by going for our smartly built
+              seamless experience homes.
+            </p>
+            {/* <p className="text-base leading-loose text-left text-ellipsis py-1 ">
               Find your dream home effortlessly with our user-friendly website.
               Refine your search with intuitive filters for location, price
               range, amenities, and more. Say goodbye to endless scrolling and
               hello to personalized results, making your journey seamless and
               efficient.
-            </p>
+            </p> */}
           </div>
 
           <div className="md:col-span-3 grid grid-cols-2 justify-end items-end h-full overflow-hidden gap-4 order-1 md:order-2">

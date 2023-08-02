@@ -92,18 +92,18 @@ const ProjectDetails = () => {
                       </div>
                       <div className="flex flex-col gap-2">
                         <p className="text-gray-400">Floors</p>
-                        <p className="font-semibold text-lg">14</p>
+                        <p className="font-semibold text-lg">2</p>
                       </div>
                       <div className="flex flex-col gap-2">
                         <p className="text-gray-400">Location</p>
                         <p className="font-semibold text-lg">
-                          Banana Island, Lagos
+                          Lugbe, Katampe, Jahi and Gwarimper
                         </p>
                       </div>
                       <div className="flex flex-col gap-2">
                         <p className="text-gray-400">Price</p>
                         <p className="font-semibold text-lg">
-                          N5,000,000/annum
+                          45million to 75million
                         </p>
                       </div>
                     </div>

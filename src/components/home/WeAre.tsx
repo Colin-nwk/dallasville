@@ -33,17 +33,17 @@ const WeAre = () => {
           />
           <div className="backdrop-blur-sm w-full h-20 md:h-28 absolute bottom-0 right-0 left-0 p-4">
             <div className="flex justify-around items-start md:items-center gap-2 md:gap-4">
-              <div className="flex flex-col items-center gap-1 md:gap-0.5">
+              {/* <div className="flex flex-col items-center gap-1 md:gap-0.5">
                 <span className="bg-white w-6 h-6 md:w-16 md:h-16 rounded-full font-bold flex justify-center items-center text-black md:text-lg text-sm">
                   24
                 </span>
                 <span className="text-xs md:text-base text-white text-center">
                   Completed Projects
                 </span>
-              </div>
+              </div> */}
               <div className="flex flex-col items-center  gap-1 md:gap-0.5">
                 <span className="bg-white w-6 h-6 md:w-16 md:h-16 rounded-full font-bold flex justify-center items-center text-black md:text-lg text-sm">
-                  10
+                  4
                 </span>
                 <span className="text-xs md:text-base  text-white text-center">
                   Number of Estates
@@ -51,7 +51,7 @@ const WeAre = () => {
               </div>
               <div className="flex flex-col justify-start  items-center  gap-1 md:gap-0.5">
                 <span className="bg-white w-6 h-6 md:w-16 md:h-16 rounded-full font-bold flex  justify-center items-center text-black md:text-lg text-sm">
-                  6
+                  3
                 </span>
                 <span className="text-xs md:text-base text-white text-center">
                   Years of Operation

@@ -78,11 +78,10 @@ const Services = () => {
                           )}
                         </AccordionButton>
                       </h2>
-                      <AccordionPanel pb={8} className="text-base ">
-                        Development of commercial, residential, industrial or
-                        government building and valuation of Properties and
-                        Assets for a Variety of Purposes
-                      </AccordionPanel>
+                      <AccordionPanel
+                        pb={8}
+                        className="text-base "
+                      ></AccordionPanel>
                     </>
                   )}
                 </AccordionItem>
@@ -106,11 +105,10 @@ const Services = () => {
                           )}
                         </AccordionButton>
                       </h2>
-                      <AccordionPanel pb={8} className="text-base">
-                        Development of commercial, residential, industrial or
-                        government building and valuation of Properties and
-                        Assets for a Variety of Purposes
-                      </AccordionPanel>
+                      <AccordionPanel
+                        pb={8}
+                        className="text-base"
+                      ></AccordionPanel>
                     </>
                   )}
                 </AccordionItem>
@@ -134,11 +132,10 @@ const Services = () => {
                           )}
                         </AccordionButton>
                       </h2>
-                      <AccordionPanel pb={8} className="text-base">
-                        Development of commercial, residential, industrial or
-                        government building and valuation of Properties and
-                        Assets for a Variety of Purposes
-                      </AccordionPanel>
+                      <AccordionPanel
+                        pb={8}
+                        className="text-base"
+                      ></AccordionPanel>
                     </>
                   )}
                 </AccordionItem>

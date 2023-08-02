@@ -114,7 +114,7 @@ const Projects = () => {
 
             <div className="flex justify-between items-center gap-4 mt-5">
               <h4 className="text-lg  font-bold">HackBerry Jahi District</h4>
-              <p className="text-gray-600">COMMERCIAL</p>
+              <p className="text-gray-600 uppercase">COMMERCIAL</p>
             </div>
           </div>
           <div className="col-span-2 gap-4 justify-end items-center mt-0 md:mb-24">
@@ -151,8 +151,10 @@ const Projects = () => {
               </SwiperSlide>
             </Swiper>
             <div className="flex justify-between items-center gap-4 mt-5">
-              <h4 className="text-lg  font-bold">Dewberry Terrance Gwarimpa</h4>
-              <p className="text-gray-600">COMMERCIAL</p>
+              <h4 className="text-lg  font-bold">
+                Dewberry Fully Detached and Semi Detached Gwarinpa
+              </h4>
+              <p className="text-gray-600 uppercase">Residential</p>
             </div>
             <div className="pt-5 md:pt-10 hidden md:flex justify-start md:justify-end">
               {/* <Button text="Schedule Appointment" /> */}

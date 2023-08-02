@@ -23,7 +23,7 @@ const PopUp = () => {
         isOpen={isOpen}
         onClose={() => setIsOpen(false)}
         isCentered
-        size="xl"
+        size="md"
       >
         <ModalOverlay />
         <ModalContent
@@ -51,18 +51,16 @@ const PopUp = () => {
                     alt=""
                     className="object-cover w-full h-fit"
                   />
-                  <div className="absolute bottom-0 insect-x-0 h-14 backdrop-blur-md backdrop:bg-black w-full flex justify-between items-center px-6 md:px-10">
-                    <h3 className="text-white text-2xl">
-                      Hackberry Apartments
-                    </h3>
-                    <p className="text-white bg-[#DC0000] px-2 md:px-4 py-1 text-xs md:text-sm rounded-md">
+                  <div className="absolute bottom-0 insect-x-0 h-14 backdrop-blur-md backdrop:bg-black w-full gap-2 flex justify-between items-center px-6 ">
+                    <h3 className="text-white text-xl">Hackberry Apartments</h3>
+                    <p className="text-white bg-[#DC0000] px-2  py-1 text-xs rounded-md">
                       Early Bird Sale
                     </p>
                   </div>
                 </div>
-                <div className="bg-white px-6 md:px-10 p-4 flex flex-col gap-3 relative">
-                  <p className="text-4xl font-semibold">
-                    <span className="text-5xl"> 20% </span> off for the first 2
+                <div className="bg-white px-6 p-4 flex flex-col gap-3 relative">
+                  <p className="text-3xl font-semibold">
+                    <span className="text-4xl"> 20% off </span> for the first 2
                     units
                   </p>
                   <p className="">

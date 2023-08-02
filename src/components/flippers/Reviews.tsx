@@ -54,8 +54,8 @@ const Reviews = () => {
                     <AiFillStar className="text-yellow-500" />
                     <AiFillStar className="text-yellow-500" />
                   </div>
-                  <p className="font-bold mt-2">Johne Doe</p>
-                  <p className="">Medical Doctor</p>
+                  <p className="font-bold mt-2">John Mene </p>
+                  <p className="">Head of Operation at Mester Auto Shop</p>
                 </div>
               </div>
             </SwiperSlide>

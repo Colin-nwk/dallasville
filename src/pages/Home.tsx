@@ -7,7 +7,7 @@ import WeAre from "../components/home/WeAre";
 import Services from "../components/home/Services";
 import Review from "../components/home/Review";
 import Article from "../components/home/Article";
-import Sponsors from "../components/home/Sponsors";
+// import Sponsors from "../components/home/Sponsors";
 import Brochure from "../components/general/Brochure";
 import Footer from "../components/general/Footer";
 
@@ -30,7 +30,7 @@ const Home = () => {
       <Services />
       <Review />
       <Article />
-      <Sponsors />
+      {/* <Sponsors /> */}
       <Brochure bg="bg-white" />
       <Footer />
     </div>

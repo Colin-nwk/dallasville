@@ -4,7 +4,7 @@ import wifi from "../../../public/asset/image/about/wifi-square.svg";
 import home from "../../../public/asset/image/about/home-wifi.svg";
 import lock from "../../../public/asset/image/about/lock.svg";
 import alarm from "../../../public/asset/image/about/alarm.svg";
-import music from "../../../public/asset/image/about/music-play.svg";
+// import music from "../../../public/asset/image/about/music-play.svg";
 // import Button from "../general/Button";
 import ScheduleAppointment from "../general/ScheduleAppointment";
 const Banner = () => {
@@ -74,7 +74,7 @@ const Banner = () => {
             </div> */}
 
             {/* new banner */}
-            <div className="grid md:grid-cols-5 sm:grid-cols-3 grid-cols-2 justify-start items-start gap-4 ">
+            <div className="grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2 justify-start items-start gap-4 ">
               <div className="flex flex-col justify-start gap-y-1 items-center w-full h-full  ">
                 <img
                   src={wifi}
@@ -115,7 +115,7 @@ const Banner = () => {
                   Lightening Control
                 </span>
               </div>
-              <div className="flex flex-col justify-start gap-y-1 items-center w-full h-full ">
+              {/* <div className="flex flex-col justify-start gap-y-1 items-center w-full h-full ">
                 <img
                   src={music}
                   alt="Distributed Audio"
@@ -124,7 +124,7 @@ const Banner = () => {
                 <span className="text-xs md:text-base text-white text-center text-ellipsis ">
                   Distributed Audio
                 </span>
-              </div>
+              </div> */}
             </div>
             {/* end new banner */}
             <div className="hidden mt-4 sm:flex justify-center items-center">
