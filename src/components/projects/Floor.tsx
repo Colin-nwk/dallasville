@@ -3,7 +3,7 @@ import firstplan from "../../../public/asset/image/hackberry/floors/firstfloor.p
 import secondfloor from "../../../public/asset/image/hackberry/floors/secondfloor.png";
 import topview from "../../../public/asset/image/hackberry/floors/skyview.png";
 
-import ground from "../../../public/asset/image/hackberry/floors/ground.jpg";
+import ground from "../../../public/asset/image/hackberry/floors/ground.png";
 import groundSvg from "../../../public/asset/image/hackberry/floors/ground.svg";
 import firstSvg from "../../../public/asset/image/hackberry/floors/first.svg";
 import secondSvg from "../../../public/asset/image/hackberry/floors/second.svg";
