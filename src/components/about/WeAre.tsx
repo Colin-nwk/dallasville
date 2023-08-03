@@ -14,15 +14,15 @@ const WeAre = () => {
         Who We Are
       </h3>
       <p className="text-lg leading-loose text-center text-ellipsis py-5">
-        With over 20 years of operation, we have become a trusted name in real
-        estate, blending unique simplicity and fulfilling our vision to be the
-        number one trusted real estate partner locally and internationally. At
-        DallasVille, we go beyond being a real estate company. We are your
-        dedicated partner, committed to providing exceptional service and
-        guiding you through the exciting world of real estate with a focus on
-        smart homes and connected living.Through our extensive knowledge,
-        unwavering commitment, and personalized approach, we have created a
-        success story of delivering over 15 smart homes to satisfied homeowners
+        Over the years, we have become a trusted name in real estate, blending
+        unique simplicity and fulfilling our vision to be the number one trusted
+        real estate partner locally and internationally. At DallasVille, we go
+        beyond being a real estate company. We are your dedicated partner,
+        committed to providing exceptional service and guiding you through the
+        exciting world of real estate with a focus on smart homes and connected
+        living.Through our extensive knowledge, unwavering commitment, and
+        personalized approach, we have created a success story of of delivering
+        smart home
       </p>
       <div className="grid gap-4 grid-cols-4 py-5">
         <div className="">

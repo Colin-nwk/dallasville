@@ -111,7 +111,7 @@ const ProjectDetails = () => {
                   </div>
                 </aside>
               </div>
-              <div className="w-full h-full py-5">
+              <div className="w-full h-full py-5 ">
                 <Gallery
                   options="text-left font-bold text-xl  py-10 text-black"
                   text="  Explore the Gallery"
@@ -132,17 +132,17 @@ const ProjectDetails = () => {
                       className="w-full h-full object-center mix-blend-overlay -z-10 block md:hidden"
                     />
 
-                    <div className=" absolute top-0 left-0 text-white grid grid-cols-2 md:grid-cols-3 gap-4 justify-start items-center px-4 py-16 sm:py-6 lg:py-10 lg:px-8 h-full w-full md:ml-[60px] ">
-                      <div className="grid grid-cols-1 grid-rows-4 justify-center items-center gap-6 md:gap-10 h-full w-full col-span-1">
+                    <div className=" absolute top-0 left-0 text-white grid grid-cols-2 md:grid-cols-3 gap-4 justify-center items-center px-4 lg:px-8 md:ml-[60px] h-full w-full  ">
+                      <div className="grid grid-cols-1 grid-rows-3 justify-center items-center gap-6 md:gap-10 h-full w-full col-span-1">
                         <div className=" flex flex-col justify-start items-start gap-2">
                           <p className="text-sm md:text-base">Type</p>
                           <h4 className="text-lg md:text-2xl">Residential</h4>
                         </div>
 
-                        <div className=" flex flex-col gap-2">
+                        {/* <div className=" flex flex-col gap-2">
                           <p className="text-sm md:text-base">Project Value</p>
                           <h4 className="text-lg md:text-2xl">NGN</h4>
-                        </div>
+                        </div> */}
                         <div className=" flex flex-col gap-2">
                           <p className="text-sm md:text-base">No of Units </p>
                           <h4 className="text-lg md:text-2xl">10</h4>
@@ -154,7 +154,7 @@ const ProjectDetails = () => {
                           <h4 className="text-lg md:text-2xl">4</h4>
                         </div>
                       </div>
-                      <div className="grid grid-cols-1 grid-rows-4 justify-between items-start gap-6 md:gap-10 h-full w-full col-span-1">
+                      <div className="grid grid-cols-1 grid-rows-3 justify-center items-center gap-6 md:gap-10 h-full w-full col-span-1">
                         {/* <div className=" flex flex-col justify-start items-start gap-2">
                           <p className="text-sm md:text-base">
                             PENTHOUSE APPROX
@@ -167,10 +167,7 @@ const ProjectDetails = () => {
                           </p>
                           <h4 className="text-lg md:text-2xl">2809.16m²</h4>
                         </div>
-                        <div className=" flex flex-col gap-2">
-                          <p className="text-sm md:text-base">Floors</p>
-                          <h4 className="text-lg md:text-2xl">2</h4>
-                        </div>
+
                         <div className=" flex flex-col gap-2">
                           <p className="text-sm md:text-base">Status</p>
                           <h4 className="text-lg md:text-2xl">In progress</h4>
@@ -186,12 +183,16 @@ const ProjectDetails = () => {
                           <h4 className="text-lg md:text-2xl">4</h4>
                         </div> */}
                       </div>
-                      <div className="grid grid-cols-2 md:grid-cols-1  md:grid-rows-4 justify-between items-start gap-6 md:gap-10 h-full w-full col-span-2 md:col-span-1">
+                      <div className="grid grid-cols-1 col-span-2 grid-rows-3 justify-center items-center gap-6 md:gap-10 h-full w-full md:col-span-1">
                         {/* <div className="flex md:flex-col">
                           <div className="flex flex-col"></div>
                           <div className="flex flex-col"></div>
                         </div> */}
                         {/* <div></div> */}
+                        <div className=" flex flex-col gap-2">
+                          <p className="text-sm md:text-base">Floors</p>
+                          <h4 className="text-lg md:text-2xl">2</h4>
+                        </div>
                         <div className=" flex flex-col gap-2">
                           <p className="text-sm md:text-base">Architecture</p>
                           {/* <h4 className="text-lg md:text-2xl">Lucrezia</h4> */}
