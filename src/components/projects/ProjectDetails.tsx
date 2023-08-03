@@ -132,31 +132,29 @@ const ProjectDetails = () => {
                       className="w-full h-full object-center mix-blend-overlay -z-10 block md:hidden"
                     />
 
-                    <div className=" absolute top-0 left-0 text-white grid grid-cols-2 md:grid-cols-3 gap-4 justify-start items-center px-4 py-8 md:px-8 h-full w-full md:ml-[60px] ">
-                      <div className="flex flex-col justify-between items-start gap-6 h-full w-full col-span-1">
+                    <div className=" absolute top-0 left-0 text-white grid grid-cols-2 md:grid-cols-3 gap-4 justify-start items-center px-4 py-16 sm:py-6 lg:py-10 lg:px-8 h-full w-full md:ml-[60px] ">
+                      <div className="grid grid-cols-1 grid-rows-4 justify-between items-start gap-6 md:gap-10 h-full w-full col-span-1">
                         <div className=" flex flex-col justify-start items-start gap-2">
                           <p className="text-sm md:text-base">Type</p>
                           <h4 className="text-lg md:text-2xl">Residential</h4>
                         </div>
+
                         <div className=" flex flex-col gap-2">
-                          <p className="text-sm md:text-base">Architecture</p>
-                          {/* <h4 className="text-lg md:text-2xl">Lucrezia</h4> */}
-                          <h4 className="text-lg md:text-2xl">
-                            Hackberry (Terrace)
-                          </h4>
-                        </div>
-                        <div className=" flex flex-col gap-2">
-                          <p className="text-sm md:text-base">PROJECT VALUE</p>
+                          <p className="text-sm md:text-base">Project Value</p>
                           <h4 className="text-lg md:text-2xl">NGN</h4>
                         </div>
                         <div className=" flex flex-col gap-2">
+                          <p className="text-sm md:text-base">No of Units </p>
+                          <h4 className="text-lg md:text-2xl">10</h4>
+                        </div>
+                        <div className=" flex flex-col gap-2">
                           <p className="text-sm md:text-base">
-                            BEDROOM MAISONETTES
+                            Bedroom (Terace)
                           </p>
                           <h4 className="text-lg md:text-2xl">4</h4>
                         </div>
                       </div>
-                      <div className="flex flex-col justify-between items-start gap-6 h-full w-full col-span-1">
+                      <div className="grid grid-cols-1 grid-rows-4 justify-between items-start gap-6 md:gap-10 h-full w-full col-span-1">
                         {/* <div className=" flex flex-col justify-start items-start gap-2">
                           <p className="text-sm md:text-base">
                             PENTHOUSE APPROX
@@ -170,11 +168,11 @@ const ProjectDetails = () => {
                           <h4 className="text-lg md:text-2xl">2809.16m²</h4>
                         </div>
                         <div className=" flex flex-col gap-2">
-                          <p className="text-sm md:text-base">FLOORS</p>
+                          <p className="text-sm md:text-base">Floors</p>
                           <h4 className="text-lg md:text-2xl">2</h4>
                         </div>
                         <div className=" flex flex-col gap-2">
-                          <p className="text-sm md:text-base">STATUS</p>
+                          <p className="text-sm md:text-base">Status</p>
                           <h4 className="text-lg md:text-2xl">In progress</h4>
                         </div>
                         <div className=" flex flex-col gap-2">
@@ -188,17 +186,20 @@ const ProjectDetails = () => {
                           <h4 className="text-lg md:text-2xl">4</h4>
                         </div> */}
                       </div>
-                      <div className="flex flex-col justify-between items-start gap-6 h-full w-full  col-span-1">
+                      <div className="grid grid-cols-2 md:grid-cols-1  md:grid-rows-4 justify-between items-start gap-6 md:gap-10 h-full w-full col-span-2 md:col-span-1">
                         {/* <div className="flex md:flex-col">
                           <div className="flex flex-col"></div>
                           <div className="flex flex-col"></div>
                         </div> */}
                         {/* <div></div> */}
-
                         <div className=" flex flex-col gap-2">
-                          <p className="text-sm md:text-base">No of Units </p>
-                          <h4 className="text-lg md:text-2xl">10</h4>
+                          <p className="text-sm md:text-base">Architecture</p>
+                          {/* <h4 className="text-lg md:text-2xl">Lucrezia</h4> */}
+                          <h4 className="text-lg md:text-2xl">
+                            Hackberry (Terrace)
+                          </h4>
                         </div>
+
                         {/* <div className=" flex flex-col gap-2">
                           <p className="text-sm md:text-base">
                             Dedicated Parking Space
@@ -223,7 +224,7 @@ const ProjectDetails = () => {
                           <h4 className="text-lg md:text-2xl">Q3-2023</h4>
                         </div> */}
                         <div className=" flex flex-col gap-2">
-                          <p className="text-sm md:text-base">LOCATION</p>
+                          <p className="text-sm md:text-base">Location</p>
                           <h4 className="text-lg md:text-2xl">
                             Lugbe, FCT, Nigeria
                           </h4>

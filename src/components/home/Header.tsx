@@ -10,6 +10,8 @@ import Hero from "../general/Hero";
 import home from "../../../public/asset/image/herocarousel/home-hero.jpg";
 import about from "../../../public/asset/image/herocarousel/about-hero.jpg";
 import project from "../../../public/asset/image/herocarousel/project-hero.jpg";
+
+// import { LazyLoadImage } from "react-lazy-load-image-component";
 type Props = {
   // text?: string;
   headingOne: string;
@@ -35,6 +37,15 @@ const Header = ({ sideCarousel, headingOne, headingTwo }: Props) => {
           className="w-full h-full object-cover absolute mix-blend-overlay -z-10"
         >
           <SwiperSlide className="">
+            {/* <LazyLoadImage
+              src={home}
+              className="w-full h-full object-cover"
+              alt="luxuzy house with pool"
+              placeholderSrc="black-and-white"
+              height="100%"
+              width="100%"
+            /> */}
+
             <img
               loading="eager"
               src={home}
@@ -43,6 +54,12 @@ const Header = ({ sideCarousel, headingOne, headingTwo }: Props) => {
             />
           </SwiperSlide>
           <SwiperSlide className="w-full h-full  ">
+            {/* <LazyLoadImage
+              src={about}
+              className="w-full h-full object-cover"
+              alt="luxuzy house with pool"
+              placeholderSrc="blur"
+            /> */}
             <img
               loading="eager"
               src={about}
@@ -51,6 +68,12 @@ const Header = ({ sideCarousel, headingOne, headingTwo }: Props) => {
             />
           </SwiperSlide>
           <SwiperSlide className="w-full h-full ">
+            {/* <LazyLoadImage
+              src={project}
+              className="w-full h-full object-cover"
+              alt="luxuzy house with pool"
+              placeholderSrc="blur"
+            /> */}
             <img
               loading="eager"
               src={project}

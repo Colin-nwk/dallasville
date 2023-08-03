@@ -74,8 +74,8 @@ const Banner = () => {
             </div> */}
 
             {/* new banner */}
-            <div className="grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2 justify-start items-start gap-4 ">
-              <div className="flex flex-col justify-start gap-y-1 items-center w-full h-full  ">
+            <div className="grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2 justify-center items-start gap-8 ">
+              <div className="flex flex-col justify-center gap-y-1 items-center w-full h-full  ">
                 <img
                   src={wifi}
                   alt=" Advanced Home Network"
@@ -85,7 +85,7 @@ const Banner = () => {
                   Advanced Home Network
                 </span>
               </div>
-              <div className="flex flex-col justify-start gap-y-1 items-center w-full h-full ">
+              <div className="flex flex-col justify-center gap-y-1 items-center w-full h-full ">
                 <img
                   src={home}
                   alt="Remote Access"
@@ -95,7 +95,7 @@ const Banner = () => {
                   Remote Access
                 </span>
               </div>
-              <div className="flex flex-col justify-start gap-y-1 items-center w-full h-full ">
+              <div className="flex flex-col justify-center gap-y-1 items-center w-full h-full ">
                 <img
                   src={lock}
                   alt="Advanced Security"
@@ -105,7 +105,7 @@ const Banner = () => {
                   Advanced Security
                 </span>
               </div>
-              <div className="flex flex-col justify-start gap-y-1 items-center w-full h-full ">
+              <div className="flex flex-col justify-center gap-y-1 items-center w-full h-full ">
                 <img
                   src={alarm}
                   alt="Lightening Control"

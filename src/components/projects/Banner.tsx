@@ -27,16 +27,18 @@ const Banner = () => {
           <h3 className="text-center text-white font-bold text-xl md:text-3xl py-5 xl:mt-5 ">
             Estate Amenities
           </h3>
-          <div className="flex justify-center items-center  flex-wrap gap-6 md:gap-10">
-            <div className="flex flex-col justify-between items-center">
+          <div className="grid md:grid-cols-4 grid-cols-2 gap-6 md:gap-10">
+            <div className="flex flex-col justify-center items-center ">
               <img
                 src={wifi}
                 alt=" Advanced Home Network"
                 className="h-10 w-10 p-2 rounded-full bg-transparent backdrop-blur ring-[1px] ring-white mb-2"
               />
-              <span className="text-xs text-white ">Advanced Home Network</span>
+              <span className="text-xs text-white text-center text-ellipsis ">
+                Advanced Home Network
+              </span>
             </div>
-            <div className="flex flex-col justify-between items-center">
+            <div className="flex flex-col justify-center items-center">
               <img
                 src={home}
                 alt="Remote Access"
@@ -44,7 +46,7 @@ const Banner = () => {
               />
               <span className="text-xs text-white ">Remote Access</span>
             </div>
-            <div className="flex flex-col justify-between items-center">
+            <div className="flex flex-col justify-center items-center ">
               <img
                 src={lock}
                 alt="Advanced Security"
@@ -52,7 +54,7 @@ const Banner = () => {
               />
               <span className="text-xs text-white ">Advanced Security</span>
             </div>
-            <div className="flex flex-col justify-between items-center">
+            <div className="flex flex-col justify-center items-center">
               <img
                 src={alarm}
                 alt="Lightening Control"
