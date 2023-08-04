@@ -21,7 +21,7 @@ const WeAre = () => {
         committed to providing exceptional service and guiding you through the
         exciting world of real estate with a focus on smart homes and connected
         living.Through our extensive knowledge, unwavering commitment, and
-        personalized approach, we have created a success story of of delivering
+        personalized approach, we have created a success story of delivering
         smart home
       </p>
       <div className="grid gap-4 grid-cols-4 py-5">
