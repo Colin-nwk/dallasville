@@ -4,6 +4,8 @@ import logo from "../../../public/asset/image/logo_white.png";
 import sbo from "../../../public/asset/image/sbo.png";
 import { Link } from "react-router-dom";
 const Footer = () => {
+  const year = new Date().getFullYear();
+
   return (
     <div className="bg-[#171719] text-white">
       <footer className="container  mx-auto p-4 md:p-10 w-full h-fit">
@@ -111,7 +113,7 @@ const Footer = () => {
           </p>
           <div className=" flex justify-center md:justify-between items-center flex-wrap gap-4 mt-5">
             <p className="order-3 md:order-1">
-              @2023 Dallasville Resource Limited
+              (c) {year} Dallasville Resources Limited
             </p>
             <div className="flex justify-center gap-4 order-1 md:order-2">
               <a href="" target="_blank" rel="noopener noreferrer">
