@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { FormControl, FormLabel, Input } from "@chakra-ui/react";
 import room from "../../../public/asset/image/living-room.jpg";
 import brochure from "../../../public/asset/pdf/hackberry residences 3.pdf";
@@ -9,13 +9,21 @@ type Props = {
   bg: string;
 };
 const Brochure = ({ bg = "bg-white" }: Props) => {
-  const notify = () => toast.success("Download Brochure");
+  const [fullname, setFullname] = useState<string>("");
+  const [email, setEmail] = useState<string>("");
+  const [phone, setPhone] = useState<string>("");
+  const notify = () =>
+    toast.info("Brochure Download Initiated", { autoClose: 2000 });
+  const started = () => toast.success("Download Successful");
   const handleDownload = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const existingPdfUrl = brochure;
 
     // Fetch the PDF file as a Blob
     notify();
+    setTimeout(() => {
+      started();
+    }, 4000);
     fetch(existingPdfUrl)
       .then((response) => response.blob())
       .then((pdfBlob) => {
@@ -66,13 +74,14 @@ const Brochure = ({ bg = "bg-white" }: Props) => {
                   <div className=" flex flex-col gap-8 w-full mt-4">
                     <FormControl isRequired>
                       <FormLabel>Full Name</FormLabel>
-                      <Input placeholder="full name" />
+                      <Input placeholder="full name" name="fullname" />
                     </FormControl>
                     <FormControl isRequired>
                       <FormLabel>Email Address</FormLabel>
                       <Input
                         placeholder="Enter your email address"
                         type="email"
+                        name="email"
                       />
                     </FormControl>
 
@@ -81,6 +90,7 @@ const Brochure = ({ bg = "bg-white" }: Props) => {
                       <Input
                         placeholder="enter your mobile number"
                         type="number"
+                        name="number"
                       />
                     </FormControl>
                   </div>
