@@ -15,12 +15,29 @@ const Brochure = ({ bg = "bg-white" }: Props) => {
   const notify = () =>
     toast.info("Brochure Download Initiated", { autoClose: 2000 });
   const started = () => toast.success("Download Successful");
+  const warning = () => toast.warn("something went wrong");
+
+  // const handleSubmit = () => {
+
+  //    console.log({ fullname, email, phone });
+  //    setFullname("");
+  //    setEmail("");
+  //    setPhone("");
+  // }
   const handleDownload = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    // console.log({ fullname, email, phone });
+
+    // () => setFullname("");
+    setFullname("");
+    setEmail("");
+    setPhone("");
+
     const existingPdfUrl = brochure;
 
     // Fetch the PDF file as a Blob
     notify();
+
     setTimeout(() => {
       started();
     }, 4000);
@@ -44,9 +61,38 @@ const Brochure = ({ bg = "bg-white" }: Props) => {
         document.body.removeChild(link);
       })
       .catch((error) => {
+        warning();
         console.error(error);
       });
   };
+
+  // const handleDownload = async (e: React.FormEvent<HTMLFormElement>) => {
+  //   e.preventDefault();
+  //   notify();
+  //   try {
+  //     const existingPdfUrl = brochure; // Replace with the actual URL
+  //     const response: Response = await fetch(existingPdfUrl);
+
+  //     if (!response.ok) {
+  //       throw new Error("Failed to fetch the PDF");
+  //     }
+
+  //     const pdfBlob: Blob = await response.blob();
+  //     const url: string = URL.createObjectURL(pdfBlob);
+
+  //     const link: HTMLAnchorElement = document.createElement("a");
+  //     link.href = url;
+  //     link.download = "hackberry_residences.pdf";
+  //     document.body.appendChild(link);
+
+  //     link.click();
+  //     started();
+  //     URL.revokeObjectURL(url);
+  //     document.body.removeChild(link);
+  //   } catch (error) {
+  //     console.error(error);
+  //   }
+  // };
 
   return (
     <>
@@ -74,7 +120,12 @@ const Brochure = ({ bg = "bg-white" }: Props) => {
                   <div className=" flex flex-col gap-8 w-full mt-4">
                     <FormControl isRequired>
                       <FormLabel>Full Name</FormLabel>
-                      <Input placeholder="full name" name="fullname" />
+                      <Input
+                        placeholder="full name"
+                        name="fullname"
+                        value={fullname}
+                        onChange={(e) => setFullname(e.target.value)}
+                      />
                     </FormControl>
                     <FormControl isRequired>
                       <FormLabel>Email Address</FormLabel>
@@ -82,6 +133,8 @@ const Brochure = ({ bg = "bg-white" }: Props) => {
                         placeholder="Enter your email address"
                         type="email"
                         name="email"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
                       />
                     </FormControl>
 
@@ -90,7 +143,9 @@ const Brochure = ({ bg = "bg-white" }: Props) => {
                       <Input
                         placeholder="enter your mobile number"
                         type="number"
-                        name="number"
+                        name="phone"
+                        value={phone}
+                        onChange={(e) => setPhone(e.target.value)}
                       />
                     </FormControl>
                   </div>
