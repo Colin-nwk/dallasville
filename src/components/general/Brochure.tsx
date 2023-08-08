@@ -15,7 +15,7 @@ const Brochure = ({ bg = "bg-white" }: Props) => {
   const notify = () =>
     toast.info("Brochure Download Initiated", { autoClose: 2000 });
   const started = () => toast.success("Download Successful");
-  const warning = () => toast.warn("something went wrong");
+  // const warning = () => toast.warn("something went wrong");
 
   // const handleSubmit = () => {
 
@@ -61,7 +61,7 @@ const Brochure = ({ bg = "bg-white" }: Props) => {
         document.body.removeChild(link);
       })
       .catch((error) => {
-        warning();
+        // if (error) warning();
         console.error(error);
       });
   };
