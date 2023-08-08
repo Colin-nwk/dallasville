@@ -13,7 +13,7 @@ const Brochure = ({ bg = "bg-white" }: Props) => {
   const [email, setEmail] = useState<string>("");
   const [phone, setPhone] = useState<string>("");
   const notify = () =>
-    toast.info("Brochure Download Initiated", { autoClose: 2000 });
+    toast.info("Brochure Download Initiated", { autoClose: 1000 });
   const started = () => toast.success("Download Successful");
   // const warning = () => toast.warn("something went wrong");
 
@@ -40,7 +40,7 @@ const Brochure = ({ bg = "bg-white" }: Props) => {
 
     setTimeout(() => {
       started();
-    }, 4000);
+    }, 4500);
     fetch(existingPdfUrl)
       .then((response) => response.blob())
       .then((pdfBlob) => {
