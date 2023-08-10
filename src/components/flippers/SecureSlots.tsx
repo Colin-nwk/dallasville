@@ -35,7 +35,7 @@ const SecureSlots = () => {
                   <p className="bg-[#101010]/40 text-[#101010] p-0.5 px-2.5 rounded-full font-bold">
                     2
                   </p>
-                  <h3>Let’s Talk</h3>
+                  <h3>Let's Talk</h3>
                 </div>
                 <div className="ml-9 mt-1">
                   <p className="">

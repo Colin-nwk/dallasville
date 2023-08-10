@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FormControl, FormLabel, Input } from "@chakra-ui/react";
 import room from "../../../public/asset/image/living-room.jpg";
-import brochure from "../../../public/asset/pdf/hackberry residences 3.pdf";
+import brochure from "../../../public/asset/pdf/hackberry_residences.pdf";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -12,9 +12,10 @@ const Brochure = ({ bg = "bg-white" }: Props) => {
   const [fullname, setFullname] = useState<string>("");
   const [email, setEmail] = useState<string>("");
   const [phone, setPhone] = useState<string>("");
-  const notify = () =>
-    toast.info("Brochure Download Initiated", { autoClose: 1000 });
-  const started = () => toast.success("Download Successful");
+  // const notify = () =>
+  //   toast.info("Brochure Download Initiated", { autoClose: 1000 });
+  const started = () =>
+    toast.success("Download Successful", { autoClose: 1000 });
   // const warning = () => toast.warn("something went wrong");
 
   // const handleSubmit = () => {
@@ -36,11 +37,11 @@ const Brochure = ({ bg = "bg-white" }: Props) => {
     const existingPdfUrl = brochure;
 
     // Fetch the PDF file as a Blob
-    notify();
+    // notify();
 
     setTimeout(() => {
       started();
-    }, 4500);
+    }, 3000);
     fetch(existingPdfUrl)
       .then((response) => response.blob())
       .then((pdfBlob) => {
